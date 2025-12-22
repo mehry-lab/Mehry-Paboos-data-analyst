@@ -1,0 +1,1001 @@
+visit_id,patient_id,visit_date,scheduled_time,arrival_time,seen_time,specialty,clinic,appointment_type,referral_source,urgency,provider,outcome,wait_minutes,sex,age,lga,medicare_status
+V000001,P00386,2024-01-15,2024-01-15T10:15:00,,,Neurology,MS Clinic,New,Inpatient,Routine,Dr B. Jones,No-Show,,F,56,Willoughby,Active
+V000002,P00307,2024-07-21,2024-07-21T10:45:00,2024-07-21T11:18:00,2024-07-21T11:02:00,Endocrinology,Diabetes,New,GP,Routine,Dr A. Smith,Completed,17.0,F,55,Hornsby,Active
+V000003,P00388,2024-08-11,2024-08-11T15:30:00,2024-08-11T15:21:00,2024-08-11T15:32:00,Neurology,MS Clinic,Follow-up,GP,Soon,Dr B. Jones,Completed,2.0,M,48,Ryde,Active
+V000004,P00053,2025-02-12,2025-02-12T15:15:00,2025-02-12T14:55:00,2025-02-12T14:55:00,Oncology,Radiation Review,Follow-up,GP,Routine,Dr B. Jones,Completed,-20.0,M,39,Ryde,Pending
+V000005,P00328,2024-10-13,2024-10-13T10:30:00,2024-10-13T10:05:00,2024-10-13T10:24:00,Orthopaedics,Fracture,Procedure Prep,ED,Routine,PA E. Patel,Completed,-6.0,F,27,Hornsby,Active
+V000006,P00283,2024-03-06,2024-03-06T10:00:00,2024-03-06T09:41:00,2024-03-06T10:25:00,Oncology,Chemo Review,New,GP,Routine,Dr C. Lee,Completed,25.0,M,53,Hornsby,Active
+V000007,P00066,2024-01-24,2024-01-24T11:00:00,2024-01-24T11:03:00,2024-01-24T11:05:00,Rheumatology,Gout/Metabolic,Follow-up,GP,Urgent,Dr A. Smith,Completed,5.0,M,86,Willoughby,Active
+V000008,P00283,2024-12-13,2024-12-13T14:45:00,2024-12-13T14:50:00,2024-12-13T14:49:00,General Medicine,General Clinic,New,GP,Routine,NP D. Chen,Completed,4.0,M,51,Ryde,Active
+V000009,P00268,2024-10-31,2024-10-31T15:00:00,2024-10-31T14:51:00,2024-10-31T14:57:00,Rheumatology,RA Clinic,Follow-up,GP,Routine,Dr A. Smith,Completed,-3.0,M,51,Ryde,Active
+V000010,P00053,2024-04-22,2024-04-22T14:00:00,2024-04-22T14:13:00,2024-04-22T13:42:00,Neurology,Epilepsy,Follow-up,GP,Soon,Dr C. Lee,Completed,-18.0,F,55,Ku-ring-gai,Active
+V000011,P00148,2024-06-16,2024-06-16T08:00:00,2024-06-16T08:15:00,2024-06-16T07:51:00,General Medicine,Complex Care,New,ED,Routine,Dr C. Lee,Completed,-9.0,F,45,Ryde,Reciprocal
+V000012,P00151,2024-05-07,2024-05-07T09:45:00,2024-05-07T09:35:00,2024-05-07T09:38:00,Respiratory,Sleep Study Follow-up,Follow-up,Inpatient,Routine,NP D. Chen,Completed,-7.0,F,48,Northern Beaches,Active
+V000013,P00120,2025-03-21,2025-03-21T10:30:00,,,General Medicine,Senior Review,New,GP,Soon,NP D. Chen,No-Show,,M,59,Hornsby,Active
+V000014,P00068,2024-12-06,2024-12-06T09:15:00,2024-12-06T09:13:00,2024-12-06T09:24:00,Renal,Transplant Follow-up,Follow-up,Inpatient,Routine,Dr C. Lee,Completed,9.0,M,62,Northern Beaches,Active
+V000015,P00264,2024-10-30,2024-10-30T13:15:00,2024-10-30T12:42:00,2024-10-30T13:31:00,Renal,Access Clinic,New,ED,Routine,Dr C. Lee,Completed,16.0,F,64,Hornsby,Active
+V000016,P00046,2024-06-11,2024-06-11T10:45:00,,,Oncology,Chemo Review,Follow-up,GP,Routine,PA E. Patel,No-Show,,M,58,Willoughby,Active
+V000017,P00323,2025-06-01,2025-06-01T10:45:00,2025-06-01T10:51:00,2025-06-01T10:29:00,Endocrinology,Thyroid,Follow-up,GP,Soon,Dr A. Smith,Completed,-16.0,M,50,Willoughby,Active
+V000018,P00247,2025-07-28,2025-07-28T08:00:00,2025-07-28T07:41:00,2025-07-28T08:37:00,Orthopaedics,Fracture,New,ED,Soon,Dr B. Jones,Completed,37.0,F,32,Hornsby,Active
+V000019,P00186,2025-06-19,2025-06-19T09:15:00,2025-06-19T09:27:00,2025-06-19T10:02:00,General Medicine,Senior Review,New,ED,Urgent,Dr A. Smith,Completed,47.0,M,67,Ryde,Active
+V000020,P00308,2025-09-17,2025-09-17T12:30:00,2025-09-17T13:00:00,2025-09-17T13:16:00,Gastroenterology,Hepatitis,Follow-up,GP,Urgent,Dr C. Lee,Completed,46.0,M,47,Willoughby,Active
+V000021,P00069,2025-08-05,2025-08-05T13:45:00,2025-08-05T14:04:00,2025-08-05T14:00:00,Oncology,Radiation Review,New,Inpatient,Routine,NP D. Chen,Completed,15.0,M,45,Ku-ring-gai,Pending
+V000022,P00341,2025-04-03,2025-04-03T12:30:00,2025-04-03T12:22:00,2025-04-03T13:17:00,Gastroenterology,IBD,Follow-up,GP,Routine,PA E. Patel,Completed,47.0,M,93,Northern Beaches,Active
+V000023,P00247,2024-03-11,2024-03-11T08:45:00,2024-03-11T08:34:00,2024-03-11T08:36:00,Neurology,MS Clinic,Follow-up,ED,Urgent,PA E. Patel,Completed,-9.0,M,55,Ku-ring-gai,Pending
+V000024,P00044,2023-12-19,2023-12-19T12:45:00,,,Oncology,Chemo Review,Follow-up,ED,Routine,NP D. Chen,No-Show,,M,65,Hornsby,Active
+V000025,P00277,2025-04-27,2025-04-27T12:15:00,2025-04-27T12:29:00,2025-04-27T12:42:00,Oncology,Chemo Review,New,ED,Urgent,PA E. Patel,Completed,27.0,M,40,Hornsby,Active
+V000026,P00361,2025-08-05,2025-08-05T15:30:00,2025-08-05T15:48:00,2025-08-05T15:31:00,Rheumatology,Lupus,Follow-up,GP,Routine,Dr C. Lee,Completed,1.0,M,62,Ryde,Active
+V000027,P00053,2024-11-07,2024-11-07T12:00:00,2024-11-07T11:54:00,2024-11-07T11:50:00,Renal,Dialysis Review,Follow-up,Inpatient,Routine,Dr C. Lee,Completed,-10.0,F,63,Ryde,Active
+V000028,P00253,2025-03-19,2025-03-19T09:30:00,2025-03-19T09:31:00,2025-03-19T09:29:00,Neurology,MS Clinic,New,Specialist,Soon,Dr B. Jones,Completed,-1.0,F,38,Hornsby,Active
+V000029,P00182,2024-11-09,2024-11-09T08:15:00,2024-11-09T07:53:00,2024-11-09T08:11:00,Gastroenterology,Endoscopy Review,Follow-up,GP,Routine,Dr C. Lee,Completed,-4.0,M,58,Hornsby,Active
+V000030,P00387,2025-09-12,2025-09-12T11:45:00,2025-09-12T11:49:00,2025-09-12T12:05:00,Neurology,Stroke Follow-up,New,GP,Routine,PA E. Patel,Completed,20.0,F,54,Ku-ring-gai,Active
+V000031,P00305,2025-03-25,2025-03-25T11:30:00,2025-03-25T11:33:00,2025-03-25T11:30:00,Rheumatology,Gout/Metabolic,Follow-up,GP,Routine,PA E. Patel,Completed,0.0,M,27,Willoughby,Reciprocal
+V000032,P00136,2024-11-16,2024-11-16T15:45:00,2024-11-16T15:26:00,2024-11-16T15:45:00,Renal,Dialysis Review,Follow-up,GP,Routine,Dr C. Lee,Completed,0.0,M,61,Ku-ring-gai,Pending
+V000033,P00010,2024-05-11,2024-05-11T13:15:00,,,General Medicine,Complex Care,New,GP,Routine,Dr C. Lee,No-Show,,M,85,Willoughby,Active
+V000034,P00283,2025-03-15,2025-03-15T08:30:00,,,Orthopaedics,Fracture,Follow-up,GP,Urgent,Dr A. Smith,Cancelled,,M,30,Northern Beaches,Active
+V000035,P00085,2024-08-29,2024-08-29T14:00:00,2024-08-29T13:48:00,2024-08-29T14:28:00,Renal,Dialysis Review,New,GP,Urgent,PA E. Patel,Completed,28.0,M,61,Willoughby,Reciprocal
+V000036,P00306,2025-08-29,2025-08-29T14:15:00,,,Rheumatology,Lupus,New,GP,Routine,Dr A. Smith,No-Show,,F,71,Ku-ring-gai,Active
+V000037,P00347,2024-04-10,2024-04-10T10:30:00,2024-04-10T10:16:00,2024-04-10T11:01:00,Renal,Access Clinic,Procedure Prep,GP,Routine,Dr A. Smith,Completed,31.0,M,16,Willoughby,Active
+V000038,P00069,2025-06-29,2025-06-29T11:15:00,2025-06-29T11:10:00,2025-06-29T11:40:00,Cardiology,Post-PCI Review,Follow-up,GP,Routine,NP D. Chen,Completed,25.0,M,29,Ku-ring-gai,Active
+V000039,P00155,2024-06-07,2024-06-07T11:45:00,,,Oncology,Radiation Review,Follow-up,GP,Routine,Dr C. Lee,No-Show,,F,23,Hornsby,Active
+V000040,P00218,2024-06-14,2024-06-14T12:00:00,2024-06-14T12:06:00,2024-06-14T12:04:00,Oncology,Chemo Review,New,GP,Routine,NP D. Chen,Completed,4.0,M,84,Willoughby,Active
+V000041,P00238,2025-08-23,2025-08-23T15:15:00,,,Rheumatology,Lupus,Follow-up,ED,Urgent,Dr C. Lee,No-Show,,F,60,Ku-ring-gai,Active
+V000042,P00212,2025-02-09,2025-02-09T14:15:00,,,Oncology,Radiation Review,Follow-up,GP,Urgent,PA E. Patel,No-Show,,M,42,Ku-ring-gai,Active
+V000043,P00365,2024-03-06,2024-03-06T13:45:00,2024-03-06T14:03:00,2024-03-06T14:13:00,Rheumatology,Lupus,Follow-up,GP,Urgent,Dr B. Jones,Completed,28.0,F,50,Hornsby,Active
+V000044,P00118,2024-11-24,2024-11-24T15:30:00,2024-11-24T15:36:00,2024-11-24T15:42:00,Gastroenterology,IBD,Follow-up,GP,Routine,NP D. Chen,Completed,12.0,M,88,Hornsby,Active
+V000045,P00001,2025-07-14,2025-07-14T11:30:00,2025-07-14T11:24:00,2025-07-14T11:52:00,Renal,Access Clinic,New,ED,Soon,Dr C. Lee,Completed,22.0,M,77,Willoughby,Active
+V000046,P00168,2023-12-20,2023-12-20T15:15:00,2023-12-20T15:39:00,2023-12-20T16:04:00,General Medicine,Complex Care,New,GP,Routine,NP D. Chen,Completed,49.0,F,44,Hornsby,Active
+V000047,P00060,2025-06-25,2025-06-25T09:45:00,2025-06-25T10:02:00,2025-06-25T10:08:00,Oncology,Chemo Review,New,GP,Urgent,Dr C. Lee,Completed,23.0,M,49,Willoughby,Active
+V000048,P00295,2025-08-23,2025-08-23T11:00:00,2025-08-23T10:51:00,2025-08-23T11:28:00,Orthopaedics,Spine Review,Follow-up,GP,Routine,PA E. Patel,Completed,28.0,F,54,Willoughby,Active
+V000049,P00179,2024-03-03,2024-03-03T15:30:00,2024-03-03T15:01:00,2024-03-03T15:10:00,Orthopaedics,Fracture,Follow-up,ED,Routine,Dr A. Smith,Completed,-20.0,F,38,Ku-ring-gai,Active
+V000050,P00196,2024-05-08,2024-05-08T16:00:00,2024-05-08T16:09:00,2024-05-08T16:24:00,Orthopaedics,Fracture,New,Inpatient,Routine,NP D. Chen,Completed,24.0,M,80,Hornsby,Active
+V000051,P00095,2025-06-05,2025-06-05T15:00:00,2025-06-05T14:23:00,2025-06-05T14:40:00,Gastroenterology,Hepatitis,Follow-up,Specialist,Routine,PA E. Patel,Completed,-20.0,F,45,Ryde,Active
+V000052,P00141,2025-06-28,2025-06-28T15:30:00,2025-06-28T15:34:00,2025-06-28T15:38:00,Cardiology,Post-PCI Review,Follow-up,ED,Routine,NP D. Chen,Completed,8.0,F,51,Ku-ring-gai,Active
+V000053,P00346,2025-09-19,2025-09-19T15:00:00,2025-09-19T15:05:00,2025-09-19T15:08:00,Orthopaedics,Fracture,New,GP,Routine,Dr C. Lee,Completed,8.0,M,77,Ku-ring-gai,Active
+V000054,P00075,2025-01-04,2025-01-04T16:15:00,2025-01-04T15:55:00,2025-01-04T15:55:00,Respiratory,COPD,Follow-up,GP,Routine,Dr C. Lee,Completed,-20.0,M,70,Willoughby,Active
+V000055,P00154,2023-11-30,2023-11-30T12:45:00,2023-11-30T12:38:00,2023-11-30T13:15:00,Gastroenterology,Hepatitis,Follow-up,GP,Soon,Dr C. Lee,Completed,30.0,F,39,Northern Beaches,Active
+V000056,P00379,2024-11-14,2024-11-14T08:30:00,2024-11-14T08:15:00,2024-11-14T08:42:00,Oncology,Chemo Review,Follow-up,Specialist,Routine,NP D. Chen,Completed,12.0,M,46,Ryde,Active
+V000057,P00319,2025-05-18,2025-05-18T09:15:00,2025-05-18T09:27:00,2025-05-18T08:55:00,Orthopaedics,Spine Review,New,GP,Routine,PA E. Patel,Completed,-20.0,M,62,Northern Beaches,Active
+V000058,P00323,2024-10-25,2024-10-25T08:30:00,2024-10-25T08:22:00,2024-10-25T09:00:00,Respiratory,Asthma,New,GP,Routine,Dr B. Jones,Completed,30.0,M,95,Hornsby,Active
+V000059,P00398,2025-08-13,2025-08-13T15:15:00,2025-08-13T15:24:00,2025-08-13T15:17:00,Orthopaedics,Spine Review,Follow-up,GP,Urgent,PA E. Patel,Completed,2.0,F,60,Ku-ring-gai,Active
+V000060,P00386,2025-01-28,2025-01-28T09:15:00,2025-01-28T09:14:00,2025-01-28T09:39:00,Neurology,Epilepsy,New,GP,Routine,Dr C. Lee,Completed,24.0,M,76,Willoughby,Active
+V000061,P00224,2025-02-02,2025-02-02T08:15:00,2025-02-02T08:17:00,2025-02-02T08:30:00,Cardiology,Post-PCI Review,New,Inpatient,Routine,Dr A. Smith,Completed,15.0,M,52,Ku-ring-gai,Active
+V000062,P00075,2025-03-19,2025-03-19T11:15:00,2025-03-19T10:51:00,2025-03-19T11:27:00,Renal,Access Clinic,New,GP,Routine,PA E. Patel,Completed,12.0,F,58,Northern Beaches,Active
+V000063,P00394,2024-12-02,2024-12-02T12:30:00,2024-12-02T11:47:00,2024-12-02T13:12:00,Gastroenterology,Hepatitis,Follow-up,Inpatient,Routine,Dr B. Jones,Completed,42.0,F,56,Ryde,Active
+V000064,P00164,2023-12-17,2023-12-17T11:30:00,2023-12-17T11:16:00,2023-12-17T11:12:00,Renal,Access Clinic,Follow-up,Inpatient,Routine,Dr B. Jones,Completed,-18.0,M,83,Hornsby,Active
+V000065,P00017,2024-06-20,2024-06-20T09:00:00,2024-06-20T08:33:00,2024-06-20T09:02:00,Renal,Transplant Follow-up,New,GP,Routine,PA E. Patel,Completed,2.0,M,67,Hornsby,Active
+V000066,P00017,2025-05-21,2025-05-21T10:15:00,,,Renal,Dialysis Review,Follow-up,GP,Routine,Dr C. Lee,Cancelled,,F,61,Ku-ring-gai,Active
+V000067,P00365,2023-11-30,2023-11-30T15:00:00,2023-11-30T15:05:00,2023-11-30T15:15:00,General Medicine,General Clinic,Follow-up,GP,Routine,Dr C. Lee,Completed,15.0,M,78,Willoughby,Active
+V000068,P00215,2024-12-09,2024-12-09T12:30:00,,,General Medicine,Senior Review,New,GP,Soon,Dr B. Jones,Cancelled,,F,69,Ku-ring-gai,Active
+V000069,P00039,2025-08-03,2025-08-03T10:00:00,2025-08-03T09:49:00,2025-08-03T09:40:00,Oncology,New Cancer Consult,Follow-up,Inpatient,Routine,Dr B. Jones,Completed,-20.0,F,59,Hornsby,Active
+V000070,P00227,2024-08-16,2024-08-16T14:30:00,,,Orthopaedics,Joint Clinic,Follow-up,ED,Routine,Dr A. Smith,No-Show,,M,78,Willoughby,Active
+V000071,P00146,2024-11-15,2024-11-15T11:00:00,2024-11-15T11:00:00,2024-11-15T10:40:00,Neurology,Epilepsy,Follow-up,Inpatient,Routine,PA E. Patel,Completed,-20.0,M,72,Northern Beaches,Active
+V000072,P00344,2025-09-09,2025-09-09T12:30:00,,,Endocrinology,Diabetes,New,Specialist,Urgent,Dr A. Smith,No-Show,,F,53,Ryde,Active
+V000073,P00009,2025-04-05,2025-04-05T16:00:00,2025-04-05T15:48:00,2025-04-05T16:20:00,Oncology,Chemo Review,Follow-up,GP,Routine,PA E. Patel,Completed,20.0,F,67,Ku-ring-gai,Active
+V000074,P00068,2025-06-02,2025-06-02T10:15:00,2025-06-02T10:30:00,2025-06-02T10:38:00,Cardiology,Arrhythmia,Follow-up,GP,Routine,Dr B. Jones,Completed,23.0,M,77,Northern Beaches,Active
+V000075,P00090,2025-03-28,2025-03-28T15:45:00,2025-03-28T15:38:00,2025-03-28T15:28:00,Endocrinology,Thyroid,Follow-up,GP,Routine,PA E. Patel,Completed,-17.0,F,56,Northern Beaches,Active
+V000076,P00237,2025-03-30,2025-03-30T10:15:00,2025-03-30T10:37:00,2025-03-30T10:41:00,Oncology,Radiation Review,Procedure Prep,GP,Soon,PA E. Patel,Completed,26.0,F,46,Ku-ring-gai,Active
+V000077,P00045,2025-05-23,2025-05-23T11:30:00,,,Renal,Access Clinic,Follow-up,Specialist,Routine,Dr C. Lee,No-Show,,F,50,Willoughby,Active
+V000078,P00017,2023-11-22,2023-11-22T14:15:00,,,General Medicine,General Clinic,New,Inpatient,Urgent,Dr C. Lee,Cancelled,,F,67,Ku-ring-gai,Active
+V000079,P00324,2024-04-16,2024-04-16T12:00:00,2024-04-16T11:51:00,2024-04-16T11:59:00,Orthopaedics,Spine Review,Follow-up,GP,Routine,Dr C. Lee,Completed,-1.0,M,57,Ku-ring-gai,Active
+V000080,P00395,2023-12-23,2023-12-23T11:30:00,2023-12-23T11:30:00,2023-12-23T11:30:00,Renal,Access Clinic,Follow-up,GP,Urgent,Dr C. Lee,Completed,0.0,M,65,Ku-ring-gai,Reciprocal
+V000081,P00084,2025-07-02,2025-07-02T11:15:00,2025-07-02T10:38:00,2025-07-02T11:33:00,Renal,Access Clinic,Follow-up,Inpatient,Routine,Dr B. Jones,Completed,18.0,M,34,Willoughby,Active
+V000082,P00145,2024-06-03,2024-06-03T09:30:00,2024-06-03T10:02:00,2024-06-03T09:10:00,Gastroenterology,Endoscopy Review,New,Specialist,Routine,NP D. Chen,Completed,-20.0,M,61,Ku-ring-gai,Active
+V000083,P00319,2024-04-30,2024-04-30T16:15:00,2024-04-30T16:07:00,2024-04-30T16:12:00,Endocrinology,Metabolic Clinic,Follow-up,GP,Urgent,PA E. Patel,Completed,-3.0,M,66,Ku-ring-gai,Active
+V000084,P00392,2024-12-24,2024-12-24T09:15:00,,,Gastroenterology,Hepatitis,New,GP,Routine,PA E. Patel,Cancelled,,F,86,Willoughby,Active
+V000085,P00166,2025-11-07,2025-11-07T08:00:00,2025-11-07T07:46:00,2025-11-07T08:00:00,Gastroenterology,Endoscopy Review,New,GP,Soon,NP D. Chen,Completed,0.0,M,76,Ku-ring-gai,Active
+V000086,P00178,2024-02-13,2024-02-13T13:00:00,,,Neurology,Epilepsy,Follow-up,Inpatient,Routine,NP D. Chen,No-Show,,F,75,Hornsby,Active
+V000087,P00243,2023-12-10,2023-12-10T09:15:00,2023-12-10T09:29:00,2023-12-10T09:59:00,Respiratory,COPD,Follow-up,GP,Routine,NP D. Chen,Completed,44.0,M,54,Hornsby,Active
+V000088,P00093,2023-11-17,2023-11-17T13:00:00,2023-11-17T12:39:00,2023-11-17T13:21:00,General Medicine,Senior Review,Procedure Prep,GP,Routine,PA E. Patel,Completed,21.0,F,75,Hornsby,Active
+V000089,P00228,2024-11-10,2024-11-10T11:45:00,2024-11-10T11:36:00,2024-11-10T11:25:00,Gastroenterology,Endoscopy Review,New,Inpatient,Routine,PA E. Patel,Completed,-20.0,F,76,Willoughby,Active
+V000090,P00100,2025-03-17,2025-03-17T09:45:00,2025-03-17T09:33:00,2025-03-17T10:07:00,Oncology,New Cancer Consult,Follow-up,GP,Routine,Dr C. Lee,Completed,22.0,M,90,Willoughby,Active
+V000091,P00379,2025-10-26,2025-10-26T15:30:00,2025-10-26T15:25:00,2025-10-26T16:02:00,Neurology,Epilepsy,New,Specialist,Routine,PA E. Patel,Completed,32.0,M,31,Ryde,Active
+V000092,P00080,2025-01-12,2025-01-12T14:30:00,2025-01-12T14:31:00,2025-01-12T14:34:00,Rheumatology,RA Clinic,Follow-up,Specialist,Urgent,Dr A. Smith,Completed,4.0,M,30,Ryde,Active
+V000093,P00044,2025-07-25,2025-07-25T12:30:00,,,General Medicine,General Clinic,New,Inpatient,Routine,NP D. Chen,No-Show,,M,82,Ryde,Active
+V000094,P00179,2025-01-20,2025-01-20T11:15:00,2025-01-20T11:20:00,2025-01-20T11:23:00,Orthopaedics,Spine Review,Follow-up,GP,Urgent,Dr B. Jones,Completed,8.0,M,91,Ku-ring-gai,Active
+V000095,P00264,2024-09-07,2024-09-07T13:45:00,2024-09-07T13:46:00,2024-09-07T13:41:00,General Medicine,General Clinic,Follow-up,ED,Urgent,Dr A. Smith,Completed,-4.0,M,59,Hornsby,Active
+V000096,P00302,2025-06-17,2025-06-17T15:30:00,,,Gastroenterology,IBD,Procedure Prep,GP,Routine,Dr B. Jones,No-Show,,F,66,Ku-ring-gai,Active
+V000097,P00077,2024-04-13,2024-04-13T16:00:00,2024-04-13T15:44:00,2024-04-13T16:30:00,Respiratory,Asthma,Follow-up,Specialist,Routine,PA E. Patel,Completed,30.0,F,62,Ku-ring-gai,Active
+V000098,P00089,2025-02-03,2025-02-03T10:00:00,2025-02-03T09:53:00,2025-02-03T10:12:00,Rheumatology,Gout/Metabolic,Follow-up,GP,Routine,Dr C. Lee,Completed,12.0,M,53,Ku-ring-gai,Active
+V000099,P00003,2025-07-30,2025-07-30T10:45:00,2025-07-30T10:56:00,2025-07-30T11:16:00,Endocrinology,Metabolic Clinic,Follow-up,ED,Routine,Dr C. Lee,Completed,31.0,M,93,Northern Beaches,Active
+V000100,P00326,2025-01-09,2025-01-09T12:30:00,2025-01-09T12:59:00,2025-01-09T12:54:00,Endocrinology,Thyroid,Procedure Prep,Inpatient,Soon,PA E. Patel,Completed,24.0,M,82,Northern Beaches,Active
+V000101,P00052,2025-06-21,2025-06-21T13:30:00,2025-06-21T13:30:00,2025-06-21T13:39:00,Oncology,New Cancer Consult,Follow-up,Inpatient,Routine,PA E. Patel,Completed,9.0,M,60,Hornsby,Active
+V000102,P00298,2025-02-19,2025-02-19T14:00:00,2025-02-19T13:47:00,2025-02-19T13:53:00,Cardiology,Arrhythmia,Follow-up,ED,Routine,NP D. Chen,Completed,-7.0,M,42,Northern Beaches,Active
+V000103,P00072,2025-10-14,2025-10-14T16:30:00,2025-10-14T16:33:00,2025-10-14T16:12:00,Orthopaedics,Fracture,Follow-up,GP,Urgent,Dr B. Jones,Completed,-18.0,F,59,Willoughby,Active
+V000104,P00049,2025-06-16,2025-06-16T10:45:00,2025-06-16T10:37:00,2025-06-16T10:33:00,Orthopaedics,Joint Clinic,New,Inpatient,Routine,Dr C. Lee,Completed,-12.0,M,85,Ryde,Active
+V000105,P00146,2024-03-29,2024-03-29T16:15:00,2024-03-29T16:01:00,2024-03-29T16:16:00,Cardiology,Arrhythmia,Follow-up,GP,Routine,PA E. Patel,Completed,1.0,F,46,Hornsby,Active
+V000106,P00196,2025-07-30,2025-07-30T14:00:00,2025-07-30T13:39:00,2025-07-30T13:56:00,Cardiology,Arrhythmia,Follow-up,ED,Routine,NP D. Chen,Completed,-4.0,M,46,Hornsby,Active
+V000107,P00286,2025-07-02,2025-07-02T14:45:00,2025-07-02T14:45:00,2025-07-02T15:08:00,Renal,Access Clinic,Follow-up,GP,Routine,Dr B. Jones,Completed,23.0,F,26,Hornsby,Active
+V000108,P00279,2024-02-15,2024-02-15T14:45:00,2024-02-15T14:40:00,2024-02-15T15:02:00,Respiratory,COPD,Follow-up,Specialist,Routine,Dr A. Smith,Completed,17.0,F,89,Ku-ring-gai,Active
+V000109,P00292,2025-06-01,2025-06-01T12:45:00,2025-06-01T12:45:00,2025-06-01T12:31:00,Cardiology,Arrhythmia,Procedure Prep,Specialist,Routine,Dr A. Smith,Completed,-14.0,M,95,Ku-ring-gai,Active
+V000110,P00143,2025-05-13,2025-05-13T14:15:00,,,Renal,Transplant Follow-up,New,GP,Urgent,Dr C. Lee,No-Show,,F,58,Northern Beaches,Active
+V000111,P00206,2024-06-01,2024-06-01T16:30:00,2024-06-01T16:21:00,2024-06-01T16:17:00,Gastroenterology,IBD,Follow-up,GP,Routine,Dr B. Jones,Completed,-13.0,F,72,Hornsby,Active
+V000112,P00025,2025-03-16,2025-03-16T11:30:00,2025-03-16T11:14:00,2025-03-16T11:47:00,Respiratory,COPD,Follow-up,Inpatient,Urgent,Dr A. Smith,Completed,17.0,M,52,Northern Beaches,Active
+V000113,P00266,2024-01-07,2024-01-07T09:45:00,2024-01-07T09:45:00,2024-01-07T09:29:00,Respiratory,Asthma,Follow-up,Specialist,Routine,PA E. Patel,Completed,-16.0,F,16,Ryde,Active
+V000114,P00252,2025-06-13,2025-06-13T16:45:00,2025-06-13T16:31:00,2025-06-13T16:48:00,Rheumatology,Lupus,Follow-up,Inpatient,Routine,Dr A. Smith,Completed,3.0,F,32,Hornsby,Active
+V000115,P00086,2024-02-20,2024-02-20T10:30:00,2024-02-20T10:31:00,2024-02-20T10:10:00,Renal,Transplant Follow-up,New,GP,Routine,PA E. Patel,Completed,-20.0,M,73,Ku-ring-gai,Active
+V000116,P00191,2025-09-05,2025-09-05T12:15:00,2025-09-05T11:56:00,2025-09-05T12:24:00,Endocrinology,Thyroid,New,GP,Routine,PA E. Patel,Completed,9.0,M,95,Ku-ring-gai,Active
+V000117,P00060,2024-05-04,2024-05-04T12:15:00,2024-05-04T12:04:00,2024-05-04T12:12:00,Endocrinology,Metabolic Clinic,New,GP,Soon,NP D. Chen,Completed,-3.0,M,21,Ryde,Active
+V000118,P00069,2023-11-14,2023-11-14T15:00:00,2023-11-14T14:46:00,2023-11-14T15:13:00,Renal,Access Clinic,Follow-up,GP,Routine,NP D. Chen,Completed,13.0,F,74,Ku-ring-gai,Active
+V000119,P00261,2024-10-06,2024-10-06T10:30:00,2024-10-06T10:44:00,2024-10-06T10:28:00,Renal,Transplant Follow-up,Follow-up,GP,Urgent,Dr C. Lee,Completed,-2.0,F,45,Ryde,Active
+V000120,P00119,2024-04-27,2024-04-27T11:15:00,,,Gastroenterology,Hepatitis,New,GP,Soon,Dr A. Smith,Cancelled,,F,77,Ku-ring-gai,Active
+V000121,P00334,2024-06-05,2024-06-05T08:45:00,2024-06-05T08:52:00,2024-06-05T08:39:00,Oncology,Radiation Review,Follow-up,GP,Soon,PA E. Patel,Completed,-6.0,F,58,Ryde,Active
+V000122,P00392,2025-07-10,2025-07-10T14:30:00,2025-07-10T14:37:00,2025-07-10T14:24:00,General Medicine,General Clinic,New,GP,Soon,NP D. Chen,Completed,-6.0,M,61,Hornsby,Active
+V000123,P00189,2024-03-12,2024-03-12T10:30:00,2024-03-12T10:24:00,2024-03-12T10:49:00,Orthopaedics,Fracture,Follow-up,ED,Routine,Dr C. Lee,Completed,19.0,F,56,Ryde,Active
+V000124,P00003,2025-07-21,2025-07-21T15:15:00,2025-07-21T15:29:00,2025-07-21T15:29:00,Renal,Transplant Follow-up,New,GP,Routine,NP D. Chen,Completed,14.0,F,69,Northern Beaches,Active
+V000125,P00012,2025-07-20,2025-07-20T16:45:00,2025-07-20T17:01:00,2025-07-20T17:18:00,Renal,Transplant Follow-up,Follow-up,Inpatient,Routine,Dr B. Jones,Completed,33.0,F,69,Hornsby,Active
+V000126,P00227,2025-08-31,2025-08-31T15:30:00,,,Renal,Access Clinic,New,Specialist,Routine,Dr C. Lee,No-Show,,M,59,Hornsby,Active
+V000127,P00186,2025-07-13,2025-07-13T14:45:00,2025-07-13T14:34:00,2025-07-13T15:30:00,General Medicine,General Clinic,Follow-up,GP,Routine,Dr B. Jones,Completed,45.0,M,51,Willoughby,Active
+V000128,P00356,2025-04-12,2025-04-12T13:45:00,2025-04-12T13:56:00,2025-04-12T13:43:00,Neurology,Epilepsy,Follow-up,GP,Routine,NP D. Chen,Completed,-2.0,M,59,Hornsby,Active
+V000129,P00399,2025-07-14,2025-07-14T08:00:00,2025-07-14T07:35:00,2025-07-14T08:08:00,Cardiology,Heart Failure,New,GP,Routine,Dr B. Jones,Completed,8.0,F,65,Hornsby,Active
+V000130,P00198,2025-09-20,2025-09-20T10:00:00,2025-09-20T10:05:00,2025-09-20T10:43:00,Gastroenterology,Endoscopy Review,Follow-up,GP,Routine,PA E. Patel,Completed,43.0,F,94,Ryde,Active
+V000131,P00313,2025-08-27,2025-08-27T12:45:00,2025-08-27T12:07:00,2025-08-27T12:54:00,Renal,Transplant Follow-up,New,Specialist,Routine,Dr B. Jones,Completed,9.0,F,46,Ryde,Active
+V000132,P00182,2024-05-10,2024-05-10T12:15:00,,,Respiratory,COPD,New,GP,Urgent,Dr A. Smith,Cancelled,,F,86,Ryde,Active
+V000133,P00143,2024-06-08,2024-06-08T13:30:00,2024-06-08T13:55:00,2024-06-08T13:55:00,General Medicine,General Clinic,Follow-up,GP,Routine,Dr C. Lee,Completed,25.0,M,74,Willoughby,Active
+V000134,P00345,2024-04-07,2024-04-07T10:30:00,2024-04-07T10:30:00,2024-04-07T10:13:00,Neurology,MS Clinic,New,GP,Routine,Dr A. Smith,Completed,-17.0,F,43,Ku-ring-gai,Reciprocal
+V000135,P00017,2024-04-15,2024-04-15T09:45:00,2024-04-15T09:57:00,2024-04-15T09:49:00,Endocrinology,Diabetes,New,GP,Routine,Dr B. Jones,Completed,4.0,F,61,Northern Beaches,Reciprocal
+V000136,P00294,2025-08-03,2025-08-03T10:00:00,2025-08-03T09:43:00,2025-08-03T10:30:00,Oncology,Radiation Review,New,Inpatient,Routine,PA E. Patel,Completed,30.0,M,60,Northern Beaches,Active
+V000137,P00381,2024-10-29,2024-10-29T15:00:00,2024-10-29T15:00:00,2024-10-29T14:51:00,General Medicine,Senior Review,New,Inpatient,Routine,PA E. Patel,Completed,-9.0,M,83,Ryde,Active
+V000138,P00197,2025-03-27,2025-03-27T13:30:00,2025-03-27T13:40:00,2025-03-27T13:50:00,Rheumatology,Lupus,Follow-up,GP,Routine,Dr C. Lee,Completed,20.0,M,65,Ryde,Active
+V000139,P00263,2025-03-16,2025-03-16T15:15:00,2025-03-16T15:26:00,2025-03-16T15:34:00,Cardiology,Post-PCI Review,New,GP,Routine,NP D. Chen,Completed,19.0,F,87,Northern Beaches,Active
+V000140,P00366,2024-06-07,2024-06-07T12:45:00,2024-06-07T12:26:00,2024-06-07T13:03:00,Cardiology,Heart Failure,Follow-up,GP,Soon,Dr A. Smith,Completed,18.0,M,44,Northern Beaches,Active
+V000141,P00281,2025-07-30,2025-07-30T14:45:00,2025-07-30T14:40:00,2025-07-30T14:55:00,Gastroenterology,Endoscopy Review,Follow-up,Inpatient,Routine,Dr A. Smith,Completed,10.0,F,41,Willoughby,Active
+V000142,P00216,2024-09-01,2024-09-01T13:30:00,2024-09-01T13:30:00,2024-09-01T13:54:00,Respiratory,COPD,New,GP,Soon,NP D. Chen,Completed,24.0,F,53,Northern Beaches,Active
+V000143,P00139,2024-12-06,2024-12-06T16:30:00,2024-12-06T16:19:00,2024-12-06T16:10:00,Oncology,Radiation Review,Follow-up,GP,Routine,PA E. Patel,Completed,-20.0,M,48,Northern Beaches,Active
+V000144,P00303,2025-11-08,2025-11-08T15:30:00,2025-11-08T15:38:00,2025-11-08T15:14:00,Cardiology,Heart Failure,New,ED,Routine,NP D. Chen,Completed,-16.0,F,77,Northern Beaches,Active
+V000145,P00091,2025-04-16,2025-04-16T09:30:00,2025-04-16T09:30:00,2025-04-16T09:45:00,Gastroenterology,Endoscopy Review,New,GP,Routine,NP D. Chen,Completed,15.0,M,54,Northern Beaches,Active
+V000146,P00387,2025-02-01,2025-02-01T15:45:00,,,Oncology,Radiation Review,Follow-up,Specialist,Routine,Dr C. Lee,Cancelled,,F,68,Hornsby,Active
+V000147,P00309,2024-10-07,2024-10-07T15:15:00,2024-10-07T15:43:00,2024-10-07T14:55:00,General Medicine,Senior Review,Follow-up,GP,Soon,Dr A. Smith,Completed,-20.0,F,67,Hornsby,Active
+V000148,P00268,2024-02-26,2024-02-26T13:00:00,2024-02-26T13:13:00,2024-02-26T13:12:00,Cardiology,Heart Failure,New,ED,Urgent,NP D. Chen,Completed,12.0,M,66,Ku-ring-gai,Active
+V000149,P00174,2025-04-22,2025-04-22T16:45:00,,,Cardiology,Post-PCI Review,Procedure Prep,Specialist,Routine,PA E. Patel,No-Show,,M,63,Northern Beaches,Active
+V000150,P00067,2025-05-14,2025-05-14T11:30:00,2025-05-14T11:11:00,2025-05-14T11:40:00,Rheumatology,Gout/Metabolic,Follow-up,GP,Routine,Dr C. Lee,Completed,10.0,M,61,Ryde,Active
+V000151,P00291,2024-07-30,2024-07-30T08:00:00,2024-07-30T07:22:00,2024-07-30T08:05:00,Gastroenterology,Hepatitis,New,GP,Soon,Dr A. Smith,Completed,5.0,M,50,Ku-ring-gai,Pending
+V000152,P00233,2024-12-03,2024-12-03T12:00:00,2024-12-03T11:48:00,2024-12-03T11:44:00,Respiratory,Asthma,Follow-up,GP,Urgent,Dr C. Lee,Completed,-16.0,M,24,Ryde,Active
+V000153,P00109,2024-12-11,2024-12-11T08:45:00,,,Rheumatology,RA Clinic,New,Inpatient,Routine,Dr C. Lee,No-Show,,F,51,Hornsby,Active
+V000154,P00082,2023-12-21,2023-12-21T11:15:00,2023-12-21T11:22:00,2023-12-21T11:01:00,Renal,Dialysis Review,Follow-up,Specialist,Routine,Dr A. Smith,Completed,-14.0,F,32,Willoughby,Active
+V000155,P00118,2025-07-27,2025-07-27T09:30:00,2025-07-27T09:13:00,2025-07-27T09:38:00,Endocrinology,Metabolic Clinic,Follow-up,GP,Soon,NP D. Chen,Completed,8.0,M,76,Ku-ring-gai,Active
+V000156,P00321,2024-11-24,2024-11-24T15:15:00,2024-11-24T15:10:00,2024-11-24T15:20:00,Rheumatology,RA Clinic,New,GP,Routine,PA E. Patel,Completed,5.0,M,58,Willoughby,Active
+V000157,P00288,2024-10-30,2024-10-30T16:00:00,2024-10-30T15:50:00,2024-10-30T16:15:00,Neurology,MS Clinic,Follow-up,Specialist,Routine,Dr A. Smith,Completed,15.0,F,74,Ryde,Active
+V000158,P00007,2025-07-14,2025-07-14T11:45:00,2025-07-14T11:26:00,2025-07-14T12:24:00,Cardiology,Post-PCI Review,Follow-up,Specialist,Routine,Dr C. Lee,Completed,39.0,M,74,Ku-ring-gai,Active
+V000159,P00116,2024-07-22,2024-07-22T08:00:00,2024-07-22T08:15:00,2024-07-22T08:29:00,Respiratory,Asthma,Follow-up,GP,Routine,PA E. Patel,Completed,29.0,M,78,Hornsby,Active
+V000160,P00315,2024-05-01,2024-05-01T11:15:00,2024-05-01T10:54:00,2024-05-01T11:17:00,Orthopaedics,Fracture,Follow-up,ED,Urgent,PA E. Patel,Completed,2.0,M,83,Hornsby,Active
+V000161,P00165,2024-11-05,2024-11-05T11:00:00,2024-11-05T10:37:00,2024-11-05T10:40:00,Endocrinology,Thyroid,New,Inpatient,Routine,NP D. Chen,Completed,-20.0,F,16,Ku-ring-gai,Active
+V000162,P00300,2025-07-23,2025-07-23T10:15:00,2025-07-23T10:08:00,2025-07-23T10:15:00,Rheumatology,RA Clinic,Follow-up,GP,Routine,Dr C. Lee,Completed,0.0,F,39,Ku-ring-gai,Active
+V000163,P00008,2025-07-28,2025-07-28T13:00:00,2025-07-28T13:03:00,2025-07-28T13:06:00,Neurology,Stroke Follow-up,New,GP,Soon,PA E. Patel,Completed,6.0,F,49,Willoughby,Reciprocal
+V000164,P00184,2023-12-25,2023-12-25T13:00:00,2023-12-25T13:00:00,2023-12-25T13:42:00,Endocrinology,Diabetes,Follow-up,Specialist,Urgent,Dr C. Lee,Completed,42.0,F,81,Ku-ring-gai,Active
+V000165,P00249,2024-04-01,2024-04-01T08:15:00,2024-04-01T08:15:00,2024-04-01T08:14:00,Respiratory,Asthma,Follow-up,Specialist,Urgent,Dr C. Lee,Completed,-1.0,M,57,Ku-ring-gai,Active
+V000166,P00352,2025-05-30,2025-05-30T16:45:00,2025-05-30T16:38:00,2025-05-30T17:17:00,Cardiology,Arrhythmia,Follow-up,Specialist,Routine,NP D. Chen,Completed,32.0,F,79,Ryde,Active
+V000167,P00286,2024-04-22,2024-04-22T12:45:00,2024-04-22T12:51:00,2024-04-22T12:45:00,Orthopaedics,Spine Review,New,GP,Urgent,PA E. Patel,Completed,0.0,F,72,Willoughby,Active
+V000168,P00191,2025-10-15,2025-10-15T12:00:00,2025-10-15T11:58:00,2025-10-15T12:12:00,Rheumatology,Lupus,New,Specialist,Routine,Dr A. Smith,Completed,12.0,M,74,Hornsby,Active
+V000169,P00162,2025-01-23,2025-01-23T10:30:00,2025-01-23T10:36:00,2025-01-23T10:47:00,Orthopaedics,Spine Review,Follow-up,GP,Routine,Dr C. Lee,Completed,17.0,F,91,Willoughby,Pending
+V000170,P00233,2024-02-16,2024-02-16T14:30:00,,,General Medicine,Complex Care,New,GP,Routine,NP D. Chen,No-Show,,M,70,Hornsby,Active
+V000171,P00053,2024-04-22,2024-04-22T11:45:00,2024-04-22T11:43:00,2024-04-22T11:33:00,Endocrinology,Diabetes,Follow-up,GP,Routine,Dr A. Smith,Completed,-12.0,F,16,Ku-ring-gai,Active
+V000172,P00349,2024-11-20,2024-11-20T16:45:00,2024-11-20T16:27:00,2024-11-20T16:50:00,Orthopaedics,Spine Review,Follow-up,GP,Urgent,Dr B. Jones,Completed,5.0,M,70,Ku-ring-gai,Active
+V000173,P00399,2024-02-29,2024-02-29T10:00:00,2024-02-29T10:11:00,2024-02-29T10:00:00,General Medicine,Complex Care,New,ED,Urgent,Dr B. Jones,Completed,0.0,M,44,Hornsby,Active
+V000174,P00023,2025-04-05,2025-04-05T08:45:00,2025-04-05T09:01:00,2025-04-05T09:13:00,Cardiology,Heart Failure,Follow-up,GP,Soon,Dr C. Lee,Completed,28.0,F,71,Northern Beaches,Active
+V000175,P00041,2023-11-17,2023-11-17T12:15:00,2023-11-17T12:13:00,2023-11-17T12:24:00,Endocrinology,Diabetes,Follow-up,GP,Routine,Dr C. Lee,Completed,9.0,F,64,Northern Beaches,Active
+V000176,P00310,2024-10-08,2024-10-08T11:30:00,,,Cardiology,Post-PCI Review,New,ED,Routine,Dr A. Smith,No-Show,,M,42,Northern Beaches,Active
+V000177,P00252,2024-12-18,2024-12-18T12:45:00,,,Orthopaedics,Fracture,New,ED,Routine,Dr B. Jones,No-Show,,F,64,Ku-ring-gai,Active
+V000178,P00111,2024-06-02,2024-06-02T12:15:00,2024-06-02T12:07:00,2024-06-02T12:06:00,Cardiology,Heart Failure,New,GP,Routine,NP D. Chen,Completed,-9.0,F,68,Willoughby,Active
+V000179,P00233,2025-06-06,2025-06-06T08:45:00,2025-06-06T08:33:00,2025-06-06T08:40:00,Gastroenterology,IBD,Follow-up,GP,Routine,Dr A. Smith,Completed,-5.0,M,56,Northern Beaches,Active
+V000180,P00160,2024-02-10,2024-02-10T12:45:00,2024-02-10T12:55:00,2024-02-10T12:57:00,Oncology,Chemo Review,New,GP,Routine,Dr A. Smith,Completed,12.0,F,60,Ku-ring-gai,Active
+V000181,P00028,2024-09-23,2024-09-23T14:45:00,,,Orthopaedics,Joint Clinic,Follow-up,GP,Routine,Dr C. Lee,Cancelled,,M,62,Willoughby,Active
+V000182,P00351,2025-01-12,2025-01-12T10:30:00,,,Gastroenterology,IBD,New,ED,Routine,Dr A. Smith,No-Show,,M,61,Northern Beaches,Active
+V000183,P00224,2025-11-04,2025-11-04T11:45:00,2025-11-04T11:35:00,2025-11-04T11:25:00,Renal,Dialysis Review,Follow-up,GP,Routine,Dr A. Smith,Completed,-20.0,F,60,Ku-ring-gai,Active
+V000184,P00108,2025-03-31,2025-03-31T10:15:00,,,General Medicine,General Clinic,Procedure Prep,ED,Soon,Dr B. Jones,No-Show,,M,46,Ku-ring-gai,Active
+V000185,P00273,2025-01-02,2025-01-02T13:15:00,2025-01-02T13:16:00,2025-01-02T13:35:00,Renal,Dialysis Review,Procedure Prep,Inpatient,Soon,NP D. Chen,Completed,20.0,M,32,Northern Beaches,Pending
+V000186,P00074,2024-03-26,2024-03-26T11:45:00,2024-03-26T11:48:00,2024-03-26T12:03:00,Endocrinology,Thyroid,Procedure Prep,GP,Soon,NP D. Chen,Completed,18.0,F,70,Northern Beaches,Active
+V000187,P00265,2025-06-07,2025-06-07T16:00:00,2025-06-07T16:02:00,2025-06-07T16:51:00,Respiratory,Asthma,Follow-up,GP,Routine,PA E. Patel,Completed,51.0,M,50,Hornsby,Active
+V000188,P00116,2024-10-01,2024-10-01T12:15:00,2024-10-01T11:43:00,2024-10-01T12:45:00,Gastroenterology,Endoscopy Review,Follow-up,Specialist,Urgent,PA E. Patel,Completed,30.0,F,54,Northern Beaches,Active
+V000189,P00197,2025-04-30,2025-04-30T08:15:00,,,Respiratory,Asthma,Follow-up,ED,Routine,Dr B. Jones,Cancelled,,M,33,Northern Beaches,Active
+V000190,P00221,2024-09-30,2024-09-30T11:30:00,2024-09-30T11:20:00,2024-09-30T11:10:00,Orthopaedics,Spine Review,Follow-up,GP,Routine,PA E. Patel,Completed,-20.0,M,68,Ku-ring-gai,Active
+V000191,P00290,2025-05-04,2025-05-04T11:15:00,2025-05-04T11:13:00,2025-05-04T11:12:00,Orthopaedics,Joint Clinic,New,GP,Urgent,Dr A. Smith,Completed,-3.0,F,16,Hornsby,Active
+V000192,P00391,2024-06-18,2024-06-18T16:45:00,,,Rheumatology,RA Clinic,Follow-up,GP,Routine,PA E. Patel,Cancelled,,F,77,Willoughby,Active
+V000193,P00206,2024-12-01,2024-12-01T09:15:00,2024-12-01T08:57:00,2024-12-01T09:48:00,Neurology,Epilepsy,New,GP,Soon,NP D. Chen,Completed,33.0,M,75,Ryde,Active
+V000194,P00010,2025-02-10,2025-02-10T14:30:00,2025-02-10T14:27:00,2025-02-10T14:10:00,Rheumatology,Lupus,New,Specialist,Routine,PA E. Patel,Completed,-20.0,M,42,Willoughby,Active
+V000195,P00379,2025-08-20,2025-08-20T16:30:00,2025-08-20T16:30:00,2025-08-20T16:50:00,Gastroenterology,IBD,Follow-up,Specialist,Routine,Dr C. Lee,Completed,20.0,F,81,Northern Beaches,Active
+V000196,P00337,2024-07-20,2024-07-20T16:00:00,2024-07-20T16:04:00,2024-07-20T15:48:00,Gastroenterology,IBD,New,GP,Soon,Dr A. Smith,Completed,-12.0,F,72,Ku-ring-gai,Active
+V000197,P00315,2025-09-27,2025-09-27T11:30:00,2025-09-27T11:28:00,2025-09-27T11:38:00,Renal,Transplant Follow-up,Follow-up,GP,Routine,Dr B. Jones,Completed,8.0,F,19,Ryde,Active
+V000198,P00148,2024-06-02,2024-06-02T10:30:00,2024-06-02T10:11:00,2024-06-02T10:34:00,Cardiology,Arrhythmia,Follow-up,Specialist,Urgent,Dr A. Smith,Completed,4.0,F,65,Hornsby,Active
+V000199,P00118,2025-01-30,2025-01-30T08:15:00,2025-01-30T08:01:00,2025-01-30T08:49:00,Respiratory,Sleep Study Follow-up,New,Inpatient,Routine,Dr C. Lee,Completed,34.0,M,59,Willoughby,Active
+V000200,P00014,2023-12-31,2023-12-31T11:00:00,2023-12-31T11:15:00,2023-12-31T11:32:00,Orthopaedics,Spine Review,Follow-up,GP,Routine,PA E. Patel,Completed,32.0,F,44,Ku-ring-gai,Active
+V000201,P00219,2025-04-21,2025-04-21T08:15:00,2025-04-21T08:10:00,2025-04-21T08:55:00,Neurology,Stroke Follow-up,Follow-up,ED,Soon,Dr B. Jones,Completed,40.0,F,63,Ku-ring-gai,Active
+V000202,P00084,2025-06-08,2025-06-08T14:30:00,2025-06-08T14:24:00,2025-06-08T14:26:00,Renal,Transplant Follow-up,New,GP,Routine,Dr B. Jones,Completed,-4.0,M,48,Ku-ring-gai,Active
+V000203,P00048,2025-09-11,2025-09-11T09:00:00,2025-09-11T08:47:00,2025-09-11T09:53:00,Cardiology,Post-PCI Review,Follow-up,ED,Routine,Dr C. Lee,Completed,53.0,M,89,Northern Beaches,Active
+V000204,P00073,2025-09-02,2025-09-02T14:00:00,2025-09-02T14:05:00,2025-09-02T14:11:00,Endocrinology,Metabolic Clinic,Follow-up,ED,Routine,PA E. Patel,Completed,11.0,M,42,Northern Beaches,Active
+V000205,P00212,2025-08-28,2025-08-28T10:45:00,2025-08-28T10:45:00,2025-08-28T11:00:00,General Medicine,Complex Care,Procedure Prep,GP,Urgent,Dr B. Jones,Completed,15.0,F,63,Ryde,Active
+V000206,P00094,2025-01-17,2025-01-17T09:30:00,2025-01-17T09:31:00,2025-01-17T09:14:00,Orthopaedics,Spine Review,New,Specialist,Routine,Dr A. Smith,Completed,-16.0,F,33,Willoughby,Active
+V000207,P00107,2024-03-16,2024-03-16T15:30:00,2024-03-16T15:07:00,2024-03-16T15:32:00,Neurology,Epilepsy,Follow-up,GP,Routine,PA E. Patel,Completed,2.0,M,65,Northern Beaches,Active
+V000208,P00335,2024-08-21,2024-08-21T13:15:00,2024-08-21T13:58:00,2024-08-21T13:23:00,Rheumatology,Gout/Metabolic,New,GP,Soon,Dr A. Smith,Completed,8.0,M,81,Hornsby,Active
+V000209,P00133,2025-04-16,2025-04-16T08:30:00,2025-04-16T08:49:00,2025-04-16T08:54:00,Oncology,Radiation Review,Follow-up,Inpatient,Routine,PA E. Patel,Completed,24.0,M,31,Hornsby,Active
+V000210,P00277,2025-07-03,2025-07-03T11:45:00,2025-07-03T11:42:00,2025-07-03T11:25:00,Renal,Access Clinic,Follow-up,ED,Routine,NP D. Chen,Completed,-20.0,F,55,Hornsby,Active
+V000211,P00261,2025-08-04,2025-08-04T08:00:00,2025-08-04T08:16:00,2025-08-04T08:00:00,General Medicine,General Clinic,Follow-up,GP,Routine,PA E. Patel,Completed,0.0,M,35,Ku-ring-gai,Pending
+V000212,P00045,2024-01-02,2024-01-02T14:00:00,2024-01-02T13:44:00,2024-01-02T14:39:00,General Medicine,Senior Review,Follow-up,Specialist,Routine,Dr A. Smith,Completed,39.0,F,74,Northern Beaches,Active
+V000213,P00247,2025-07-17,2025-07-17T11:15:00,2025-07-17T11:16:00,2025-07-17T12:13:00,Renal,Transplant Follow-up,New,ED,Routine,Dr B. Jones,Completed,58.0,M,53,Ku-ring-gai,Active
+V000214,P00354,2024-07-16,2024-07-16T10:30:00,2024-07-16T10:41:00,2024-07-16T11:01:00,Gastroenterology,Endoscopy Review,New,GP,Soon,Dr C. Lee,Completed,31.0,F,64,Northern Beaches,Active
+V000215,P00314,2025-01-31,2025-01-31T08:30:00,2025-01-31T08:29:00,2025-01-31T08:45:00,Cardiology,Heart Failure,Follow-up,ED,Routine,PA E. Patel,Completed,15.0,M,43,Willoughby,Active
+V000216,P00156,2024-05-17,2024-05-17T12:30:00,2024-05-17T12:09:00,2024-05-17T12:56:00,Renal,Transplant Follow-up,Follow-up,GP,Routine,Dr A. Smith,Completed,26.0,F,51,Willoughby,Active
+V000217,P00384,2024-09-06,2024-09-06T10:30:00,2024-09-06T09:58:00,2024-09-06T10:36:00,Rheumatology,RA Clinic,Follow-up,Specialist,Routine,NP D. Chen,Completed,6.0,F,62,Willoughby,Active
+V000218,P00123,2025-08-19,2025-08-19T09:00:00,,,Oncology,Radiation Review,Follow-up,GP,Routine,NP D. Chen,Cancelled,,M,46,Northern Beaches,Reciprocal
+V000219,P00317,2024-07-18,2024-07-18T09:15:00,2024-07-18T08:37:00,2024-07-18T09:17:00,General Medicine,General Clinic,Follow-up,GP,Routine,Dr C. Lee,Completed,2.0,F,48,Ryde,Active
+V000220,P00383,2024-07-17,2024-07-17T11:00:00,2024-07-17T10:43:00,2024-07-17T11:40:00,Orthopaedics,Spine Review,New,GP,Routine,Dr B. Jones,Completed,40.0,F,74,Willoughby,Active
+V000221,P00386,2023-12-28,2023-12-28T13:45:00,2023-12-28T13:46:00,2023-12-28T13:43:00,Gastroenterology,IBD,New,GP,Routine,PA E. Patel,Completed,-2.0,M,66,Willoughby,Active
+V000222,P00222,2024-12-26,2024-12-26T08:45:00,2024-12-26T09:04:00,2024-12-26T09:43:00,General Medicine,Senior Review,New,GP,Routine,NP D. Chen,Completed,58.0,F,41,Ku-ring-gai,Active
+V000223,P00257,2024-10-17,2024-10-17T14:30:00,2024-10-17T14:34:00,2024-10-17T14:22:00,Renal,Access Clinic,New,GP,Routine,PA E. Patel,Completed,-8.0,F,33,Willoughby,Active
+V000224,P00104,2025-04-06,2025-04-06T15:15:00,,,Endocrinology,Metabolic Clinic,New,GP,Soon,PA E. Patel,No-Show,,M,80,Ku-ring-gai,Active
+V000225,P00304,2024-01-04,2024-01-04T08:30:00,2024-01-04T08:40:00,2024-01-04T08:39:00,Gastroenterology,Hepatitis,Follow-up,GP,Routine,Dr C. Lee,Completed,9.0,M,67,Hornsby,Reciprocal
+V000226,P00025,2025-04-16,2025-04-16T10:30:00,2025-04-16T10:39:00,2025-04-16T10:46:00,Endocrinology,Metabolic Clinic,New,GP,Soon,Dr A. Smith,Completed,16.0,M,55,Ryde,Active
+V000227,P00203,2023-12-15,2023-12-15T12:30:00,2023-12-15T12:53:00,2023-12-15T12:52:00,Respiratory,Asthma,Follow-up,ED,Routine,PA E. Patel,Completed,22.0,F,84,Hornsby,Pending
+V000228,P00327,2024-04-17,2024-04-17T16:00:00,2024-04-17T15:57:00,2024-04-17T15:56:00,Oncology,New Cancer Consult,Follow-up,GP,Soon,PA E. Patel,Completed,-4.0,M,72,Willoughby,Active
+V000229,P00230,2024-02-05,2024-02-05T15:15:00,2024-02-05T14:51:00,2024-02-05T15:03:00,Respiratory,Asthma,New,ED,Routine,Dr A. Smith,Completed,-12.0,F,55,Ryde,Pending
+V000230,P00045,2023-11-19,2023-11-19T11:45:00,2023-11-19T11:52:00,2023-11-19T11:34:00,Oncology,Radiation Review,Follow-up,GP,Routine,NP D. Chen,Completed,-11.0,M,52,Willoughby,Active
+V000231,P00364,2025-02-06,2025-02-06T14:00:00,2025-02-06T13:57:00,2025-02-06T14:05:00,Orthopaedics,Spine Review,Follow-up,GP,Routine,Dr C. Lee,Completed,5.0,F,62,Willoughby,Active
+V000232,P00093,2024-02-10,2024-02-10T16:45:00,2024-02-10T16:34:00,2024-02-10T16:45:00,General Medicine,Complex Care,Follow-up,GP,Soon,NP D. Chen,Completed,0.0,F,46,Willoughby,Active
+V000233,P00343,2025-02-16,2025-02-16T15:45:00,2025-02-16T16:02:00,2025-02-16T16:01:00,Orthopaedics,Fracture,New,GP,Routine,NP D. Chen,Completed,16.0,F,71,Willoughby,Active
+V000234,P00040,2025-08-12,2025-08-12T09:30:00,2025-08-12T09:28:00,2025-08-12T09:20:00,Renal,Dialysis Review,Follow-up,GP,Routine,Dr B. Jones,Completed,-10.0,F,41,Ku-ring-gai,Active
+V000235,P00397,2025-10-22,2025-10-22T14:30:00,2025-10-22T14:44:00,2025-10-22T15:11:00,Respiratory,COPD,New,GP,Routine,NP D. Chen,Completed,41.0,M,75,Northern Beaches,Active
+V000236,P00220,2025-08-29,2025-08-29T16:00:00,2025-08-29T15:42:00,2025-08-29T16:18:00,Renal,Dialysis Review,New,GP,Routine,Dr B. Jones,Completed,18.0,M,53,Ryde,Reciprocal
+V000237,P00287,2024-05-14,2024-05-14T10:15:00,2024-05-14T10:16:00,2024-05-14T10:11:00,Endocrinology,Thyroid,Follow-up,GP,Routine,PA E. Patel,Completed,-4.0,M,59,Northern Beaches,Active
+V000238,P00205,2024-09-29,2024-09-29T11:00:00,2024-09-29T11:15:00,2024-09-29T11:43:00,Endocrinology,Thyroid,Procedure Prep,GP,Routine,PA E. Patel,Completed,43.0,M,54,Ryde,Active
+V000239,P00210,2025-03-25,2025-03-25T08:45:00,2025-03-25T08:30:00,2025-03-25T08:43:00,Renal,Access Clinic,New,GP,Routine,Dr B. Jones,Completed,-2.0,M,43,Ku-ring-gai,Active
+V000240,P00202,2024-01-18,2024-01-18T14:00:00,,,Renal,Access Clinic,Procedure Prep,Inpatient,Routine,Dr B. Jones,No-Show,,F,65,Hornsby,Active
+V000241,P00171,2025-08-29,2025-08-29T08:30:00,2025-08-29T08:35:00,2025-08-29T08:30:00,Endocrinology,Metabolic Clinic,Follow-up,GP,Soon,Dr A. Smith,Completed,0.0,M,45,Ryde,Active
+V000242,P00305,2024-06-28,2024-06-28T13:45:00,2024-06-28T13:30:00,2024-06-28T14:09:00,Renal,Dialysis Review,New,ED,Routine,Dr B. Jones,Completed,24.0,M,78,Willoughby,Active
+V000243,P00164,2025-07-13,2025-07-13T12:30:00,,,Endocrinology,Metabolic Clinic,New,GP,Routine,Dr C. Lee,No-Show,,F,40,Ryde,Active
+V000244,P00296,2024-11-19,2024-11-19T15:45:00,2024-11-19T15:16:00,2024-11-19T15:47:00,General Medicine,General Clinic,New,ED,Routine,NP D. Chen,Completed,2.0,M,59,Hornsby,Active
+V000245,P00152,2024-04-09,2024-04-09T15:15:00,2024-04-09T15:15:00,2024-04-09T14:59:00,Renal,Transplant Follow-up,Procedure Prep,Specialist,Routine,NP D. Chen,Completed,-16.0,F,40,Willoughby,Active
+V000246,P00129,2023-12-23,2023-12-23T09:30:00,2023-12-23T09:21:00,2023-12-23T09:51:00,Endocrinology,Metabolic Clinic,Follow-up,GP,Urgent,NP D. Chen,Completed,21.0,F,71,Willoughby,Active
+V000247,P00389,2025-01-19,2025-01-19T11:30:00,2025-01-19T11:31:00,2025-01-19T11:16:00,Gastroenterology,IBD,Follow-up,Specialist,Routine,NP D. Chen,Completed,-14.0,F,51,Willoughby,Active
+V000248,P00180,2023-11-14,2023-11-14T15:30:00,2023-11-14T15:14:00,2023-11-14T16:13:00,Gastroenterology,IBD,New,GP,Urgent,Dr C. Lee,Completed,43.0,M,54,Willoughby,Active
+V000249,P00108,2024-04-17,2024-04-17T09:00:00,,,Renal,Transplant Follow-up,New,Inpatient,Urgent,PA E. Patel,No-Show,,F,46,Willoughby,Active
+V000250,P00031,2024-08-09,2024-08-09T14:30:00,2024-08-09T14:15:00,2024-08-09T14:55:00,Neurology,Epilepsy,Follow-up,ED,Routine,PA E. Patel,Completed,25.0,M,82,Ryde,Reciprocal
+V000251,P00273,2025-04-14,2025-04-14T13:15:00,2025-04-14T12:59:00,2025-04-14T13:27:00,Respiratory,Asthma,Follow-up,GP,Routine,Dr A. Smith,Completed,12.0,F,64,Ku-ring-gai,Active
+V000252,P00245,2025-03-15,2025-03-15T15:00:00,2025-03-15T15:17:00,2025-03-15T15:18:00,Renal,Access Clinic,New,GP,Routine,PA E. Patel,Completed,18.0,M,61,Hornsby,Active
+V000253,P00391,2024-04-17,2024-04-17T09:15:00,2024-04-17T09:03:00,2024-04-17T09:35:00,Orthopaedics,Spine Review,New,ED,Urgent,Dr A. Smith,Completed,20.0,M,57,Ryde,Active
+V000254,P00065,2024-01-04,2024-01-04T15:45:00,2024-01-04T15:17:00,2024-01-04T16:22:00,Neurology,Stroke Follow-up,Follow-up,Specialist,Routine,Dr A. Smith,Completed,37.0,F,54,Hornsby,Active
+V000255,P00159,2025-01-29,2025-01-29T09:30:00,,,Cardiology,Heart Failure,Follow-up,GP,Routine,NP D. Chen,Cancelled,,M,63,Ryde,Active
+V000256,P00151,2024-08-08,2024-08-08T13:15:00,,,Rheumatology,Gout/Metabolic,New,Specialist,Soon,Dr C. Lee,No-Show,,F,47,Ku-ring-gai,Active
+V000257,P00323,2024-03-11,2024-03-11T16:00:00,,,Endocrinology,Thyroid,Follow-up,Inpatient,Routine,NP D. Chen,No-Show,,F,55,Ku-ring-gai,Active
+V000258,P00247,2023-11-14,2023-11-14T15:15:00,2023-11-14T14:54:00,2023-11-14T15:21:00,General Medicine,Senior Review,Follow-up,ED,Routine,Dr A. Smith,Completed,6.0,F,61,Hornsby,Active
+V000259,P00237,2025-05-18,2025-05-18T12:30:00,2025-05-18T12:16:00,2025-05-18T12:57:00,General Medicine,Senior Review,Procedure Prep,GP,Routine,Dr B. Jones,Completed,27.0,F,42,Ku-ring-gai,Active
+V000260,P00214,2024-11-19,2024-11-19T11:45:00,2024-11-19T11:33:00,2024-11-19T11:43:00,Orthopaedics,Spine Review,Follow-up,Specialist,Urgent,Dr B. Jones,Completed,-2.0,M,57,Northern Beaches,Active
+V000261,P00076,2024-01-23,2024-01-23T13:00:00,2024-01-23T12:55:00,2024-01-23T12:57:00,Neurology,Stroke Follow-up,New,GP,Routine,Dr A. Smith,Completed,-3.0,M,55,Hornsby,Active
+V000262,P00292,2025-10-23,2025-10-23T08:45:00,2025-10-23T08:35:00,2025-10-23T08:50:00,Respiratory,Sleep Study Follow-up,New,GP,Routine,NP D. Chen,Completed,5.0,M,74,Willoughby,Active
+V000263,P00311,2025-03-26,2025-03-26T11:30:00,2025-03-26T11:16:00,2025-03-26T11:27:00,Gastroenterology,IBD,Follow-up,GP,Routine,Dr B. Jones,Completed,-3.0,F,57,Willoughby,Active
+V000264,P00329,2024-07-26,2024-07-26T09:00:00,2024-07-26T08:36:00,2024-07-26T08:46:00,Respiratory,Asthma,New,GP,Routine,Dr B. Jones,Completed,-14.0,F,47,Ryde,Active
+V000265,P00298,2024-02-10,2024-02-10T12:15:00,2024-02-10T12:17:00,2024-02-10T12:02:00,Neurology,Stroke Follow-up,Follow-up,GP,Routine,Dr A. Smith,Completed,-13.0,M,73,Ku-ring-gai,Active
+V000266,P00316,2024-12-05,2024-12-05T12:45:00,2024-12-05T12:21:00,2024-12-05T13:30:00,Rheumatology,Lupus,Follow-up,GP,Routine,Dr C. Lee,Completed,45.0,F,72,Willoughby,Active
+V000267,P00181,2025-01-07,2025-01-07T08:00:00,2025-01-07T08:14:00,2025-01-07T07:42:00,Orthopaedics,Joint Clinic,Follow-up,ED,Urgent,Dr C. Lee,Completed,-18.0,M,61,Ryde,Active
+V000268,P00266,2024-07-04,2024-07-04T10:45:00,2024-07-04T10:25:00,2024-07-04T10:48:00,General Medicine,Senior Review,New,Specialist,Urgent,Dr B. Jones,Completed,3.0,F,57,Ku-ring-gai,Active
+V000269,P00073,2025-01-30,2025-01-30T16:45:00,,,General Medicine,General Clinic,Follow-up,ED,Routine,PA E. Patel,No-Show,,M,62,Ryde,Active
+V000270,P00285,2024-01-03,2024-01-03T15:15:00,,,General Medicine,General Clinic,Follow-up,Inpatient,Routine,NP D. Chen,Cancelled,,M,24,Northern Beaches,Active
+V000271,P00356,2024-08-12,2024-08-12T11:00:00,2024-08-12T10:51:00,2024-08-12T11:14:00,Endocrinology,Diabetes,New,GP,Routine,PA E. Patel,Completed,14.0,M,62,Ku-ring-gai,Active
+V000272,P00206,2023-12-11,2023-12-11T12:45:00,2023-12-11T12:28:00,2023-12-11T12:47:00,Orthopaedics,Joint Clinic,New,Inpatient,Routine,Dr C. Lee,Completed,2.0,F,28,Willoughby,Active
+V000273,P00190,2025-04-17,2025-04-17T08:00:00,2025-04-17T08:00:00,2025-04-17T07:52:00,Gastroenterology,IBD,Follow-up,GP,Routine,NP D. Chen,Completed,-8.0,F,45,Ryde,Active
+V000274,P00075,2024-06-19,2024-06-19T16:45:00,2024-06-19T16:36:00,2024-06-19T16:43:00,Neurology,MS Clinic,Procedure Prep,GP,Routine,Dr A. Smith,Completed,-2.0,F,79,Ku-ring-gai,Active
+V000275,P00161,2025-07-03,2025-07-03T08:15:00,2025-07-03T08:15:00,2025-07-03T08:49:00,Neurology,Stroke Follow-up,Procedure Prep,GP,Urgent,Dr C. Lee,Completed,34.0,M,78,Ku-ring-gai,Active
+V000276,P00043,2025-07-30,2025-07-30T16:15:00,2025-07-30T16:09:00,2025-07-30T15:55:00,Cardiology,Post-PCI Review,Follow-up,GP,Routine,NP D. Chen,Completed,-20.0,F,76,Ryde,Active
+V000277,P00230,2024-08-27,2024-08-27T13:15:00,2024-08-27T13:28:00,2024-08-27T14:04:00,Cardiology,Arrhythmia,Follow-up,GP,Routine,PA E. Patel,Completed,49.0,M,68,Hornsby,Active
+V000278,P00117,2024-12-20,2024-12-20T16:45:00,2024-12-20T16:47:00,2024-12-20T17:30:00,Renal,Access Clinic,New,Specialist,Routine,NP D. Chen,Completed,45.0,M,57,Hornsby,Pending
+V000279,P00313,2024-08-28,2024-08-28T16:30:00,2024-08-28T16:28:00,2024-08-28T16:27:00,Endocrinology,Thyroid,Follow-up,Specialist,Soon,PA E. Patel,Completed,-3.0,M,68,Ku-ring-gai,Active
+V000280,P00358,2023-11-20,2023-11-20T11:00:00,,,General Medicine,General Clinic,New,GP,Routine,Dr C. Lee,Cancelled,,M,74,Ryde,Reciprocal
+V000281,P00161,2024-01-29,2024-01-29T16:30:00,2024-01-29T16:31:00,2024-01-29T16:21:00,General Medicine,Senior Review,Follow-up,GP,Routine,Dr A. Smith,Completed,-9.0,M,47,Northern Beaches,Active
+V000282,P00244,2025-05-15,2025-05-15T16:00:00,2025-05-15T15:28:00,2025-05-15T16:28:00,Renal,Dialysis Review,Follow-up,GP,Routine,Dr B. Jones,Completed,28.0,M,59,Northern Beaches,Active
+V000283,P00222,2024-07-08,2024-07-08T11:15:00,2024-07-08T10:47:00,2024-07-08T11:24:00,Rheumatology,Lupus,New,Specialist,Routine,Dr C. Lee,Completed,9.0,F,79,Ku-ring-gai,Active
+V000284,P00357,2024-04-06,2024-04-06T15:45:00,2024-04-06T15:46:00,2024-04-06T15:25:00,Respiratory,COPD,New,GP,Routine,Dr B. Jones,Completed,-20.0,M,44,Ku-ring-gai,Active
+V000285,P00186,2023-12-18,2023-12-18T14:00:00,2023-12-18T14:07:00,2023-12-18T14:06:00,Rheumatology,Lupus,Follow-up,Inpatient,Soon,Dr C. Lee,Completed,6.0,F,48,Willoughby,Active
+V000286,P00085,2025-10-18,2025-10-18T09:45:00,2025-10-18T09:40:00,2025-10-18T10:09:00,Renal,Transplant Follow-up,New,GP,Routine,NP D. Chen,Completed,24.0,F,36,Ku-ring-gai,Active
+V000287,P00295,2024-08-13,2024-08-13T14:00:00,2024-08-13T14:24:00,2024-08-13T14:12:00,Neurology,Stroke Follow-up,Procedure Prep,GP,Routine,NP D. Chen,Completed,12.0,F,75,Willoughby,Active
+V000288,P00179,2024-06-09,2024-06-09T13:00:00,2024-06-09T12:43:00,2024-06-09T12:58:00,General Medicine,Senior Review,Follow-up,GP,Urgent,Dr B. Jones,Completed,-2.0,M,83,Willoughby,Active
+V000289,P00200,2024-09-27,2024-09-27T08:00:00,2024-09-27T07:51:00,2024-09-27T07:40:00,Endocrinology,Metabolic Clinic,New,GP,Routine,Dr A. Smith,Completed,-20.0,M,49,Ku-ring-gai,Active
+V000290,P00092,2025-05-22,2025-05-22T13:30:00,2025-05-22T13:39:00,2025-05-22T13:16:00,Orthopaedics,Joint Clinic,New,GP,Urgent,Dr B. Jones,Completed,-14.0,M,48,Northern Beaches,Active
+V000291,P00301,2024-05-21,2024-05-21T11:15:00,2024-05-21T11:11:00,2024-05-21T11:00:00,Cardiology,Post-PCI Review,Follow-up,GP,Routine,NP D. Chen,Completed,-15.0,F,66,Willoughby,Active
+V000292,P00375,2025-01-04,2025-01-04T13:00:00,2025-01-04T12:48:00,2025-01-04T12:43:00,Oncology,New Cancer Consult,Follow-up,GP,Routine,Dr A. Smith,Completed,-17.0,F,66,Hornsby,Active
+V000293,P00080,2025-03-01,2025-03-01T08:00:00,2025-03-01T08:15:00,2025-03-01T07:55:00,Gastroenterology,Endoscopy Review,New,GP,Routine,NP D. Chen,Completed,-5.0,M,45,Ryde,Active
+V000294,P00085,2024-04-30,2024-04-30T15:45:00,2024-04-30T15:47:00,2024-04-30T16:27:00,Gastroenterology,IBD,Follow-up,GP,Urgent,NP D. Chen,Completed,42.0,M,64,Hornsby,Active
+V000295,P00088,2024-08-03,2024-08-03T08:00:00,2024-08-03T07:40:00,2024-08-03T09:01:00,Rheumatology,RA Clinic,New,GP,Routine,Dr C. Lee,Completed,61.0,F,28,Hornsby,Active
+V000296,P00177,2025-07-23,2025-07-23T16:30:00,2025-07-23T16:26:00,2025-07-23T16:12:00,Cardiology,Post-PCI Review,New,GP,Routine,NP D. Chen,Completed,-18.0,F,36,Hornsby,Active
+V000297,P00373,2024-05-08,2024-05-08T13:00:00,2024-05-08T12:29:00,2024-05-08T12:57:00,Neurology,MS Clinic,Follow-up,GP,Routine,Dr B. Jones,Completed,-3.0,F,45,Hornsby,Active
+V000298,P00211,2025-11-08,2025-11-08T11:00:00,2025-11-08T11:09:00,2025-11-08T11:13:00,Cardiology,Heart Failure,New,ED,Routine,PA E. Patel,Completed,13.0,M,53,Willoughby,Active
+V000299,P00039,2025-09-25,2025-09-25T13:00:00,2025-09-25T12:44:00,2025-09-25T13:48:00,Rheumatology,Lupus,Follow-up,GP,Routine,Dr B. Jones,Completed,48.0,M,47,Ku-ring-gai,Active
+V000300,P00143,2024-06-11,2024-06-11T15:00:00,2024-06-11T14:39:00,2024-06-11T14:50:00,General Medicine,Complex Care,Follow-up,GP,Routine,NP D. Chen,Completed,-10.0,F,38,Northern Beaches,Active
+V000301,P00117,2025-05-04,2025-05-04T16:45:00,2025-05-04T16:43:00,2025-05-04T16:27:00,Cardiology,Heart Failure,Follow-up,GP,Routine,Dr B. Jones,Completed,-18.0,F,65,Ku-ring-gai,Active
+V000302,P00296,2025-08-28,2025-08-28T11:30:00,2025-08-28T11:13:00,2025-08-28T11:10:00,Cardiology,Heart Failure,New,Specialist,Routine,NP D. Chen,Completed,-20.0,F,75,Ku-ring-gai,Pending
+V000303,P00082,2024-01-14,2024-01-14T14:45:00,2024-01-14T14:46:00,2024-01-14T14:55:00,Neurology,MS Clinic,Follow-up,GP,Routine,Dr A. Smith,Completed,10.0,F,56,Northern Beaches,Active
+V000304,P00111,2024-05-11,2024-05-11T14:15:00,2024-05-11T13:48:00,2024-05-11T14:02:00,Gastroenterology,IBD,New,GP,Routine,Dr A. Smith,Completed,-13.0,M,34,Northern Beaches,Active
+V000305,P00337,2024-05-10,2024-05-10T16:15:00,2024-05-10T16:04:00,2024-05-10T16:31:00,Gastroenterology,Endoscopy Review,New,GP,Routine,Dr B. Jones,Completed,16.0,F,70,Hornsby,Active
+V000306,P00276,2024-03-17,2024-03-17T12:15:00,2024-03-17T12:28:00,2024-03-17T12:40:00,Orthopaedics,Spine Review,Follow-up,GP,Routine,Dr C. Lee,Completed,25.0,F,60,Willoughby,Active
+V000307,P00373,2024-08-02,2024-08-02T13:30:00,2024-08-02T13:27:00,2024-08-02T13:18:00,Gastroenterology,Endoscopy Review,Follow-up,Specialist,Routine,NP D. Chen,Completed,-12.0,F,56,Hornsby,Pending
+V000308,P00273,2025-11-06,2025-11-06T11:30:00,2025-11-06T11:43:00,2025-11-06T12:01:00,Renal,Access Clinic,Follow-up,GP,Routine,Dr A. Smith,Completed,31.0,F,51,Willoughby,Reciprocal
+V000309,P00372,2024-11-13,2024-11-13T09:45:00,,,Orthopaedics,Spine Review,Follow-up,GP,Routine,Dr C. Lee,Cancelled,,F,51,Hornsby,Active
+V000310,P00347,2024-07-20,2024-07-20T14:30:00,2024-07-20T14:22:00,2024-07-20T14:21:00,Renal,Dialysis Review,Procedure Prep,GP,Routine,Dr A. Smith,Completed,-9.0,F,63,Ku-ring-gai,Active
+V000311,P00085,2025-01-07,2025-01-07T08:30:00,2025-01-07T08:20:00,2025-01-07T08:10:00,Gastroenterology,Hepatitis,New,ED,Routine,PA E. Patel,Completed,-20.0,M,80,Hornsby,Active
+V000312,P00162,2024-07-09,2024-07-09T16:00:00,2024-07-09T16:05:00,2024-07-09T17:07:00,Neurology,Epilepsy,Follow-up,GP,Routine,PA E. Patel,Completed,67.0,M,53,Hornsby,Active
+V000313,P00318,2025-01-30,2025-01-30T08:45:00,,,Neurology,MS Clinic,New,GP,Routine,Dr A. Smith,No-Show,,F,42,Ryde,Active
+V000314,P00286,2025-05-22,2025-05-22T14:00:00,2025-05-22T14:12:00,2025-05-22T14:10:00,Oncology,New Cancer Consult,Follow-up,GP,Routine,Dr B. Jones,Completed,10.0,M,44,Willoughby,Active
+V000315,P00332,2025-09-18,2025-09-18T09:30:00,2025-09-18T09:37:00,2025-09-18T09:45:00,General Medicine,Complex Care,Follow-up,Specialist,Routine,Dr B. Jones,Completed,15.0,F,44,Northern Beaches,Active
+V000316,P00286,2024-11-05,2024-11-05T15:45:00,2024-11-05T15:14:00,2024-11-05T16:04:00,General Medicine,Senior Review,New,GP,Soon,Dr C. Lee,Completed,19.0,M,30,Northern Beaches,Pending
+V000317,P00291,2024-08-26,2024-08-26T13:30:00,2024-08-26T13:10:00,2024-08-26T13:23:00,Gastroenterology,Endoscopy Review,Follow-up,GP,Routine,Dr B. Jones,Completed,-7.0,F,41,Northern Beaches,Active
+V000318,P00192,2024-05-30,2024-05-30T13:45:00,2024-05-30T13:36:00,2024-05-30T13:50:00,Oncology,Chemo Review,New,Specialist,Urgent,Dr A. Smith,Completed,5.0,F,63,Northern Beaches,Active
+V000319,P00129,2024-09-01,2024-09-01T08:00:00,2024-09-01T08:18:00,2024-09-01T08:19:00,Renal,Dialysis Review,Follow-up,Specialist,Routine,NP D. Chen,Completed,19.0,F,52,Hornsby,Active
+V000320,P00069,2025-09-26,2025-09-26T08:30:00,2025-09-26T08:36:00,2025-09-26T08:49:00,Gastroenterology,Endoscopy Review,Follow-up,GP,Routine,PA E. Patel,Completed,19.0,F,74,Ku-ring-gai,Active
+V000321,P00043,2025-05-24,2025-05-24T16:30:00,2025-05-24T16:44:00,2025-05-24T16:54:00,Oncology,New Cancer Consult,Follow-up,GP,Routine,PA E. Patel,Completed,24.0,M,67,Willoughby,Active
+V000322,P00204,2025-07-06,2025-07-06T08:00:00,2025-07-06T07:46:00,2025-07-06T07:56:00,Neurology,MS Clinic,New,GP,Routine,Dr B. Jones,Completed,-4.0,F,66,Ku-ring-gai,Active
+V000323,P00203,2025-02-11,2025-02-11T16:30:00,2025-02-11T16:18:00,2025-02-11T16:26:00,Orthopaedics,Joint Clinic,Follow-up,Inpatient,Routine,Dr C. Lee,Completed,-4.0,M,21,Ku-ring-gai,Active
+V000324,P00324,2025-03-25,2025-03-25T16:15:00,2025-03-25T15:49:00,2025-03-25T16:14:00,General Medicine,General Clinic,Follow-up,GP,Routine,PA E. Patel,Completed,-1.0,M,55,Northern Beaches,Active
+V000325,P00157,2025-02-08,2025-02-08T11:00:00,,,Renal,Dialysis Review,New,Specialist,Routine,Dr C. Lee,No-Show,,F,74,Ku-ring-gai,Active
+V000326,P00092,2025-03-07,2025-03-07T10:15:00,2025-03-07T10:08:00,2025-03-07T10:40:00,Respiratory,COPD,Follow-up,GP,Routine,NP D. Chen,Completed,25.0,F,64,Willoughby,Active
+V000327,P00189,2024-04-21,2024-04-21T10:45:00,2024-04-21T10:14:00,2024-04-21T11:22:00,Renal,Access Clinic,Follow-up,GP,Soon,Dr C. Lee,Completed,37.0,F,48,Hornsby,Active
+V000328,P00334,2025-06-28,2025-06-28T11:45:00,2025-06-28T11:23:00,2025-06-28T12:08:00,Gastroenterology,Hepatitis,Follow-up,GP,Urgent,Dr B. Jones,Completed,23.0,M,69,Willoughby,Active
+V000329,P00066,2024-03-29,2024-03-29T15:15:00,2024-03-29T14:32:00,2024-03-29T15:05:00,Neurology,MS Clinic,Follow-up,GP,Routine,NP D. Chen,Completed,-10.0,M,43,Ryde,Pending
+V000330,P00272,2024-04-30,2024-04-30T10:30:00,,,General Medicine,General Clinic,Follow-up,GP,Routine,NP D. Chen,Cancelled,,M,55,Ryde,Active
+V000331,P00143,2025-06-07,2025-06-07T12:30:00,2025-06-07T12:40:00,2025-06-07T12:35:00,Cardiology,Arrhythmia,Follow-up,GP,Routine,NP D. Chen,Completed,5.0,M,32,Hornsby,Active
+V000332,P00119,2025-06-13,2025-06-13T16:30:00,2025-06-13T16:31:00,2025-06-13T16:43:00,Cardiology,Arrhythmia,Follow-up,Inpatient,Urgent,Dr C. Lee,Completed,13.0,F,47,Northern Beaches,Active
+V000333,P00019,2024-06-11,2024-06-11T09:15:00,2024-06-11T09:18:00,2024-06-11T09:36:00,Neurology,Epilepsy,Follow-up,GP,Urgent,Dr B. Jones,Completed,21.0,F,67,Northern Beaches,Active
+V000334,P00212,2025-11-07,2025-11-07T15:15:00,2025-11-07T15:14:00,2025-11-07T14:55:00,Oncology,Chemo Review,Follow-up,GP,Routine,Dr C. Lee,Completed,-20.0,F,62,Northern Beaches,Active
+V000335,P00086,2025-06-27,2025-06-27T16:00:00,2025-06-27T16:00:00,2025-06-27T16:25:00,Orthopaedics,Joint Clinic,Follow-up,GP,Soon,Dr B. Jones,Completed,25.0,F,52,Ryde,Pending
+V000336,P00244,2025-09-13,2025-09-13T14:45:00,2025-09-13T15:02:00,2025-09-13T14:52:00,General Medicine,Senior Review,New,GP,Routine,Dr C. Lee,Completed,7.0,M,66,Willoughby,Active
+V000337,P00370,2024-12-01,2024-12-01T14:45:00,2024-12-01T14:38:00,2024-12-01T14:50:00,General Medicine,Senior Review,New,Inpatient,Routine,Dr B. Jones,Completed,5.0,M,81,Northern Beaches,Active
+V000338,P00089,2025-05-16,2025-05-16T09:15:00,2025-05-16T09:20:00,2025-05-16T10:19:00,Gastroenterology,Hepatitis,New,GP,Urgent,NP D. Chen,Completed,64.0,F,44,Ku-ring-gai,Active
+V000339,P00186,2025-11-04,2025-11-04T13:00:00,2025-11-04T12:53:00,2025-11-04T12:49:00,Respiratory,COPD,Follow-up,GP,Routine,Dr C. Lee,Completed,-11.0,M,42,Ku-ring-gai,Pending
+V000340,P00032,2025-01-31,2025-01-31T15:45:00,2025-01-31T15:44:00,2025-01-31T15:35:00,General Medicine,Senior Review,New,GP,Soon,PA E. Patel,Completed,-10.0,F,46,Ryde,Active
+V000341,P00151,2025-02-27,2025-02-27T11:00:00,2025-02-27T10:46:00,2025-02-27T10:46:00,Endocrinology,Diabetes,Follow-up,Specialist,Routine,PA E. Patel,Completed,-14.0,M,42,Ryde,Active
+V000342,P00353,2024-03-03,2024-03-03T12:15:00,2024-03-03T12:10:00,2024-03-03T12:15:00,Endocrinology,Diabetes,New,Specialist,Routine,Dr C. Lee,Completed,0.0,M,49,Willoughby,Reciprocal
+V000343,P00074,2025-05-12,2025-05-12T08:30:00,,,Rheumatology,RA Clinic,Follow-up,GP,Routine,PA E. Patel,No-Show,,M,60,Hornsby,Pending
+V000344,P00309,2025-02-01,2025-02-01T14:45:00,2025-02-01T14:49:00,2025-02-01T14:29:00,Rheumatology,Gout/Metabolic,Follow-up,GP,Routine,Dr C. Lee,Completed,-16.0,M,70,Ryde,Pending
+V000345,P00273,2025-10-12,2025-10-12T11:00:00,2025-10-12T10:33:00,2025-10-12T10:53:00,Oncology,New Cancer Consult,Follow-up,GP,Routine,Dr A. Smith,Completed,-7.0,M,82,Willoughby,Active
+V000346,P00048,2025-04-24,2025-04-24T14:15:00,2025-04-24T14:11:00,2025-04-24T14:53:00,Orthopaedics,Spine Review,Follow-up,ED,Urgent,NP D. Chen,Completed,38.0,F,35,Hornsby,Active
+V000347,P00312,2023-12-03,2023-12-03T13:00:00,2023-12-03T13:20:00,2023-12-03T12:55:00,Cardiology,Post-PCI Review,Follow-up,Specialist,Routine,Dr A. Smith,Completed,-5.0,F,50,Ryde,Active
+V000348,P00062,2025-06-17,2025-06-17T09:00:00,2025-06-17T08:49:00,2025-06-17T09:25:00,Respiratory,Sleep Study Follow-up,Follow-up,GP,Routine,NP D. Chen,Completed,25.0,F,57,Ryde,Active
+V000349,P00128,2025-01-16,2025-01-16T14:00:00,2025-01-16T14:02:00,2025-01-16T13:40:00,Respiratory,Sleep Study Follow-up,Follow-up,GP,Routine,NP D. Chen,Completed,-20.0,F,55,Ku-ring-gai,Active
+V000350,P00166,2025-06-17,2025-06-17T12:15:00,2025-06-17T12:09:00,2025-06-17T12:03:00,Cardiology,Heart Failure,New,ED,Routine,PA E. Patel,Completed,-12.0,M,52,Willoughby,Active
+V000351,P00156,2025-08-30,2025-08-30T12:45:00,2025-08-30T13:19:00,2025-08-30T12:25:00,Cardiology,Arrhythmia,New,Inpatient,Soon,PA E. Patel,Completed,-20.0,F,30,Ku-ring-gai,Active
+V000352,P00055,2025-02-05,2025-02-05T10:00:00,2025-02-05T10:20:00,2025-02-05T10:02:00,Endocrinology,Diabetes,Follow-up,GP,Routine,Dr A. Smith,Completed,2.0,F,67,Willoughby,Active
+V000353,P00258,2025-02-07,2025-02-07T10:45:00,2025-02-07T10:43:00,2025-02-07T10:55:00,Respiratory,Asthma,Follow-up,GP,Routine,Dr C. Lee,Completed,10.0,F,71,Northern Beaches,Active
+V000354,P00057,2024-09-11,2024-09-11T11:15:00,2024-09-11T11:03:00,2024-09-11T11:19:00,Respiratory,Sleep Study Follow-up,Follow-up,Specialist,Routine,Dr C. Lee,Completed,4.0,F,66,Northern Beaches,Active
+V000355,P00109,2024-09-16,2024-09-16T13:30:00,2024-09-16T12:57:00,2024-09-16T14:01:00,Cardiology,Arrhythmia,Follow-up,Inpatient,Routine,Dr A. Smith,Completed,31.0,F,44,Ryde,Active
+V000356,P00310,2025-10-13,2025-10-13T09:30:00,,,Renal,Access Clinic,New,GP,Routine,NP D. Chen,No-Show,,M,49,Ku-ring-gai,Active
+V000357,P00235,2024-10-16,2024-10-16T11:30:00,2024-10-16T11:30:00,2024-10-16T11:38:00,Oncology,New Cancer Consult,Follow-up,GP,Routine,Dr A. Smith,Completed,8.0,F,47,Hornsby,Pending
+V000358,P00146,2023-12-13,2023-12-13T12:45:00,,,Gastroenterology,Endoscopy Review,New,ED,Urgent,NP D. Chen,Cancelled,,F,65,Northern Beaches,Active
+V000359,P00357,2024-07-11,2024-07-11T10:15:00,2024-07-11T10:25:00,2024-07-11T10:57:00,Oncology,Radiation Review,Follow-up,ED,Routine,Dr A. Smith,Completed,42.0,F,52,Ku-ring-gai,Active
+V000360,P00134,2024-06-08,2024-06-08T15:15:00,2024-06-08T15:05:00,2024-06-08T15:12:00,Oncology,New Cancer Consult,Follow-up,ED,Urgent,PA E. Patel,Completed,-3.0,M,43,Willoughby,Active
+V000361,P00302,2025-01-03,2025-01-03T10:30:00,2025-01-03T09:54:00,2025-01-03T10:30:00,Cardiology,Heart Failure,Follow-up,GP,Routine,PA E. Patel,Completed,0.0,M,35,Willoughby,Active
+V000362,P00057,2024-11-26,2024-11-26T13:30:00,2024-11-26T13:42:00,2024-11-26T14:29:00,Gastroenterology,IBD,New,GP,Routine,Dr B. Jones,Completed,59.0,F,31,Willoughby,Active
+V000363,P00070,2025-05-31,2025-05-31T10:45:00,2025-05-31T10:43:00,2025-05-31T10:54:00,Orthopaedics,Fracture,Follow-up,GP,Routine,PA E. Patel,Completed,9.0,M,73,Ku-ring-gai,Active
+V000364,P00340,2024-12-18,2024-12-18T14:30:00,,,Rheumatology,Gout/Metabolic,Follow-up,GP,Routine,Dr A. Smith,No-Show,,M,50,Northern Beaches,Active
+V000365,P00123,2024-11-01,2024-11-01T12:15:00,2024-11-01T11:33:00,2024-11-01T11:55:00,Rheumatology,Gout/Metabolic,Follow-up,Inpatient,Routine,NP D. Chen,Completed,-20.0,F,85,Ku-ring-gai,Active
+V000366,P00314,2024-10-30,2024-10-30T12:30:00,2024-10-30T12:31:00,2024-10-30T13:02:00,Oncology,New Cancer Consult,New,GP,Urgent,NP D. Chen,Completed,32.0,M,57,Willoughby,Active
+V000367,P00064,2024-11-25,2024-11-25T13:00:00,2024-11-25T13:02:00,2024-11-25T13:05:00,General Medicine,Senior Review,New,GP,Routine,NP D. Chen,Completed,5.0,M,57,Hornsby,Active
+V000368,P00103,2025-07-21,2025-07-21T09:30:00,2025-07-21T09:12:00,2025-07-21T09:46:00,Respiratory,Sleep Study Follow-up,New,ED,Routine,PA E. Patel,Completed,16.0,F,38,Ku-ring-gai,Active
+V000369,P00326,2025-02-24,2025-02-24T09:45:00,,,Renal,Dialysis Review,Follow-up,GP,Routine,Dr B. Jones,No-Show,,M,60,Ku-ring-gai,Active
+V000370,P00376,2025-02-21,2025-02-21T08:45:00,,,Renal,Transplant Follow-up,Follow-up,GP,Routine,PA E. Patel,No-Show,,M,33,Ryde,Active
+V000371,P00265,2024-03-10,2024-03-10T12:30:00,2024-03-10T12:21:00,2024-03-10T12:35:00,Neurology,Stroke Follow-up,New,ED,Routine,Dr B. Jones,Completed,5.0,M,76,Hornsby,Active
+V000372,P00091,2024-03-05,2024-03-05T13:30:00,2024-03-05T13:17:00,2024-03-05T13:59:00,General Medicine,Complex Care,Follow-up,GP,Routine,PA E. Patel,Completed,29.0,M,76,Northern Beaches,Active
+V000373,P00153,2025-01-30,2025-01-30T09:00:00,2025-01-30T09:12:00,2025-01-30T09:22:00,Orthopaedics,Joint Clinic,New,ED,Routine,NP D. Chen,Completed,22.0,M,71,Ku-ring-gai,Active
+V000374,P00209,2025-11-07,2025-11-07T13:00:00,2025-11-07T13:04:00,2025-11-07T13:09:00,Gastroenterology,IBD,Follow-up,GP,Routine,Dr B. Jones,Completed,9.0,M,79,Ku-ring-gai,Active
+V000375,P00243,2024-05-22,2024-05-22T10:45:00,2024-05-22T10:17:00,2024-05-22T11:12:00,Renal,Dialysis Review,New,GP,Routine,Dr C. Lee,Completed,27.0,M,57,Ku-ring-gai,Active
+V000376,P00315,2024-07-14,2024-07-14T09:15:00,2024-07-14T08:56:00,2024-07-14T08:58:00,Gastroenterology,Endoscopy Review,New,ED,Routine,Dr B. Jones,Completed,-17.0,F,58,Ryde,Active
+V000377,P00217,2024-01-03,2024-01-03T08:45:00,2024-01-03T08:48:00,2024-01-03T08:44:00,Neurology,Stroke Follow-up,New,Specialist,Routine,Dr B. Jones,Completed,-1.0,F,36,Ryde,Active
+V000378,P00021,2024-11-18,2024-11-18T11:45:00,2024-11-18T12:00:00,2024-11-18T11:30:00,General Medicine,Senior Review,Follow-up,GP,Urgent,Dr C. Lee,Completed,-15.0,F,43,Ryde,Active
+V000379,P00002,2025-05-17,2025-05-17T08:30:00,,,Respiratory,Sleep Study Follow-up,New,GP,Routine,Dr A. Smith,No-Show,,M,39,Northern Beaches,Active
+V000380,P00100,2024-12-07,2024-12-07T08:00:00,2024-12-07T08:00:00,2024-12-07T08:21:00,Cardiology,Heart Failure,Follow-up,Specialist,Routine,NP D. Chen,Completed,21.0,F,52,Ryde,Active
+V000381,P00112,2024-08-25,2024-08-25T08:45:00,2024-08-25T08:31:00,2024-08-25T09:11:00,Oncology,Chemo Review,New,GP,Routine,Dr A. Smith,Completed,26.0,F,74,Willoughby,Active
+V000382,P00114,2025-08-03,2025-08-03T12:15:00,2025-08-03T12:12:00,2025-08-03T12:22:00,Rheumatology,RA Clinic,New,GP,Routine,NP D. Chen,Completed,7.0,M,60,Willoughby,Active
+V000383,P00333,2024-07-26,2024-07-26T16:15:00,,,Cardiology,Arrhythmia,Follow-up,GP,Routine,Dr C. Lee,No-Show,,M,87,Ryde,Active
+V000384,P00188,2024-08-12,2024-08-12T13:30:00,2024-08-12T13:39:00,2024-08-12T13:47:00,Endocrinology,Thyroid,New,ED,Soon,Dr A. Smith,Completed,17.0,M,42,Willoughby,Active
+V000385,P00030,2025-02-04,2025-02-04T12:30:00,2025-02-04T12:10:00,2025-02-04T12:10:00,General Medicine,General Clinic,Follow-up,GP,Routine,Dr B. Jones,Completed,-20.0,M,64,Ryde,Active
+V000386,P00083,2024-12-16,2024-12-16T10:30:00,2024-12-16T10:28:00,2024-12-16T10:50:00,Orthopaedics,Fracture,New,Specialist,Soon,Dr A. Smith,Completed,20.0,F,47,Willoughby,Active
+V000387,P00117,2023-12-21,2023-12-21T12:15:00,2023-12-21T12:04:00,2023-12-21T12:12:00,Oncology,Radiation Review,Follow-up,ED,Urgent,PA E. Patel,Completed,-3.0,F,39,Willoughby,Active
+V000388,P00186,2025-04-07,2025-04-07T09:30:00,2025-04-07T09:36:00,2025-04-07T10:09:00,General Medicine,General Clinic,Procedure Prep,GP,Routine,Dr B. Jones,Completed,39.0,F,58,Ku-ring-gai,Active
+V000389,P00386,2023-11-15,2023-11-15T16:15:00,2023-11-15T16:12:00,2023-11-15T16:12:00,Gastroenterology,Hepatitis,New,Specialist,Routine,Dr C. Lee,Completed,-3.0,M,40,Ku-ring-gai,Pending
+V000390,P00094,2024-09-03,2024-09-03T08:30:00,2024-09-03T08:32:00,2024-09-03T08:19:00,Rheumatology,RA Clinic,Follow-up,Specialist,Urgent,Dr C. Lee,Completed,-11.0,F,69,Ku-ring-gai,Reciprocal
+V000391,P00316,2025-06-23,2025-06-23T14:15:00,2025-06-23T14:11:00,2025-06-23T14:12:00,Respiratory,Asthma,Procedure Prep,GP,Routine,NP D. Chen,Completed,-3.0,F,50,Hornsby,Active
+V000392,P00323,2025-03-22,2025-03-22T10:15:00,2025-03-22T10:17:00,2025-03-22T10:50:00,General Medicine,General Clinic,New,Specialist,Soon,Dr C. Lee,Completed,35.0,M,46,Ku-ring-gai,Active
+V000393,P00231,2024-09-06,2024-09-06T08:30:00,2024-09-06T08:27:00,2024-09-06T08:19:00,Gastroenterology,Hepatitis,Follow-up,ED,Urgent,Dr A. Smith,Completed,-11.0,F,56,Ryde,Active
+V000394,P00021,2023-11-12,2023-11-12T08:30:00,2023-11-12T08:35:00,2023-11-12T08:42:00,Oncology,Radiation Review,Follow-up,Specialist,Routine,Dr C. Lee,Completed,12.0,F,78,Hornsby,Active
+V000395,P00396,2024-08-12,2024-08-12T16:00:00,2024-08-12T16:00:00,2024-08-12T16:13:00,General Medicine,General Clinic,Procedure Prep,Specialist,Routine,PA E. Patel,Completed,13.0,M,44,Northern Beaches,Active
+V000396,P00212,2024-07-29,2024-07-29T12:45:00,2024-07-29T12:49:00,2024-07-29T13:03:00,Rheumatology,RA Clinic,Procedure Prep,GP,Urgent,PA E. Patel,Completed,18.0,F,79,Hornsby,Active
+V000397,P00263,2024-12-19,2024-12-19T13:45:00,2024-12-19T13:42:00,2024-12-19T14:08:00,Oncology,Chemo Review,Follow-up,Specialist,Urgent,NP D. Chen,Completed,23.0,F,64,Ku-ring-gai,Active
+V000398,P00276,2025-08-22,2025-08-22T08:00:00,2025-08-22T08:04:00,2025-08-22T08:10:00,Respiratory,COPD,New,GP,Routine,Dr B. Jones,Completed,10.0,M,64,Willoughby,Active
+V000399,P00330,2024-05-27,2024-05-27T13:30:00,2024-05-27T13:44:00,2024-05-27T13:52:00,Cardiology,Heart Failure,Follow-up,GP,Routine,Dr A. Smith,Completed,22.0,F,92,Willoughby,Active
+V000400,P00288,2024-09-11,2024-09-11T10:00:00,2024-09-11T09:38:00,2024-09-11T10:34:00,General Medicine,General Clinic,New,Inpatient,Routine,Dr A. Smith,Completed,34.0,M,95,Hornsby,Active
+V000401,P00302,2025-07-31,2025-07-31T13:00:00,,,Rheumatology,Lupus,Follow-up,Inpatient,Routine,NP D. Chen,No-Show,,F,57,Northern Beaches,Active
+V000402,P00116,2024-07-01,2024-07-01T15:00:00,2024-07-01T15:18:00,2024-07-01T15:21:00,General Medicine,Senior Review,New,Specialist,Urgent,Dr A. Smith,Completed,21.0,M,64,Ryde,Active
+V000403,P00015,2025-03-19,2025-03-19T08:45:00,2025-03-19T08:43:00,2025-03-19T09:25:00,Oncology,Radiation Review,New,ED,Routine,NP D. Chen,Completed,40.0,M,51,Willoughby,Active
+V000404,P00123,2025-05-27,2025-05-27T14:30:00,2025-05-27T14:23:00,2025-05-27T15:08:00,Endocrinology,Diabetes,Follow-up,GP,Urgent,Dr B. Jones,Completed,38.0,M,68,Ryde,Active
+V000405,P00306,2025-10-19,2025-10-19T10:45:00,2025-10-19T10:47:00,2025-10-19T10:49:00,Orthopaedics,Joint Clinic,New,Inpatient,Urgent,Dr B. Jones,Completed,4.0,F,42,Ryde,Active
+V000406,P00226,2024-01-21,2024-01-21T08:45:00,2024-01-21T08:32:00,2024-01-21T08:58:00,Neurology,MS Clinic,Follow-up,GP,Routine,Dr A. Smith,Completed,13.0,F,62,Hornsby,Active
+V000407,P00338,2025-06-04,2025-06-04T08:45:00,2025-06-04T09:06:00,2025-06-04T08:42:00,Gastroenterology,Hepatitis,New,Specialist,Routine,Dr B. Jones,Completed,-3.0,M,58,Ryde,Active
+V000408,P00042,2024-12-31,2024-12-31T15:45:00,2024-12-31T15:15:00,2024-12-31T15:58:00,Orthopaedics,Joint Clinic,New,GP,Soon,Dr C. Lee,Completed,13.0,M,73,Northern Beaches,Pending
+V000409,P00007,2024-11-20,2024-11-20T15:30:00,2024-11-20T15:09:00,2024-11-20T15:34:00,Oncology,Radiation Review,Follow-up,GP,Routine,PA E. Patel,Completed,4.0,F,30,Willoughby,Active
+V000410,P00367,2024-11-10,2024-11-10T16:30:00,2024-11-10T16:23:00,2024-11-10T16:39:00,Orthopaedics,Spine Review,Follow-up,GP,Routine,Dr B. Jones,Completed,9.0,M,58,Ryde,Active
+V000411,P00108,2025-07-17,2025-07-17T09:00:00,2025-07-17T08:42:00,2025-07-17T09:18:00,General Medicine,Complex Care,Follow-up,ED,Routine,Dr C. Lee,Completed,18.0,F,59,Ku-ring-gai,Active
+V000412,P00286,2025-01-29,2025-01-29T12:30:00,2025-01-29T12:19:00,2025-01-29T12:50:00,Rheumatology,Gout/Metabolic,Follow-up,GP,Routine,Dr B. Jones,Completed,20.0,F,49,Ryde,Active
+V000413,P00236,2025-04-01,2025-04-01T09:00:00,2025-04-01T09:08:00,2025-04-01T08:59:00,Gastroenterology,Endoscopy Review,New,GP,Soon,NP D. Chen,Completed,-1.0,M,51,Ryde,Active
+V000414,P00057,2024-06-27,2024-06-27T08:15:00,2024-06-27T08:25:00,2024-06-27T08:28:00,Neurology,MS Clinic,Follow-up,ED,Routine,PA E. Patel,Completed,13.0,F,89,Hornsby,Active
+V000415,P00310,2024-01-28,2024-01-28T15:30:00,2024-01-28T15:22:00,2024-01-28T16:10:00,General Medicine,Complex Care,New,ED,Soon,PA E. Patel,Completed,40.0,M,47,Ku-ring-gai,Active
+V000416,P00197,2025-10-31,2025-10-31T08:45:00,2025-10-31T08:45:00,2025-10-31T08:29:00,Endocrinology,Metabolic Clinic,New,GP,Routine,Dr A. Smith,Completed,-16.0,F,56,Ryde,Active
+V000417,P00218,2023-12-21,2023-12-21T08:00:00,2023-12-21T08:03:00,2023-12-21T08:16:00,General Medicine,Complex Care,Follow-up,GP,Routine,Dr A. Smith,Completed,16.0,F,56,Ryde,Active
+V000418,P00225,2025-03-19,2025-03-19T14:45:00,2025-03-19T14:43:00,2025-03-19T14:58:00,Neurology,MS Clinic,New,GP,Routine,Dr C. Lee,Completed,13.0,F,86,Ryde,Active
+V000419,P00145,2025-03-21,2025-03-21T09:00:00,2025-03-21T09:17:00,2025-03-21T08:50:00,General Medicine,General Clinic,Procedure Prep,GP,Urgent,Dr C. Lee,Completed,-10.0,F,53,Ku-ring-gai,Active
+V000420,P00085,2023-11-27,2023-11-27T14:45:00,2023-11-27T15:04:00,2023-11-27T15:14:00,Oncology,Chemo Review,Follow-up,GP,Routine,Dr A. Smith,Completed,29.0,M,47,Ku-ring-gai,Active
+V000421,P00091,2023-12-31,2023-12-31T12:30:00,2023-12-31T12:01:00,2023-12-31T12:24:00,Endocrinology,Thyroid,Follow-up,ED,Routine,Dr A. Smith,Completed,-6.0,F,53,Hornsby,Reciprocal
+V000422,P00392,2024-04-12,2024-04-12T09:45:00,2024-04-12T09:42:00,2024-04-12T10:01:00,Renal,Access Clinic,New,GP,Routine,Dr C. Lee,Completed,16.0,M,60,Ryde,Active
+V000423,P00116,2023-12-22,2023-12-22T16:30:00,,,Gastroenterology,Hepatitis,Follow-up,Specialist,Urgent,NP D. Chen,Cancelled,,M,53,Northern Beaches,Active
+V000424,P00133,2025-08-15,2025-08-15T15:00:00,2025-08-15T15:18:00,2025-08-15T15:11:00,Cardiology,Arrhythmia,New,GP,Routine,Dr B. Jones,Completed,11.0,M,83,Northern Beaches,Active
+V000425,P00378,2025-07-28,2025-07-28T08:30:00,2025-07-28T08:19:00,2025-07-28T08:55:00,Neurology,MS Clinic,Procedure Prep,Specialist,Routine,Dr C. Lee,Completed,25.0,M,59,Ku-ring-gai,Reciprocal
+V000426,P00394,2025-04-11,2025-04-11T09:00:00,,,Renal,Access Clinic,New,Specialist,Routine,Dr A. Smith,No-Show,,F,33,Hornsby,Active
+V000427,P00360,2024-10-26,2024-10-26T16:15:00,2024-10-26T16:20:00,2024-10-26T16:50:00,Cardiology,Arrhythmia,Follow-up,GP,Routine,Dr A. Smith,Completed,35.0,M,43,Hornsby,Active
+V000428,P00366,2023-12-27,2023-12-27T14:45:00,2023-12-27T14:51:00,2023-12-27T15:25:00,Gastroenterology,IBD,Follow-up,ED,Routine,Dr C. Lee,Completed,40.0,F,69,Ku-ring-gai,Active
+V000429,P00141,2025-10-29,2025-10-29T16:45:00,2025-10-29T16:30:00,2025-10-29T16:30:00,Neurology,MS Clinic,Follow-up,GP,Soon,Dr A. Smith,Completed,-15.0,F,69,Northern Beaches,Reciprocal
+V000430,P00016,2025-07-04,2025-07-04T09:30:00,2025-07-04T09:15:00,2025-07-04T09:27:00,Neurology,Stroke Follow-up,Follow-up,GP,Routine,NP D. Chen,Completed,-3.0,M,73,Hornsby,Active
+V000431,P00324,2024-03-04,2024-03-04T10:15:00,2024-03-04T10:12:00,2024-03-04T10:11:00,Neurology,MS Clinic,Follow-up,ED,Routine,PA E. Patel,Completed,-4.0,F,72,Willoughby,Active
+V000432,P00357,2024-02-21,2024-02-21T13:15:00,2024-02-21T13:22:00,2024-02-21T13:41:00,General Medicine,Complex Care,Follow-up,Specialist,Routine,Dr A. Smith,Completed,26.0,F,57,Northern Beaches,Active
+V000433,P00167,2025-11-03,2025-11-03T11:00:00,2025-11-03T10:47:00,2025-11-03T10:40:00,Respiratory,Asthma,New,Inpatient,Routine,Dr C. Lee,Completed,-20.0,F,42,Willoughby,Active
+V000434,P00091,2024-10-18,2024-10-18T16:30:00,2024-10-18T16:29:00,2024-10-18T16:28:00,Respiratory,Asthma,New,Specialist,Urgent,NP D. Chen,Completed,-2.0,F,75,Ryde,Pending
+V000435,P00203,2024-08-04,2024-08-04T08:45:00,2024-08-04T09:15:00,2024-08-04T09:42:00,Renal,Dialysis Review,New,Inpatient,Routine,Dr C. Lee,Completed,57.0,F,52,Hornsby,Active
+V000436,P00361,2025-10-17,2025-10-17T16:00:00,2025-10-17T15:58:00,2025-10-17T16:01:00,Rheumatology,RA Clinic,Follow-up,GP,Routine,NP D. Chen,Completed,1.0,M,71,Ryde,Active
+V000437,P00292,2023-11-24,2023-11-24T13:30:00,2023-11-24T13:09:00,2023-11-24T14:05:00,Orthopaedics,Joint Clinic,Follow-up,GP,Routine,PA E. Patel,Completed,35.0,M,95,Ryde,Reciprocal
+V000438,P00056,2023-12-10,2023-12-10T09:15:00,2023-12-10T09:17:00,2023-12-10T08:58:00,Respiratory,Sleep Study Follow-up,Follow-up,GP,Routine,Dr A. Smith,Completed,-17.0,M,45,Willoughby,Active
+V000439,P00376,2024-01-13,2024-01-13T14:15:00,2024-01-13T14:02:00,2024-01-13T14:27:00,Respiratory,COPD,New,Specialist,Routine,Dr B. Jones,Completed,12.0,M,42,Ryde,Active
+V000440,P00203,2025-08-19,2025-08-19T08:15:00,,,Renal,Transplant Follow-up,New,ED,Soon,NP D. Chen,No-Show,,F,54,Ryde,Active
+V000441,P00187,2025-05-30,2025-05-30T12:00:00,2025-05-30T12:00:00,2025-05-30T12:22:00,Orthopaedics,Spine Review,Follow-up,ED,Routine,Dr B. Jones,Completed,22.0,M,91,Northern Beaches,Active
+V000442,P00393,2025-09-14,2025-09-14T09:00:00,2025-09-14T09:18:00,2025-09-14T09:19:00,General Medicine,Complex Care,Follow-up,GP,Routine,Dr B. Jones,Completed,19.0,M,24,Ku-ring-gai,Active
+V000443,P00272,2025-06-12,2025-06-12T09:45:00,2025-06-12T09:23:00,2025-06-12T10:04:00,Gastroenterology,Hepatitis,Follow-up,Inpatient,Routine,Dr C. Lee,Completed,19.0,M,47,Northern Beaches,Active
+V000444,P00202,2024-12-16,2024-12-16T08:15:00,2024-12-16T08:08:00,2024-12-16T08:52:00,Renal,Transplant Follow-up,New,Inpatient,Routine,Dr A. Smith,Completed,37.0,M,45,Ku-ring-gai,Active
+V000445,P00325,2024-10-11,2024-10-11T08:15:00,,,Orthopaedics,Joint Clinic,Follow-up,Specialist,Urgent,Dr C. Lee,Cancelled,,M,60,Northern Beaches,Active
+V000446,P00293,2025-05-31,2025-05-31T16:45:00,2025-05-31T16:43:00,2025-05-31T16:43:00,Rheumatology,Lupus,Follow-up,GP,Urgent,NP D. Chen,Completed,-2.0,F,61,Hornsby,Active
+V000447,P00029,2024-08-20,2024-08-20T13:45:00,2024-08-20T13:25:00,2024-08-20T13:25:00,Oncology,Chemo Review,Follow-up,GP,Routine,PA E. Patel,Completed,-20.0,F,43,Willoughby,Active
+V000448,P00340,2025-06-24,2025-06-24T14:00:00,2025-06-24T13:26:00,2025-06-24T14:38:00,Oncology,Radiation Review,New,GP,Routine,Dr A. Smith,Completed,38.0,F,49,Ryde,Active
+V000449,P00020,2024-12-24,2024-12-24T08:30:00,2024-12-24T08:42:00,2024-12-24T08:15:00,Renal,Dialysis Review,New,GP,Routine,PA E. Patel,Completed,-15.0,F,87,Hornsby,Active
+V000450,P00350,2024-08-06,2024-08-06T09:30:00,2024-08-06T09:36:00,2024-08-06T09:56:00,Rheumatology,Lupus,New,GP,Soon,Dr A. Smith,Completed,26.0,F,62,Northern Beaches,Active
+V000451,P00277,2025-07-18,2025-07-18T10:30:00,2025-07-18T10:10:00,2025-07-18T10:46:00,Oncology,Radiation Review,New,Specialist,Routine,Dr B. Jones,Completed,16.0,F,32,Ku-ring-gai,Pending
+V000452,P00275,2024-08-21,2024-08-21T13:15:00,2024-08-21T13:07:00,2024-08-21T13:47:00,Oncology,Chemo Review,Follow-up,ED,Routine,Dr C. Lee,Completed,32.0,F,46,Ku-ring-gai,Active
+V000453,P00144,2024-05-20,2024-05-20T16:45:00,2024-05-20T17:01:00,2024-05-20T16:38:00,Cardiology,Heart Failure,New,GP,Routine,Dr A. Smith,Completed,-7.0,M,35,Northern Beaches,Pending
+V000454,P00270,2025-03-24,2025-03-24T13:45:00,2025-03-24T13:57:00,2025-03-24T13:57:00,Rheumatology,RA Clinic,Follow-up,GP,Routine,Dr B. Jones,Completed,12.0,M,32,Hornsby,Active
+V000455,P00253,2025-10-09,2025-10-09T15:15:00,2025-10-09T15:09:00,2025-10-09T15:27:00,Gastroenterology,IBD,Follow-up,GP,Routine,Dr A. Smith,Completed,12.0,F,78,Ku-ring-gai,Active
+V000456,P00004,2024-01-02,2024-01-02T11:30:00,2024-01-02T11:07:00,2024-01-02T12:10:00,Cardiology,Post-PCI Review,Follow-up,Inpatient,Routine,NP D. Chen,Completed,40.0,F,80,Hornsby,Active
+V000457,P00039,2024-06-11,2024-06-11T16:00:00,2024-06-11T16:12:00,2024-06-11T16:23:00,Orthopaedics,Fracture,Follow-up,Specialist,Urgent,PA E. Patel,Completed,23.0,M,89,Willoughby,Active
+V000458,P00033,2023-11-23,2023-11-23T16:00:00,2023-11-23T15:53:00,2023-11-23T16:10:00,General Medicine,Senior Review,New,GP,Urgent,NP D. Chen,Completed,10.0,F,64,Ku-ring-gai,Active
+V000459,P00289,2024-03-23,2024-03-23T12:00:00,2024-03-23T11:36:00,2024-03-23T12:11:00,Renal,Access Clinic,New,ED,Soon,Dr B. Jones,Completed,11.0,F,16,Hornsby,Active
+V000460,P00223,2025-09-06,2025-09-06T13:15:00,2025-09-06T13:28:00,2025-09-06T12:55:00,Oncology,New Cancer Consult,Follow-up,ED,Soon,PA E. Patel,Completed,-20.0,M,58,Ryde,Active
+V000461,P00210,2025-09-15,2025-09-15T16:45:00,,,Rheumatology,Lupus,New,ED,Routine,Dr A. Smith,No-Show,,M,36,Northern Beaches,Active
+V000462,P00357,2025-06-29,2025-06-29T14:30:00,2025-06-29T14:07:00,2025-06-29T14:10:00,Rheumatology,Lupus,Follow-up,GP,Routine,Dr C. Lee,Completed,-20.0,F,55,Hornsby,Active
+V000463,P00152,2024-10-12,2024-10-12T15:30:00,,,Neurology,Epilepsy,New,GP,Routine,Dr B. Jones,Cancelled,,M,70,Ku-ring-gai,Pending
+V000464,P00268,2023-12-08,2023-12-08T09:15:00,2023-12-08T09:35:00,2023-12-08T08:55:00,Respiratory,Sleep Study Follow-up,Follow-up,GP,Routine,Dr A. Smith,Completed,-20.0,F,57,Ryde,Active
+V000465,P00386,2024-07-14,2024-07-14T10:30:00,2024-07-14T10:04:00,2024-07-14T10:34:00,Endocrinology,Diabetes,Follow-up,GP,Soon,Dr A. Smith,Completed,4.0,F,56,Willoughby,Active
+V000466,P00328,2025-05-10,2025-05-10T10:45:00,2025-05-10T10:22:00,2025-05-10T10:54:00,Renal,Access Clinic,Follow-up,Specialist,Routine,NP D. Chen,Completed,9.0,M,30,Willoughby,Active
+V000467,P00266,2025-04-29,2025-04-29T10:45:00,2025-04-29T10:41:00,2025-04-29T11:08:00,Neurology,Epilepsy,New,GP,Routine,Dr A. Smith,Completed,23.0,F,55,Ryde,Active
+V000468,P00053,2025-03-25,2025-03-25T09:30:00,2025-03-25T09:31:00,2025-03-25T09:34:00,Rheumatology,Gout/Metabolic,New,Specialist,Routine,Dr A. Smith,Completed,4.0,F,95,Ryde,Active
+V000469,P00332,2024-02-17,2024-02-17T10:15:00,2024-02-17T10:11:00,2024-02-17T10:08:00,Neurology,Epilepsy,New,GP,Routine,Dr A. Smith,Completed,-7.0,M,65,Ryde,Active
+V000470,P00327,2024-08-31,2024-08-31T08:45:00,2024-08-31T08:40:00,2024-08-31T08:40:00,Respiratory,Sleep Study Follow-up,New,ED,Routine,PA E. Patel,Completed,-5.0,F,65,Ryde,Active
+V000471,P00377,2025-07-01,2025-07-01T10:00:00,2025-07-01T10:09:00,2025-07-01T11:00:00,Oncology,Radiation Review,Follow-up,GP,Routine,Dr B. Jones,Completed,60.0,F,63,Northern Beaches,Active
+V000472,P00382,2024-09-23,2024-09-23T12:15:00,2024-09-23T12:15:00,2024-09-23T12:49:00,Cardiology,Post-PCI Review,Follow-up,GP,Routine,Dr A. Smith,Completed,34.0,M,41,Ryde,Active
+V000473,P00076,2023-12-11,2023-12-11T13:15:00,2023-12-11T13:25:00,2023-12-11T13:08:00,Gastroenterology,IBD,Follow-up,ED,Routine,NP D. Chen,Completed,-7.0,F,75,Hornsby,Active
+V000474,P00323,2025-02-09,2025-02-09T11:45:00,2025-02-09T11:34:00,2025-02-09T11:40:00,Cardiology,Post-PCI Review,Follow-up,GP,Urgent,PA E. Patel,Completed,-5.0,M,45,Ku-ring-gai,Active
+V000475,P00334,2024-01-02,2024-01-02T10:30:00,2024-01-02T10:36:00,2024-01-02T10:21:00,Oncology,Chemo Review,New,GP,Soon,Dr C. Lee,Completed,-9.0,F,70,Hornsby,Active
+V000476,P00325,2024-07-25,2024-07-25T09:00:00,2024-07-25T09:00:00,2024-07-25T09:19:00,Renal,Dialysis Review,New,GP,Routine,Dr C. Lee,Completed,19.0,F,52,Ryde,Active
+V000477,P00349,2025-08-28,2025-08-28T11:00:00,2025-08-28T10:56:00,2025-08-28T11:07:00,Rheumatology,RA Clinic,Follow-up,Specialist,Soon,PA E. Patel,Completed,7.0,F,65,Ryde,Reciprocal
+V000478,P00091,2025-11-07,2025-11-07T15:15:00,2025-11-07T14:43:00,2025-11-07T15:30:00,Neurology,Epilepsy,Follow-up,GP,Routine,Dr C. Lee,Completed,15.0,M,67,Ku-ring-gai,Active
+V000479,P00198,2024-02-25,2024-02-25T12:00:00,2024-02-25T12:19:00,2024-02-25T11:57:00,Neurology,Stroke Follow-up,Follow-up,GP,Routine,Dr A. Smith,Completed,-3.0,F,36,Northern Beaches,Active
+V000480,P00060,2025-03-28,2025-03-28T14:15:00,2025-03-28T14:25:00,2025-03-28T14:21:00,Gastroenterology,Endoscopy Review,New,GP,Routine,Dr B. Jones,Completed,6.0,F,75,Ku-ring-gai,Pending
+V000481,P00390,2024-12-16,2024-12-16T08:30:00,,,Renal,Dialysis Review,Follow-up,GP,Urgent,Dr C. Lee,Cancelled,,M,38,Northern Beaches,Active
+V000482,P00273,2024-09-01,2024-09-01T09:00:00,2024-09-01T08:53:00,2024-09-01T08:50:00,Rheumatology,RA Clinic,Follow-up,GP,Soon,Dr A. Smith,Completed,-10.0,F,68,Ryde,Active
+V000483,P00088,2025-03-24,2025-03-24T15:00:00,2025-03-24T15:02:00,2025-03-24T15:11:00,Renal,Access Clinic,Follow-up,GP,Routine,Dr B. Jones,Completed,11.0,F,58,Hornsby,Active
+V000484,P00080,2025-08-27,2025-08-27T16:30:00,2025-08-27T16:26:00,2025-08-27T16:53:00,Orthopaedics,Joint Clinic,New,GP,Routine,PA E. Patel,Completed,23.0,F,63,Hornsby,Active
+V000485,P00113,2024-07-11,2024-07-11T13:00:00,2024-07-11T13:10:00,2024-07-11T13:15:00,Neurology,Stroke Follow-up,New,Specialist,Urgent,NP D. Chen,Completed,15.0,M,50,Northern Beaches,Active
+V000486,P00166,2024-01-11,2024-01-11T08:45:00,2024-01-11T08:57:00,2024-01-11T08:57:00,Cardiology,Heart Failure,New,Inpatient,Soon,PA E. Patel,Completed,12.0,M,60,Ku-ring-gai,Active
+V000487,P00393,2024-12-07,2024-12-07T14:45:00,2024-12-07T14:43:00,2024-12-07T14:25:00,Endocrinology,Diabetes,Follow-up,GP,Urgent,Dr C. Lee,Completed,-20.0,M,27,Ku-ring-gai,Active
+V000488,P00126,2024-08-04,2024-08-04T08:15:00,2024-08-04T08:37:00,2024-08-04T08:07:00,Cardiology,Heart Failure,Follow-up,Inpatient,Routine,Dr B. Jones,Completed,-8.0,M,68,Ku-ring-gai,Active
+V000489,P00311,2025-03-19,2025-03-19T11:30:00,2025-03-19T11:03:00,2025-03-19T11:47:00,Endocrinology,Metabolic Clinic,Follow-up,GP,Urgent,Dr C. Lee,Completed,17.0,F,72,Ryde,Active
+V000490,P00260,2025-03-22,2025-03-22T12:45:00,2025-03-22T12:20:00,2025-03-22T12:25:00,Renal,Dialysis Review,New,ED,Soon,Dr C. Lee,Completed,-20.0,F,38,Northern Beaches,Active
+V000491,P00176,2024-02-05,2024-02-05T10:00:00,2024-02-05T09:36:00,2024-02-05T10:04:00,Renal,Transplant Follow-up,New,Specialist,Routine,Dr A. Smith,Completed,4.0,F,53,Hornsby,Active
+V000492,P00316,2025-07-10,2025-07-10T10:15:00,,,Cardiology,Post-PCI Review,Follow-up,GP,Routine,Dr C. Lee,Cancelled,,F,82,Willoughby,Active
+V000493,P00205,2024-09-12,2024-09-12T08:00:00,2024-09-12T07:58:00,2024-09-12T08:10:00,Cardiology,Heart Failure,Procedure Prep,GP,Soon,Dr A. Smith,Completed,10.0,F,75,Ryde,Active
+V000494,P00248,2024-09-23,2024-09-23T10:30:00,,,Respiratory,COPD,New,GP,Urgent,Dr C. Lee,No-Show,,M,75,Ryde,Active
+V000495,P00197,2025-07-19,2025-07-19T15:30:00,2025-07-19T15:14:00,2025-07-19T16:05:00,Endocrinology,Metabolic Clinic,Follow-up,Specialist,Soon,PA E. Patel,Completed,35.0,F,49,Willoughby,Active
+V000496,P00012,2024-05-30,2024-05-30T12:00:00,2024-05-30T12:12:00,2024-05-30T12:18:00,Gastroenterology,Hepatitis,New,ED,Routine,Dr B. Jones,Completed,18.0,F,60,Northern Beaches,Active
+V000497,P00203,2024-01-26,2024-01-26T09:30:00,2024-01-26T09:38:00,2024-01-26T09:26:00,Renal,Access Clinic,Follow-up,GP,Routine,Dr B. Jones,Completed,-4.0,F,68,Ku-ring-gai,Active
+V000498,P00084,2025-02-07,2025-02-07T11:15:00,,,Renal,Dialysis Review,Follow-up,GP,Routine,Dr A. Smith,No-Show,,F,34,Northern Beaches,Active
+V000499,P00381,2024-02-08,2024-02-08T15:15:00,2024-02-08T14:53:00,2024-02-08T15:10:00,Cardiology,Post-PCI Review,Follow-up,GP,Routine,Dr A. Smith,Completed,-5.0,F,71,Hornsby,Active
+V000500,P00097,2025-05-01,2025-05-01T11:30:00,2025-05-01T11:25:00,2025-05-01T11:55:00,Orthopaedics,Joint Clinic,Follow-up,GP,Routine,NP D. Chen,Completed,25.0,M,63,Northern Beaches,Active
+V000501,P00338,2024-06-14,2024-06-14T13:00:00,,,Cardiology,Heart Failure,Follow-up,ED,Routine,NP D. Chen,No-Show,,F,37,Willoughby,Active
+V000502,P00336,2025-08-06,2025-08-06T08:30:00,2025-08-06T08:42:00,2025-08-06T08:16:00,Renal,Transplant Follow-up,Follow-up,GP,Routine,Dr B. Jones,Completed,-14.0,F,70,Hornsby,Active
+V000503,P00261,2024-03-31,2024-03-31T08:00:00,,,Gastroenterology,IBD,New,GP,Routine,Dr A. Smith,No-Show,,M,35,Ryde,Active
+V000504,P00067,2025-10-11,2025-10-11T14:30:00,2025-10-11T15:02:00,2025-10-11T14:34:00,Rheumatology,Gout/Metabolic,Follow-up,GP,Routine,NP D. Chen,Completed,4.0,F,65,Northern Beaches,Active
+V000505,P00374,2024-03-09,2024-03-09T14:45:00,2024-03-09T14:43:00,2024-03-09T15:08:00,Endocrinology,Thyroid,Follow-up,Specialist,Urgent,PA E. Patel,Completed,23.0,F,73,Willoughby,Active
+V000506,P00041,2025-09-11,2025-09-11T08:00:00,2025-09-11T07:54:00,2025-09-11T08:08:00,Respiratory,Asthma,New,GP,Urgent,PA E. Patel,Completed,8.0,F,45,Hornsby,Active
+V000507,P00353,2025-01-20,2025-01-20T15:30:00,,,Neurology,Stroke Follow-up,Follow-up,Inpatient,Routine,Dr A. Smith,No-Show,,M,71,Ku-ring-gai,Active
+V000508,P00330,2024-11-15,2024-11-15T09:30:00,2024-11-15T09:31:00,2024-11-15T09:18:00,Endocrinology,Diabetes,New,Specialist,Routine,NP D. Chen,Completed,-12.0,F,63,Hornsby,Active
+V000509,P00339,2025-08-24,2025-08-24T08:00:00,2025-08-24T07:44:00,2025-08-24T08:24:00,Rheumatology,Gout/Metabolic,New,GP,Soon,Dr A. Smith,Completed,24.0,F,85,Ryde,Active
+V000510,P00306,2025-05-28,2025-05-28T14:30:00,2025-05-28T14:14:00,2025-05-28T14:48:00,Gastroenterology,Hepatitis,Follow-up,Inpatient,Urgent,NP D. Chen,Completed,18.0,M,78,Ku-ring-gai,Active
+V000511,P00028,2025-06-25,2025-06-25T09:45:00,2025-06-25T09:51:00,2025-06-25T09:58:00,Cardiology,Heart Failure,New,ED,Soon,Dr C. Lee,Completed,13.0,F,59,Ryde,Pending
+V000512,P00233,2024-07-05,2024-07-05T09:15:00,2024-07-05T08:56:00,2024-07-05T09:34:00,Orthopaedics,Fracture,New,ED,Urgent,Dr C. Lee,Completed,19.0,M,74,Ku-ring-gai,Active
+V000513,P00269,2025-05-05,2025-05-05T16:30:00,2025-05-05T16:26:00,2025-05-05T16:12:00,Gastroenterology,IBD,Follow-up,ED,Soon,Dr B. Jones,Completed,-18.0,M,53,Willoughby,Active
+V000514,P00198,2024-07-30,2024-07-30T12:30:00,,,Neurology,Epilepsy,Follow-up,Specialist,Routine,PA E. Patel,No-Show,,M,71,Hornsby,Active
+V000515,P00024,2025-03-20,2025-03-20T10:30:00,2025-03-20T10:58:00,2025-03-20T10:25:00,Orthopaedics,Joint Clinic,Follow-up,GP,Routine,Dr C. Lee,Completed,-5.0,M,79,Ryde,Pending
+V000516,P00031,2024-10-28,2024-10-28T14:00:00,2024-10-28T13:50:00,2024-10-28T14:57:00,Endocrinology,Diabetes,Follow-up,GP,Routine,NP D. Chen,Completed,57.0,M,44,Ku-ring-gai,Active
+V000517,P00160,2025-08-25,2025-08-25T10:30:00,2025-08-25T10:03:00,2025-08-25T10:54:00,Endocrinology,Metabolic Clinic,New,Specialist,Soon,Dr C. Lee,Completed,24.0,F,37,Ku-ring-gai,Active
+V000518,P00163,2024-12-24,2024-12-24T08:15:00,2024-12-24T08:13:00,2024-12-24T08:46:00,Respiratory,COPD,Follow-up,GP,Routine,Dr A. Smith,Completed,31.0,F,27,Willoughby,Pending
+V000519,P00107,2025-03-19,2025-03-19T12:15:00,2025-03-19T12:21:00,2025-03-19T11:55:00,Oncology,New Cancer Consult,Follow-up,GP,Soon,Dr B. Jones,Completed,-20.0,F,37,Ryde,Active
+V000520,P00296,2025-04-21,2025-04-21T09:15:00,2025-04-21T09:30:00,2025-04-21T09:34:00,Neurology,Epilepsy,New,GP,Routine,Dr A. Smith,Completed,19.0,M,81,Ryde,Reciprocal
+V000521,P00207,2025-10-23,2025-10-23T15:45:00,2025-10-23T15:42:00,2025-10-23T15:49:00,Cardiology,Heart Failure,Follow-up,GP,Routine,NP D. Chen,Completed,4.0,M,51,Ku-ring-gai,Active
+V000522,P00097,2024-06-25,2024-06-25T10:45:00,2024-06-25T10:18:00,2024-06-25T10:25:00,Oncology,New Cancer Consult,Follow-up,GP,Routine,Dr C. Lee,Completed,-20.0,F,95,Hornsby,Active
+V000523,P00049,2025-03-19,2025-03-19T15:15:00,2025-03-19T15:05:00,2025-03-19T15:15:00,Cardiology,Post-PCI Review,New,Inpatient,Urgent,Dr C. Lee,Completed,0.0,F,62,Ryde,Active
+V000524,P00168,2025-09-19,2025-09-19T08:45:00,2025-09-19T08:28:00,2025-09-19T09:00:00,Rheumatology,RA Clinic,Follow-up,GP,Routine,Dr A. Smith,Completed,15.0,F,84,Ryde,Reciprocal
+V000525,P00236,2024-08-02,2024-08-02T15:30:00,2024-08-02T15:13:00,2024-08-02T16:19:00,Renal,Access Clinic,Follow-up,GP,Soon,Dr A. Smith,Completed,49.0,F,53,Willoughby,Active
+V000526,P00199,2025-04-15,2025-04-15T09:30:00,2025-04-15T09:21:00,2025-04-15T09:45:00,General Medicine,Senior Review,Follow-up,GP,Routine,Dr B. Jones,Completed,15.0,F,71,Hornsby,Active
+V000527,P00297,2025-07-17,2025-07-17T12:15:00,2025-07-17T12:13:00,2025-07-17T12:20:00,Respiratory,Asthma,New,Specialist,Soon,NP D. Chen,Completed,5.0,F,68,Willoughby,Reciprocal
+V000528,P00149,2025-02-13,2025-02-13T10:00:00,2025-02-13T10:02:00,2025-02-13T10:18:00,General Medicine,General Clinic,Follow-up,GP,Routine,Dr C. Lee,Completed,18.0,F,68,Ryde,Active
+V000529,P00078,2025-03-05,2025-03-05T14:45:00,2025-03-05T14:56:00,2025-03-05T15:00:00,Oncology,Radiation Review,New,GP,Routine,NP D. Chen,Completed,15.0,F,73,Willoughby,Reciprocal
+V000530,P00371,2025-03-20,2025-03-20T14:30:00,2025-03-20T14:39:00,2025-03-20T14:10:00,Respiratory,Asthma,Follow-up,GP,Routine,Dr B. Jones,Completed,-20.0,M,47,Ku-ring-gai,Active
+V000531,P00263,2024-05-25,2024-05-25T10:15:00,2024-05-25T10:31:00,2024-05-25T10:41:00,Oncology,Chemo Review,New,Inpatient,Routine,Dr C. Lee,Completed,26.0,M,33,Northern Beaches,Active
+V000532,P00057,2025-10-05,2025-10-05T08:45:00,2025-10-05T08:33:00,2025-10-05T09:29:00,Renal,Dialysis Review,New,GP,Routine,NP D. Chen,Completed,44.0,F,48,Willoughby,Active
+V000533,P00343,2025-07-27,2025-07-27T09:30:00,2025-07-27T09:36:00,2025-07-27T09:53:00,Renal,Transplant Follow-up,New,GP,Routine,NP D. Chen,Completed,23.0,F,36,Hornsby,Pending
+V000534,P00292,2025-09-28,2025-09-28T16:30:00,2025-09-28T16:43:00,2025-09-28T16:28:00,Oncology,New Cancer Consult,Follow-up,ED,Routine,Dr A. Smith,Completed,-2.0,M,49,Ku-ring-gai,Active
+V000535,P00394,2025-08-27,2025-08-27T08:45:00,2025-08-27T08:18:00,2025-08-27T08:45:00,Cardiology,Heart Failure,Follow-up,Specialist,Routine,PA E. Patel,Completed,0.0,M,63,Ku-ring-gai,Active
+V000536,P00310,2024-02-26,2024-02-26T13:45:00,2024-02-26T13:54:00,2024-02-26T13:37:00,Cardiology,Heart Failure,Follow-up,ED,Routine,Dr B. Jones,Completed,-8.0,M,55,Hornsby,Active
+V000537,P00197,2025-09-09,2025-09-09T11:30:00,2025-09-09T11:21:00,2025-09-09T12:33:00,Rheumatology,Lupus,Procedure Prep,ED,Soon,NP D. Chen,Completed,63.0,F,46,Hornsby,Pending
+V000538,P00191,2024-04-15,2024-04-15T10:15:00,2024-04-15T10:17:00,2024-04-15T10:22:00,Respiratory,COPD,New,GP,Soon,Dr C. Lee,Completed,7.0,M,70,Ku-ring-gai,Active
+V000539,P00175,2024-04-06,2024-04-06T12:30:00,2024-04-06T12:32:00,2024-04-06T12:35:00,Orthopaedics,Spine Review,New,GP,Routine,PA E. Patel,Completed,5.0,M,49,Ku-ring-gai,Active
+V000540,P00008,2025-01-31,2025-01-31T15:30:00,2025-01-31T15:39:00,2025-01-31T15:13:00,Neurology,Epilepsy,New,ED,Routine,Dr C. Lee,Completed,-17.0,F,41,Ryde,Active
+V000541,P00374,2025-07-10,2025-07-10T13:00:00,2025-07-10T12:49:00,2025-07-10T12:56:00,Renal,Transplant Follow-up,New,GP,Soon,Dr A. Smith,Completed,-4.0,F,45,Northern Beaches,Pending
+V000542,P00034,2024-06-02,2024-06-02T12:15:00,2024-06-02T12:02:00,2024-06-02T12:17:00,Orthopaedics,Joint Clinic,New,GP,Urgent,Dr C. Lee,Completed,2.0,F,63,Northern Beaches,Pending
+V000543,P00227,2024-10-27,2024-10-27T12:15:00,2024-10-27T12:30:00,2024-10-27T12:15:00,Neurology,Epilepsy,Follow-up,Specialist,Soon,PA E. Patel,Completed,0.0,M,45,Ku-ring-gai,Active
+V000544,P00318,2024-03-14,2024-03-14T12:30:00,2024-03-14T12:42:00,2024-03-14T12:15:00,Rheumatology,Lupus,Procedure Prep,Inpatient,Routine,NP D. Chen,Completed,-15.0,F,47,Willoughby,Active
+V000545,P00313,2024-09-15,2024-09-15T08:45:00,,,Gastroenterology,Endoscopy Review,Follow-up,GP,Routine,Dr C. Lee,Cancelled,,M,67,Ku-ring-gai,Active
+V000546,P00356,2024-11-17,2024-11-17T16:30:00,,,Orthopaedics,Joint Clinic,New,GP,Routine,NP D. Chen,No-Show,,F,67,Ku-ring-gai,Active
+V000547,P00037,2023-11-24,2023-11-24T12:15:00,2023-11-24T12:19:00,2023-11-24T12:53:00,General Medicine,Senior Review,New,GP,Routine,Dr B. Jones,Completed,38.0,F,71,Hornsby,Active
+V000548,P00243,2024-02-08,2024-02-08T13:30:00,2024-02-08T13:29:00,2024-02-08T13:21:00,General Medicine,Senior Review,Procedure Prep,ED,Routine,PA E. Patel,Completed,-9.0,F,52,Ku-ring-gai,Active
+V000549,P00094,2024-07-05,2024-07-05T11:30:00,2024-07-05T11:34:00,2024-07-05T11:30:00,Cardiology,Post-PCI Review,Follow-up,ED,Soon,Dr B. Jones,Completed,0.0,F,55,Northern Beaches,Active
+V000550,P00218,2023-12-20,2023-12-20T11:45:00,2023-12-20T11:33:00,2023-12-20T11:36:00,Endocrinology,Metabolic Clinic,Follow-up,ED,Routine,PA E. Patel,Completed,-9.0,M,41,Willoughby,Active
+V000551,P00157,2024-04-02,2024-04-02T08:45:00,,,Neurology,Epilepsy,Procedure Prep,Inpatient,Routine,NP D. Chen,No-Show,,M,92,Hornsby,Active
+V000552,P00065,2024-07-15,2024-07-15T13:00:00,2024-07-15T13:02:00,2024-07-15T13:35:00,Gastroenterology,Endoscopy Review,New,Inpatient,Urgent,NP D. Chen,Completed,35.0,M,74,Willoughby,Active
+V000553,P00077,2025-09-25,2025-09-25T15:30:00,2025-09-25T14:59:00,2025-09-25T16:17:00,Respiratory,Sleep Study Follow-up,Follow-up,ED,Routine,Dr B. Jones,Completed,47.0,M,58,Hornsby,Active
+V000554,P00170,2024-01-03,2024-01-03T13:45:00,,,Rheumatology,Gout/Metabolic,Procedure Prep,Inpatient,Soon,Dr C. Lee,Cancelled,,M,69,Hornsby,Active
+V000555,P00131,2023-11-13,2023-11-13T11:30:00,2023-11-13T11:30:00,2023-11-13T11:47:00,Neurology,MS Clinic,Follow-up,GP,Routine,PA E. Patel,Completed,17.0,F,23,Ryde,Active
+V000556,P00032,2024-03-30,2024-03-30T08:00:00,2024-03-30T08:00:00,2024-03-30T07:44:00,Endocrinology,Thyroid,Follow-up,Specialist,Routine,Dr B. Jones,Completed,-16.0,M,81,Hornsby,Active
+V000557,P00177,2025-03-20,2025-03-20T08:15:00,,,Orthopaedics,Fracture,New,GP,Routine,NP D. Chen,No-Show,,F,59,Willoughby,Active
+V000558,P00187,2024-07-20,2024-07-20T14:00:00,2024-07-20T13:51:00,2024-07-20T14:19:00,Cardiology,Post-PCI Review,Follow-up,Specialist,Routine,Dr B. Jones,Completed,19.0,F,42,Northern Beaches,Active
+V000559,P00013,2025-01-10,2025-01-10T13:00:00,,,Endocrinology,Thyroid,New,GP,Routine,Dr C. Lee,No-Show,,M,62,Ku-ring-gai,Active
+V000560,P00344,2024-09-11,2024-09-11T12:00:00,2024-09-11T11:49:00,2024-09-11T12:24:00,Endocrinology,Metabolic Clinic,Follow-up,GP,Soon,NP D. Chen,Completed,24.0,M,56,Willoughby,Active
+V000561,P00327,2024-04-16,2024-04-16T13:45:00,2024-04-16T13:30:00,2024-04-16T13:38:00,Endocrinology,Diabetes,New,GP,Routine,Dr B. Jones,Completed,-7.0,M,65,Willoughby,Active
+V000562,P00026,2024-08-05,2024-08-05T10:45:00,2024-08-05T10:23:00,2024-08-05T10:49:00,General Medicine,Senior Review,New,GP,Soon,Dr B. Jones,Completed,4.0,F,48,Ryde,Active
+V000563,P00197,2025-05-08,2025-05-08T11:00:00,2025-05-08T10:43:00,2025-05-08T11:30:00,General Medicine,General Clinic,Follow-up,GP,Routine,Dr A. Smith,Completed,30.0,F,54,Hornsby,Active
+V000564,P00093,2025-06-19,2025-06-19T08:00:00,2025-06-19T07:26:00,2025-06-19T08:27:00,Gastroenterology,Hepatitis,Follow-up,GP,Routine,NP D. Chen,Completed,27.0,F,56,Ryde,Active
+V000565,P00002,2025-02-27,2025-02-27T16:45:00,2025-02-27T16:37:00,2025-02-27T16:25:00,Rheumatology,RA Clinic,Follow-up,Specialist,Routine,NP D. Chen,Completed,-20.0,F,50,Ryde,Active
+V000566,P00063,2024-03-25,2024-03-25T10:30:00,2024-03-25T10:22:00,2024-03-25T10:47:00,Cardiology,Arrhythmia,New,ED,Routine,PA E. Patel,Completed,17.0,F,34,Ryde,Active
+V000567,P00282,2024-12-13,2024-12-13T12:00:00,2024-12-13T11:46:00,2024-12-13T12:15:00,Neurology,Stroke Follow-up,Follow-up,Inpatient,Routine,Dr C. Lee,Completed,15.0,F,65,Willoughby,Active
+V000568,P00314,2024-12-14,2024-12-14T11:00:00,,,Endocrinology,Metabolic Clinic,Follow-up,Inpatient,Soon,Dr A. Smith,Cancelled,,M,23,Hornsby,Active
+V000569,P00089,2024-08-25,2024-08-25T10:30:00,2024-08-25T10:30:00,2024-08-25T11:01:00,Cardiology,Arrhythmia,Follow-up,Specialist,Routine,PA E. Patel,Completed,31.0,F,45,Ryde,Active
+V000570,P00251,2024-02-29,2024-02-29T10:30:00,2024-02-29T10:58:00,2024-02-29T10:22:00,General Medicine,Senior Review,Follow-up,GP,Routine,PA E. Patel,Completed,-8.0,F,64,Willoughby,Active
+V000571,P00132,2024-01-27,2024-01-27T12:30:00,2024-01-27T12:22:00,2024-01-27T12:20:00,Orthopaedics,Joint Clinic,Follow-up,GP,Routine,Dr A. Smith,Completed,-10.0,M,65,Northern Beaches,Active
+V000572,P00023,2025-03-11,2025-03-11T15:15:00,2025-03-11T15:36:00,2025-03-11T15:35:00,Respiratory,Sleep Study Follow-up,Follow-up,Specialist,Routine,Dr C. Lee,Completed,20.0,M,57,Hornsby,Active
+V000573,P00022,2024-01-11,2024-01-11T10:00:00,2024-01-11T09:49:00,2024-01-11T10:42:00,Oncology,Radiation Review,New,GP,Routine,Dr B. Jones,Completed,42.0,F,55,Ku-ring-gai,Active
+V000574,P00332,2025-08-27,2025-08-27T13:00:00,,,Gastroenterology,Endoscopy Review,New,GP,Routine,Dr A. Smith,No-Show,,M,43,Ku-ring-gai,Active
+V000575,P00117,2025-08-15,2025-08-15T15:00:00,2025-08-15T14:30:00,2025-08-15T14:58:00,Cardiology,Heart Failure,Follow-up,Inpatient,Routine,Dr A. Smith,Completed,-2.0,F,58,Hornsby,Active
+V000576,P00395,2025-01-27,2025-01-27T10:00:00,2025-01-27T09:39:00,2025-01-27T10:22:00,Cardiology,Arrhythmia,Follow-up,GP,Urgent,NP D. Chen,Completed,22.0,F,72,Northern Beaches,Active
+V000577,P00339,2024-08-06,2024-08-06T16:45:00,,,Orthopaedics,Fracture,New,GP,Routine,NP D. Chen,No-Show,,M,85,Ku-ring-gai,Active
+V000578,P00348,2023-12-07,2023-12-07T16:15:00,2023-12-07T16:05:00,2023-12-07T16:24:00,Oncology,Chemo Review,New,Inpatient,Routine,Dr B. Jones,Completed,9.0,F,83,Ryde,Active
+V000579,P00362,2024-06-03,2024-06-03T14:15:00,2024-06-03T14:12:00,2024-06-03T14:39:00,Rheumatology,Lupus,Follow-up,GP,Urgent,PA E. Patel,Completed,24.0,M,72,Hornsby,Active
+V000580,P00194,2025-05-07,2025-05-07T12:45:00,2025-05-07T12:33:00,2025-05-07T13:29:00,Respiratory,COPD,New,GP,Routine,PA E. Patel,Completed,44.0,M,46,Hornsby,Active
+V000581,P00071,2025-06-29,2025-06-29T16:45:00,2025-06-29T16:34:00,2025-06-29T17:03:00,Respiratory,Sleep Study Follow-up,Follow-up,GP,Routine,NP D. Chen,Completed,18.0,M,43,Ryde,Active
+V000582,P00288,2025-08-31,2025-08-31T15:45:00,2025-08-31T15:29:00,2025-08-31T16:03:00,Renal,Dialysis Review,Follow-up,GP,Routine,Dr C. Lee,Completed,18.0,F,43,Willoughby,Active
+V000583,P00025,2025-03-09,2025-03-09T08:00:00,2025-03-09T08:11:00,2025-03-09T08:32:00,Gastroenterology,IBD,Follow-up,GP,Routine,Dr B. Jones,Completed,32.0,F,38,Willoughby,Active
+V000584,P00119,2025-10-27,2025-10-27T14:00:00,2025-10-27T13:53:00,2025-10-27T14:49:00,Oncology,Radiation Review,New,GP,Soon,PA E. Patel,Completed,49.0,M,61,Willoughby,Active
+V000585,P00333,2024-06-01,2024-06-01T12:30:00,2024-06-01T12:33:00,2024-06-01T12:35:00,Endocrinology,Metabolic Clinic,Follow-up,GP,Routine,Dr C. Lee,Completed,5.0,M,65,Ryde,Active
+V000586,P00376,2024-02-27,2024-02-27T16:00:00,2024-02-27T15:57:00,2024-02-27T16:26:00,Oncology,Chemo Review,Follow-up,GP,Routine,Dr B. Jones,Completed,26.0,F,35,Willoughby,Active
+V000587,P00126,2025-04-23,2025-04-23T08:30:00,2025-04-23T08:25:00,2025-04-23T08:10:00,Gastroenterology,Hepatitis,Follow-up,GP,Urgent,NP D. Chen,Completed,-20.0,M,53,Northern Beaches,Active
+V000588,P00268,2024-11-14,2024-11-14T15:15:00,,,Respiratory,COPD,Follow-up,ED,Routine,NP D. Chen,Cancelled,,F,63,Ku-ring-gai,Active
+V000589,P00063,2024-01-25,2024-01-25T13:00:00,2024-01-25T13:00:00,2024-01-25T12:43:00,Renal,Dialysis Review,Follow-up,GP,Urgent,PA E. Patel,Completed,-17.0,F,52,Northern Beaches,Active
+V000590,P00179,2023-12-10,2023-12-10T16:30:00,2023-12-10T16:39:00,2023-12-10T16:29:00,Gastroenterology,Hepatitis,Follow-up,GP,Soon,Dr A. Smith,Completed,-1.0,M,49,Ryde,Active
+V000591,P00015,2025-03-28,2025-03-28T13:00:00,2025-03-28T12:54:00,2025-03-28T12:58:00,Gastroenterology,IBD,Follow-up,GP,Routine,PA E. Patel,Completed,-2.0,F,58,Willoughby,Active
+V000592,P00100,2024-04-08,2024-04-08T08:15:00,2024-04-08T08:09:00,2024-04-08T08:10:00,Rheumatology,Gout/Metabolic,New,GP,Routine,PA E. Patel,Completed,-5.0,F,39,Hornsby,Active
+V000593,P00179,2024-03-29,2024-03-29T10:45:00,2024-03-29T11:10:00,2024-03-29T10:57:00,Gastroenterology,IBD,Follow-up,GP,Routine,Dr A. Smith,Completed,12.0,M,70,Ryde,Active
+V000594,P00034,2024-07-17,2024-07-17T12:15:00,2024-07-17T12:36:00,2024-07-17T12:28:00,Respiratory,Sleep Study Follow-up,Follow-up,GP,Soon,PA E. Patel,Completed,13.0,F,89,Willoughby,Active
+V000595,P00051,2024-08-12,2024-08-12T13:00:00,2024-08-12T12:48:00,2024-08-12T12:40:00,Gastroenterology,IBD,Follow-up,GP,Routine,PA E. Patel,Completed,-20.0,F,90,Northern Beaches,Active
+V000596,P00246,2024-09-25,2024-09-25T13:30:00,2024-09-25T13:23:00,2024-09-25T14:04:00,Neurology,Stroke Follow-up,Follow-up,GP,Routine,PA E. Patel,Completed,34.0,F,70,Ku-ring-gai,Active
+V000597,P00304,2025-10-14,2025-10-14T12:15:00,,,Renal,Access Clinic,Follow-up,GP,Urgent,PA E. Patel,No-Show,,M,28,Northern Beaches,Active
+V000598,P00326,2024-09-28,2024-09-28T14:30:00,2024-09-28T14:18:00,2024-09-28T15:07:00,Neurology,Stroke Follow-up,New,GP,Routine,Dr A. Smith,Completed,37.0,F,57,Ku-ring-gai,Pending
+V000599,P00096,2025-01-23,2025-01-23T14:30:00,2025-01-23T14:47:00,2025-01-23T14:23:00,Oncology,Radiation Review,Follow-up,GP,Urgent,Dr B. Jones,Completed,-7.0,F,50,Hornsby,Active
+V000600,P00116,2024-05-25,2024-05-25T15:45:00,2024-05-25T15:54:00,2024-05-25T16:00:00,Oncology,New Cancer Consult,Follow-up,GP,Urgent,PA E. Patel,Completed,15.0,M,68,Willoughby,Active
+V000601,P00093,2024-11-09,2024-11-09T08:15:00,,,Rheumatology,Gout/Metabolic,Follow-up,GP,Routine,NP D. Chen,No-Show,,F,76,Ku-ring-gai,Pending
+V000602,P00166,2024-02-28,2024-02-28T09:00:00,,,Neurology,Stroke Follow-up,Follow-up,GP,Routine,NP D. Chen,No-Show,,F,43,Hornsby,Pending
+V000603,P00202,2025-08-04,2025-08-04T14:15:00,,,General Medicine,Senior Review,Follow-up,Specialist,Routine,NP D. Chen,No-Show,,F,75,Ku-ring-gai,Active
+V000604,P00125,2025-03-18,2025-03-18T09:15:00,2025-03-18T09:17:00,2025-03-18T09:47:00,General Medicine,Complex Care,Procedure Prep,GP,Routine,Dr C. Lee,Completed,32.0,M,76,Northern Beaches,Active
+V000605,P00135,2025-08-08,2025-08-08T08:30:00,2025-08-08T08:34:00,2025-08-08T08:30:00,General Medicine,Senior Review,Follow-up,ED,Routine,Dr A. Smith,Completed,0.0,M,78,Northern Beaches,Pending
+V000606,P00034,2024-06-12,2024-06-12T08:00:00,2024-06-12T07:41:00,2024-06-12T08:05:00,Endocrinology,Thyroid,New,GP,Routine,Dr B. Jones,Completed,5.0,F,45,Hornsby,Pending
+V000607,P00174,2024-10-28,2024-10-28T13:30:00,2024-10-28T13:44:00,2024-10-28T13:42:00,Rheumatology,Lupus,Procedure Prep,GP,Routine,Dr A. Smith,Completed,12.0,F,56,Ryde,Active
+V000608,P00397,2024-04-09,2024-04-09T13:30:00,2024-04-09T13:05:00,2024-04-09T13:28:00,Renal,Access Clinic,Follow-up,GP,Routine,Dr C. Lee,Completed,-2.0,F,78,Willoughby,Active
+V000609,P00297,2023-12-16,2023-12-16T10:30:00,2023-12-16T10:13:00,2023-12-16T10:58:00,Cardiology,Post-PCI Review,New,GP,Routine,Dr C. Lee,Completed,28.0,M,60,Northern Beaches,Active
+V000610,P00214,2024-10-25,2024-10-25T12:45:00,2024-10-25T12:58:00,2024-10-25T12:34:00,Rheumatology,Lupus,New,Inpatient,Routine,Dr C. Lee,Completed,-11.0,M,54,Hornsby,Active
+V000611,P00372,2025-07-21,2025-07-21T10:15:00,2025-07-21T10:10:00,2025-07-21T10:12:00,Endocrinology,Thyroid,Follow-up,GP,Routine,PA E. Patel,Completed,-3.0,M,55,Ryde,Active
+V000612,P00391,2024-02-03,2024-02-03T12:45:00,2024-02-03T12:25:00,2024-02-03T12:42:00,Neurology,MS Clinic,Follow-up,ED,Routine,Dr A. Smith,Completed,-3.0,M,49,Hornsby,Active
+V000613,P00228,2025-03-21,2025-03-21T11:00:00,2025-03-21T10:56:00,2025-03-21T11:33:00,Neurology,Epilepsy,Follow-up,GP,Routine,Dr A. Smith,Completed,33.0,F,78,Northern Beaches,Pending
+V000614,P00072,2025-09-03,2025-09-03T11:00:00,2025-09-03T10:55:00,2025-09-03T10:40:00,Oncology,Chemo Review,Procedure Prep,GP,Routine,Dr A. Smith,Completed,-20.0,F,64,Willoughby,Active
+V000615,P00027,2025-05-13,2025-05-13T15:00:00,,,Orthopaedics,Joint Clinic,New,Inpatient,Routine,Dr A. Smith,No-Show,,F,37,Hornsby,Active
+V000616,P00112,2025-07-17,2025-07-17T14:15:00,2025-07-17T14:25:00,2025-07-17T14:14:00,Respiratory,COPD,Follow-up,GP,Soon,Dr C. Lee,Completed,-1.0,F,57,Northern Beaches,Reciprocal
+V000617,P00368,2024-08-23,2024-08-23T16:00:00,2024-08-23T15:37:00,2024-08-23T16:17:00,Renal,Transplant Follow-up,Follow-up,GP,Routine,PA E. Patel,Completed,17.0,M,63,Hornsby,Active
+V000618,P00367,2023-11-17,2023-11-17T16:15:00,2023-11-17T16:08:00,2023-11-17T16:26:00,General Medicine,Senior Review,Follow-up,GP,Routine,Dr A. Smith,Completed,11.0,M,72,Hornsby,Active
+V000619,P00007,2025-04-13,2025-04-13T11:30:00,2025-04-13T11:21:00,2025-04-13T11:10:00,Oncology,Radiation Review,New,ED,Routine,Dr B. Jones,Completed,-20.0,F,95,Hornsby,Active
+V000620,P00151,2025-04-09,2025-04-09T14:00:00,2025-04-09T13:59:00,2025-04-09T14:41:00,Orthopaedics,Spine Review,Follow-up,GP,Urgent,PA E. Patel,Completed,41.0,F,76,Northern Beaches,Active
+V000621,P00029,2025-03-24,2025-03-24T16:15:00,2025-03-24T16:03:00,2025-03-24T16:48:00,Cardiology,Arrhythmia,New,Inpatient,Urgent,Dr B. Jones,Completed,33.0,F,35,Willoughby,Active
+V000622,P00057,2025-01-08,2025-01-08T16:00:00,2025-01-08T15:45:00,2025-01-08T16:11:00,Cardiology,Arrhythmia,New,GP,Routine,PA E. Patel,Completed,11.0,M,70,Ku-ring-gai,Active
+V000623,P00292,2025-02-03,2025-02-03T11:00:00,2025-02-03T10:52:00,2025-02-03T10:51:00,Rheumatology,Gout/Metabolic,Procedure Prep,GP,Routine,NP D. Chen,Completed,-9.0,M,54,Ku-ring-gai,Active
+V000624,P00132,2024-03-26,2024-03-26T08:30:00,2024-03-26T08:29:00,2024-03-26T08:29:00,Orthopaedics,Fracture,New,GP,Soon,NP D. Chen,Completed,-1.0,M,76,Northern Beaches,Active
+V000625,P00263,2024-08-20,2024-08-20T08:30:00,2024-08-20T08:28:00,2024-08-20T08:57:00,Respiratory,COPD,Follow-up,Specialist,Soon,NP D. Chen,Completed,27.0,F,22,Willoughby,Active
+V000626,P00276,2025-05-30,2025-05-30T13:30:00,2025-05-30T13:28:00,2025-05-30T13:10:00,Cardiology,Heart Failure,New,GP,Urgent,NP D. Chen,Completed,-20.0,M,31,Northern Beaches,Active
+V000627,P00399,2024-03-25,2024-03-25T13:45:00,,,Orthopaedics,Spine Review,New,GP,Routine,PA E. Patel,Cancelled,,F,16,Willoughby,Active
+V000628,P00116,2025-04-14,2025-04-14T11:15:00,2025-04-14T10:50:00,2025-04-14T11:42:00,Neurology,Epilepsy,Follow-up,GP,Routine,Dr C. Lee,Completed,27.0,F,64,Ku-ring-gai,Active
+V000629,P00075,2024-04-19,2024-04-19T09:30:00,2024-04-19T09:24:00,2024-04-19T09:26:00,General Medicine,General Clinic,Follow-up,Specialist,Routine,PA E. Patel,Completed,-4.0,M,73,Ryde,Active
+V000630,P00019,2023-11-18,2023-11-18T12:30:00,2023-11-18T12:06:00,2023-11-18T12:10:00,Rheumatology,Lupus,Follow-up,GP,Routine,Dr C. Lee,Completed,-20.0,M,46,Ryde,Active
+V000631,P00091,2024-12-03,2024-12-03T11:45:00,2024-12-03T11:52:00,2024-12-03T11:25:00,Renal,Transplant Follow-up,New,GP,Soon,PA E. Patel,Completed,-20.0,F,36,Ku-ring-gai,Active
+V000632,P00227,2025-09-05,2025-09-05T13:15:00,2025-09-05T12:59:00,2025-09-05T13:34:00,General Medicine,General Clinic,Follow-up,Inpatient,Routine,Dr B. Jones,Completed,19.0,F,65,Hornsby,Active
+V000633,P00286,2023-12-30,2023-12-30T13:45:00,2023-12-30T13:22:00,2023-12-30T14:13:00,General Medicine,Complex Care,New,GP,Urgent,PA E. Patel,Completed,28.0,F,52,Willoughby,Active
+V000634,P00045,2025-09-09,2025-09-09T16:00:00,,,General Medicine,General Clinic,New,GP,Routine,Dr A. Smith,No-Show,,M,74,Willoughby,Active
+V000635,P00387,2024-10-25,2024-10-25T12:15:00,2024-10-25T12:13:00,2024-10-25T12:21:00,Orthopaedics,Joint Clinic,Follow-up,GP,Soon,Dr A. Smith,Completed,6.0,F,64,Northern Beaches,Pending
+V000636,P00205,2024-12-22,2024-12-22T09:30:00,2024-12-22T09:22:00,2024-12-22T09:48:00,Cardiology,Post-PCI Review,Follow-up,Specialist,Urgent,PA E. Patel,Completed,18.0,M,47,Hornsby,Active
+V000637,P00392,2025-10-05,2025-10-05T08:00:00,2025-10-05T07:41:00,2025-10-05T07:44:00,General Medicine,Senior Review,Follow-up,Inpatient,Routine,Dr B. Jones,Completed,-16.0,M,52,Willoughby,Active
+V000638,P00206,2024-06-09,2024-06-09T12:00:00,2024-06-09T11:43:00,2024-06-09T11:53:00,General Medicine,Senior Review,Follow-up,GP,Soon,NP D. Chen,Completed,-7.0,F,64,Ku-ring-gai,Pending
+V000639,P00050,2025-10-19,2025-10-19T11:45:00,2025-10-19T11:43:00,2025-10-19T11:55:00,General Medicine,General Clinic,Follow-up,GP,Routine,Dr C. Lee,Completed,10.0,F,89,Hornsby,Active
+V000640,P00213,2025-03-30,2025-03-30T10:00:00,,,Neurology,MS Clinic,New,GP,Routine,PA E. Patel,No-Show,,F,39,Ku-ring-gai,Active
+V000641,P00061,2024-10-10,2024-10-10T13:45:00,2024-10-10T13:32:00,2024-10-10T13:54:00,General Medicine,Senior Review,Follow-up,GP,Urgent,Dr A. Smith,Completed,9.0,M,48,Ryde,Active
+V000642,P00285,2025-01-06,2025-01-06T11:30:00,2025-01-06T11:32:00,2025-01-06T11:24:00,Oncology,Radiation Review,Follow-up,GP,Routine,PA E. Patel,Completed,-6.0,M,57,Willoughby,Active
+V000643,P00018,2025-08-26,2025-08-26T10:30:00,2025-08-26T10:47:00,2025-08-26T11:09:00,General Medicine,Complex Care,Follow-up,GP,Routine,NP D. Chen,Completed,39.0,M,91,Ryde,Active
+V000644,P00227,2025-03-09,2025-03-09T13:15:00,2025-03-09T13:08:00,2025-03-09T13:35:00,Neurology,Stroke Follow-up,New,GP,Routine,NP D. Chen,Completed,20.0,M,55,Ryde,Active
+V000645,P00134,2024-10-12,2024-10-12T14:00:00,2024-10-12T13:36:00,2024-10-12T13:54:00,General Medicine,Senior Review,New,GP,Routine,Dr A. Smith,Completed,-6.0,F,63,Northern Beaches,Active
+V000646,P00393,2024-12-17,2024-12-17T09:45:00,,,Endocrinology,Metabolic Clinic,New,Inpatient,Routine,Dr A. Smith,No-Show,,F,79,Hornsby,Active
+V000647,P00201,2025-02-17,2025-02-17T11:15:00,2025-02-17T11:08:00,2025-02-17T11:09:00,General Medicine,General Clinic,New,GP,Routine,PA E. Patel,Completed,-6.0,F,59,Ku-ring-gai,Active
+V000648,P00106,2025-09-13,2025-09-13T11:45:00,2025-09-13T11:33:00,2025-09-13T12:09:00,Orthopaedics,Fracture,Follow-up,GP,Routine,Dr B. Jones,Completed,24.0,F,51,Ryde,Active
+V000649,P00016,2025-02-10,2025-02-10T10:00:00,2025-02-10T10:08:00,2025-02-10T10:07:00,Endocrinology,Metabolic Clinic,Follow-up,GP,Routine,Dr B. Jones,Completed,7.0,M,79,Willoughby,Active
+V000650,P00051,2025-02-13,2025-02-13T08:45:00,2025-02-13T08:52:00,2025-02-13T08:37:00,Renal,Access Clinic,Follow-up,Specialist,Routine,Dr B. Jones,Completed,-8.0,M,81,Willoughby,Active
+V000651,P00079,2025-08-30,2025-08-30T16:15:00,2025-08-30T16:25:00,2025-08-30T16:59:00,General Medicine,Complex Care,New,ED,Urgent,Dr A. Smith,Completed,44.0,F,51,Hornsby,Active
+V000652,P00397,2025-03-10,2025-03-10T14:00:00,2025-03-10T13:35:00,2025-03-10T14:33:00,Gastroenterology,IBD,New,GP,Routine,PA E. Patel,Completed,33.0,F,61,Northern Beaches,Active
+V000653,P00080,2025-07-28,2025-07-28T09:15:00,2025-07-28T08:58:00,2025-07-28T09:36:00,Orthopaedics,Spine Review,New,GP,Routine,Dr B. Jones,Completed,21.0,M,80,Ku-ring-gai,Active
+V000654,P00361,2024-07-31,2024-07-31T11:45:00,2024-07-31T11:42:00,2024-07-31T12:04:00,General Medicine,Senior Review,Follow-up,GP,Routine,PA E. Patel,Completed,19.0,M,55,Ku-ring-gai,Active
+V000655,P00022,2024-03-23,2024-03-23T15:30:00,,,Respiratory,Asthma,Follow-up,GP,Routine,Dr A. Smith,No-Show,,M,75,Ryde,Active
+V000656,P00045,2025-05-07,2025-05-07T10:45:00,2025-05-07T10:31:00,2025-05-07T10:48:00,Renal,Transplant Follow-up,Follow-up,GP,Routine,Dr A. Smith,Completed,3.0,M,93,Northern Beaches,Active
+V000657,P00282,2025-10-06,2025-10-06T09:15:00,2025-10-06T08:58:00,2025-10-06T09:39:00,Neurology,MS Clinic,Follow-up,GP,Urgent,NP D. Chen,Completed,24.0,F,41,Willoughby,Active
+V000658,P00028,2023-11-17,2023-11-17T09:00:00,2023-11-17T09:02:00,2023-11-17T09:17:00,Respiratory,COPD,New,GP,Routine,PA E. Patel,Completed,17.0,F,59,Willoughby,Active
+V000659,P00348,2024-11-20,2024-11-20T10:15:00,2024-11-20T10:14:00,2024-11-20T09:57:00,Endocrinology,Diabetes,Follow-up,GP,Routine,Dr B. Jones,Completed,-18.0,F,77,Northern Beaches,Active
+V000660,P00313,2025-10-11,2025-10-11T13:45:00,2025-10-11T13:37:00,2025-10-11T13:59:00,Gastroenterology,Endoscopy Review,Procedure Prep,ED,Routine,Dr A. Smith,Completed,14.0,F,78,Northern Beaches,Active
+V000661,P00302,2025-08-18,2025-08-18T11:45:00,2025-08-18T12:16:00,2025-08-18T12:10:00,Endocrinology,Diabetes,New,GP,Routine,PA E. Patel,Completed,25.0,M,49,Northern Beaches,Pending
+V000662,P00361,2024-01-31,2024-01-31T14:45:00,2024-01-31T14:38:00,2024-01-31T14:55:00,Oncology,New Cancer Consult,Follow-up,GP,Routine,PA E. Patel,Completed,10.0,F,74,Ku-ring-gai,Active
+V000663,P00081,2025-07-25,2025-07-25T12:00:00,2025-07-25T11:58:00,2025-07-25T12:19:00,Neurology,Stroke Follow-up,New,GP,Routine,Dr C. Lee,Completed,19.0,M,67,Ku-ring-gai,Active
+V000664,P00290,2024-02-15,2024-02-15T11:30:00,2024-02-15T11:23:00,2024-02-15T11:56:00,Renal,Transplant Follow-up,New,ED,Routine,PA E. Patel,Completed,26.0,F,63,Ryde,Active
+V000665,P00147,2023-11-21,2023-11-21T13:45:00,,,General Medicine,General Clinic,New,Inpatient,Soon,PA E. Patel,No-Show,,F,48,Ku-ring-gai,Active
+V000666,P00390,2025-03-29,2025-03-29T09:15:00,2025-03-29T09:24:00,2025-03-29T09:40:00,Endocrinology,Thyroid,Follow-up,GP,Soon,NP D. Chen,Completed,25.0,M,84,Hornsby,Active
+V000667,P00098,2025-08-27,2025-08-27T08:00:00,,,Renal,Access Clinic,New,GP,Routine,NP D. Chen,Cancelled,,M,74,Ryde,Active
+V000668,P00018,2024-04-30,2024-04-30T08:00:00,2024-04-30T07:42:00,2024-04-30T08:09:00,Orthopaedics,Joint Clinic,Follow-up,GP,Routine,NP D. Chen,Completed,9.0,F,49,Northern Beaches,Active
+V000669,P00184,2025-04-29,2025-04-29T15:15:00,2025-04-29T15:18:00,2025-04-29T15:08:00,Gastroenterology,Endoscopy Review,New,Inpatient,Urgent,Dr A. Smith,Completed,-7.0,M,63,Willoughby,Active
+V000670,P00178,2025-06-26,2025-06-26T14:00:00,2025-06-26T14:19:00,2025-06-26T13:44:00,Rheumatology,Gout/Metabolic,Follow-up,GP,Urgent,NP D. Chen,Completed,-16.0,M,89,Ku-ring-gai,Active
+V000671,P00140,2024-05-11,2024-05-11T08:00:00,2024-05-11T07:28:00,2024-05-11T08:13:00,Orthopaedics,Joint Clinic,Follow-up,GP,Routine,PA E. Patel,Completed,13.0,M,16,Ryde,Active
+V000672,P00168,2024-08-09,2024-08-09T13:15:00,2024-08-09T13:04:00,2024-08-09T13:55:00,Cardiology,Arrhythmia,Follow-up,GP,Routine,Dr A. Smith,Completed,40.0,M,77,Northern Beaches,Active
+V000673,P00181,2025-09-05,2025-09-05T11:15:00,,,Oncology,New Cancer Consult,Follow-up,GP,Routine,NP D. Chen,No-Show,,F,54,Ku-ring-gai,Active
+V000674,P00253,2025-07-20,2025-07-20T12:45:00,2025-07-20T12:49:00,2025-07-20T12:43:00,Endocrinology,Diabetes,Follow-up,GP,Routine,Dr C. Lee,Completed,-2.0,F,63,Ryde,Active
+V000675,P00173,2024-05-17,2024-05-17T09:30:00,,,Endocrinology,Metabolic Clinic,Follow-up,ED,Soon,PA E. Patel,Cancelled,,M,66,Willoughby,Active
+V000676,P00301,2025-05-13,2025-05-13T12:00:00,2025-05-13T12:21:00,2025-05-13T12:31:00,Orthopaedics,Fracture,Follow-up,GP,Routine,Dr B. Jones,Completed,31.0,F,72,Northern Beaches,Active
+V000677,P00322,2025-06-03,2025-06-03T16:45:00,,,Cardiology,Heart Failure,New,Inpatient,Routine,NP D. Chen,No-Show,,M,55,Ryde,Active
+V000678,P00321,2024-09-21,2024-09-21T13:15:00,2024-09-21T13:27:00,2024-09-21T13:48:00,Oncology,Chemo Review,New,GP,Routine,NP D. Chen,Completed,33.0,F,62,Ku-ring-gai,Active
+V000679,P00001,2024-02-03,2024-02-03T16:30:00,2024-02-03T16:43:00,2024-02-03T16:41:00,Gastroenterology,Endoscopy Review,Procedure Prep,Specialist,Urgent,NP D. Chen,Completed,11.0,M,64,Hornsby,Reciprocal
+V000680,P00267,2025-10-17,2025-10-17T11:15:00,2025-10-17T11:04:00,2025-10-17T11:28:00,Gastroenterology,Hepatitis,Procedure Prep,GP,Routine,Dr A. Smith,Completed,13.0,F,49,Northern Beaches,Active
+V000681,P00351,2025-01-27,2025-01-27T13:15:00,,,Gastroenterology,Hepatitis,Follow-up,Inpatient,Routine,NP D. Chen,No-Show,,M,71,Hornsby,Active
+V000682,P00336,2025-03-09,2025-03-09T08:30:00,2025-03-09T08:45:00,2025-03-09T08:33:00,General Medicine,Complex Care,New,Specialist,Urgent,Dr C. Lee,Completed,3.0,M,42,Ku-ring-gai,Active
+V000683,P00134,2024-09-27,2024-09-27T09:30:00,2024-09-27T09:31:00,2024-09-27T09:49:00,Renal,Access Clinic,New,GP,Routine,Dr A. Smith,Completed,19.0,F,29,Ryde,Active
+V000684,P00068,2024-03-09,2024-03-09T15:15:00,2024-03-09T15:11:00,2024-03-09T15:40:00,Respiratory,Sleep Study Follow-up,Follow-up,GP,Routine,Dr A. Smith,Completed,25.0,M,49,Ryde,Pending
+V000685,P00394,2025-07-12,2025-07-12T10:30:00,2025-07-12T10:43:00,2025-07-12T10:29:00,Renal,Transplant Follow-up,New,Inpatient,Routine,Dr A. Smith,Completed,-1.0,F,82,Ryde,Active
+V000686,P00154,2024-02-28,2024-02-28T10:30:00,2024-02-28T10:06:00,2024-02-28T10:39:00,Rheumatology,Lupus,New,Inpatient,Urgent,Dr A. Smith,Completed,9.0,M,79,Northern Beaches,Active
+V000687,P00226,2023-12-10,2023-12-10T14:00:00,2023-12-10T13:57:00,2023-12-10T14:37:00,Cardiology,Arrhythmia,Follow-up,ED,Routine,Dr A. Smith,Completed,37.0,F,56,Willoughby,Reciprocal
+V000688,P00040,2025-03-13,2025-03-13T09:30:00,2025-03-13T09:18:00,2025-03-13T09:26:00,General Medicine,Senior Review,Follow-up,ED,Routine,Dr A. Smith,Completed,-4.0,M,57,Ryde,Active
+V000689,P00202,2023-11-21,2023-11-21T11:30:00,2023-11-21T11:05:00,2023-11-21T11:10:00,Rheumatology,Gout/Metabolic,Follow-up,Specialist,Urgent,NP D. Chen,Completed,-20.0,M,61,Ryde,Active
+V000690,P00026,2025-07-09,2025-07-09T16:15:00,2025-07-09T16:23:00,2025-07-09T16:23:00,Endocrinology,Diabetes,New,GP,Routine,Dr B. Jones,Completed,8.0,M,62,Willoughby,Active
+V000691,P00137,2024-09-05,2024-09-05T16:30:00,2024-09-05T16:11:00,2024-09-05T16:10:00,Respiratory,Sleep Study Follow-up,Follow-up,Specialist,Routine,Dr B. Jones,Completed,-20.0,M,72,Hornsby,Active
+V000692,P00339,2024-05-27,2024-05-27T09:15:00,2024-05-27T09:26:00,2024-05-27T09:29:00,Endocrinology,Thyroid,New,GP,Routine,Dr C. Lee,Completed,14.0,F,53,Northern Beaches,Active
+V000693,P00204,2023-12-27,2023-12-27T12:15:00,2023-12-27T11:59:00,2023-12-27T12:08:00,Cardiology,Arrhythmia,Follow-up,GP,Urgent,Dr C. Lee,Completed,-7.0,M,37,Hornsby,Active
+V000694,P00324,2024-07-22,2024-07-22T09:00:00,2024-07-22T09:29:00,2024-07-22T08:53:00,General Medicine,General Clinic,New,GP,Urgent,NP D. Chen,Completed,-7.0,M,61,Willoughby,Active
+V000695,P00236,2024-04-13,2024-04-13T16:30:00,2024-04-13T16:37:00,2024-04-13T16:38:00,Cardiology,Arrhythmia,Follow-up,GP,Routine,PA E. Patel,Completed,8.0,F,63,Northern Beaches,Active
+V000696,P00038,2024-07-31,2024-07-31T10:30:00,2024-07-31T10:51:00,2024-07-31T10:31:00,Gastroenterology,IBD,Follow-up,GP,Routine,NP D. Chen,Completed,1.0,F,93,Willoughby,Active
+V000697,P00385,2024-12-28,2024-12-28T13:45:00,2024-12-28T13:37:00,2024-12-28T14:23:00,Endocrinology,Thyroid,Follow-up,GP,Routine,NP D. Chen,Completed,38.0,F,47,Northern Beaches,Active
+V000698,P00348,2024-03-20,2024-03-20T14:45:00,2024-03-20T14:26:00,2024-03-20T14:55:00,General Medicine,Senior Review,Follow-up,ED,Routine,Dr C. Lee,Completed,10.0,F,68,Ryde,Active
+V000699,P00277,2024-05-14,2024-05-14T09:15:00,2024-05-14T09:32:00,2024-05-14T09:15:00,Oncology,New Cancer Consult,New,Specialist,Routine,Dr A. Smith,Completed,0.0,F,95,Willoughby,Pending
+V000700,P00373,2024-06-07,2024-06-07T16:15:00,2024-06-07T16:31:00,2024-06-07T17:15:00,Orthopaedics,Fracture,Follow-up,ED,Soon,NP D. Chen,Completed,60.0,F,70,Northern Beaches,Active
+V000701,P00393,2025-01-27,2025-01-27T11:45:00,2025-01-27T11:32:00,2025-01-27T11:53:00,Gastroenterology,Endoscopy Review,Follow-up,GP,Routine,Dr C. Lee,Completed,8.0,F,33,Willoughby,Active
+V000702,P00372,2024-03-06,2024-03-06T12:30:00,2024-03-06T12:19:00,2024-03-06T13:05:00,Renal,Dialysis Review,New,Specialist,Routine,PA E. Patel,Completed,35.0,F,43,Hornsby,Active
+V000703,P00105,2025-05-19,2025-05-19T12:45:00,,,Oncology,Chemo Review,Follow-up,GP,Urgent,NP D. Chen,Cancelled,,F,32,Ryde,Active
+V000704,P00315,2025-06-18,2025-06-18T13:15:00,2025-06-18T13:06:00,2025-06-18T14:03:00,Gastroenterology,Endoscopy Review,Follow-up,Inpatient,Routine,Dr B. Jones,Completed,48.0,F,36,Northern Beaches,Active
+V000705,P00071,2024-10-24,2024-10-24T08:00:00,2024-10-24T08:00:00,2024-10-24T08:46:00,Endocrinology,Metabolic Clinic,Follow-up,Inpatient,Routine,NP D. Chen,Completed,46.0,F,38,Ku-ring-gai,Active
+V000706,P00296,2025-04-24,2025-04-24T15:30:00,2025-04-24T15:51:00,2025-04-24T15:30:00,General Medicine,Complex Care,Follow-up,GP,Soon,Dr C. Lee,Completed,0.0,M,59,Willoughby,Active
+V000707,P00268,2023-11-12,2023-11-12T13:45:00,2023-11-12T13:28:00,2023-11-12T13:59:00,Neurology,Epilepsy,Follow-up,Specialist,Routine,Dr A. Smith,Completed,14.0,F,54,Northern Beaches,Active
+V000708,P00347,2024-11-08,2024-11-08T09:30:00,2024-11-08T09:14:00,2024-11-08T09:46:00,Neurology,Epilepsy,Follow-up,GP,Routine,Dr A. Smith,Completed,16.0,F,55,Willoughby,Active
+V000709,P00040,2025-04-30,2025-04-30T11:15:00,2025-04-30T11:26:00,2025-04-30T11:38:00,Rheumatology,Lupus,New,Specialist,Routine,Dr A. Smith,Completed,23.0,M,28,Ku-ring-gai,Active
+V000710,P00165,2024-08-25,2024-08-25T10:00:00,2024-08-25T09:54:00,2024-08-25T10:40:00,Renal,Transplant Follow-up,Procedure Prep,GP,Urgent,Dr B. Jones,Completed,40.0,M,50,Hornsby,Active
+V000711,P00053,2025-03-10,2025-03-10T08:00:00,2025-03-10T07:55:00,2025-03-10T07:49:00,Respiratory,Asthma,New,GP,Routine,Dr C. Lee,Completed,-11.0,M,52,Ku-ring-gai,Active
+V000712,P00249,2025-08-20,2025-08-20T08:00:00,2025-08-20T07:52:00,2025-08-20T07:40:00,Endocrinology,Diabetes,New,Specialist,Soon,PA E. Patel,Completed,-20.0,F,66,Hornsby,Active
+V000713,P00073,2024-02-05,2024-02-05T16:30:00,2024-02-05T16:07:00,2024-02-05T17:08:00,Gastroenterology,IBD,Follow-up,GP,Routine,PA E. Patel,Completed,38.0,M,54,Ku-ring-gai,Active
+V000714,P00302,2024-02-07,2024-02-07T12:15:00,2024-02-07T11:56:00,2024-02-07T11:55:00,Respiratory,Sleep Study Follow-up,Follow-up,GP,Routine,PA E. Patel,Completed,-20.0,M,39,Willoughby,Active
+V000715,P00291,2024-12-08,2024-12-08T13:30:00,2024-12-08T13:40:00,2024-12-08T14:14:00,Endocrinology,Diabetes,Follow-up,GP,Routine,Dr C. Lee,Completed,44.0,M,85,Ryde,Active
+V000716,P00059,2024-06-11,2024-06-11T09:30:00,2024-06-11T09:26:00,2024-06-11T10:18:00,Cardiology,Arrhythmia,New,Specialist,Routine,PA E. Patel,Completed,48.0,F,76,Ryde,Active
+V000717,P00197,2024-10-07,2024-10-07T13:00:00,2024-10-07T12:30:00,2024-10-07T13:35:00,Rheumatology,Lupus,Follow-up,GP,Urgent,Dr C. Lee,Completed,35.0,F,58,Northern Beaches,Active
+V000718,P00352,2024-08-07,2024-08-07T15:00:00,2024-08-07T15:01:00,2024-08-07T14:40:00,Gastroenterology,Endoscopy Review,Follow-up,ED,Soon,Dr B. Jones,Completed,-20.0,F,51,Northern Beaches,Active
+V000719,P00135,2024-10-03,2024-10-03T15:45:00,,,Respiratory,Sleep Study Follow-up,Follow-up,GP,Routine,NP D. Chen,Cancelled,,F,46,Northern Beaches,Active
+V000720,P00051,2025-10-22,2025-10-22T10:45:00,2025-10-22T10:20:00,2025-10-22T10:46:00,Oncology,Radiation Review,Follow-up,GP,Routine,Dr C. Lee,Completed,1.0,M,54,Ryde,Active
+V000721,P00260,2024-12-14,2024-12-14T09:30:00,2024-12-14T09:43:00,2024-12-14T09:49:00,Cardiology,Heart Failure,Follow-up,GP,Soon,Dr B. Jones,Completed,19.0,M,56,Ryde,Active
+V000722,P00016,2025-05-05,2025-05-05T15:00:00,2025-05-05T15:31:00,2025-05-05T15:07:00,Gastroenterology,IBD,New,ED,Soon,PA E. Patel,Completed,7.0,F,90,Hornsby,Active
+V000723,P00258,2025-09-15,2025-09-15T10:45:00,,,Oncology,Radiation Review,Follow-up,GP,Routine,NP D. Chen,Cancelled,,F,48,Ryde,Active
+V000724,P00399,2024-11-04,2024-11-04T08:15:00,,,Endocrinology,Thyroid,New,GP,Urgent,Dr B. Jones,No-Show,,F,86,Northern Beaches,Active
+V000725,P00186,2024-10-16,2024-10-16T11:15:00,2024-10-16T11:13:00,2024-10-16T11:40:00,Rheumatology,RA Clinic,Follow-up,Specialist,Routine,Dr B. Jones,Completed,25.0,M,76,Ku-ring-gai,Active
+V000726,P00326,2024-09-15,2024-09-15T15:15:00,2024-09-15T15:12:00,2024-09-15T15:27:00,Oncology,Radiation Review,New,ED,Urgent,Dr A. Smith,Completed,12.0,M,53,Hornsby,Active
+V000727,P00165,2024-07-13,2024-07-13T16:00:00,2024-07-13T16:14:00,2024-07-13T16:19:00,Rheumatology,RA Clinic,Follow-up,GP,Routine,NP D. Chen,Completed,19.0,F,76,Hornsby,Active
+V000728,P00377,2024-02-29,2024-02-29T14:30:00,2024-02-29T14:23:00,2024-02-29T14:33:00,Cardiology,Post-PCI Review,Follow-up,GP,Urgent,Dr B. Jones,Completed,3.0,F,68,Hornsby,Pending
+V000729,P00172,2025-03-02,2025-03-02T10:00:00,2025-03-02T09:58:00,2025-03-02T09:53:00,Neurology,Epilepsy,Follow-up,GP,Routine,Dr B. Jones,Completed,-7.0,F,59,Ryde,Pending
+V000730,P00041,2025-05-27,2025-05-27T11:45:00,2025-05-27T11:44:00,2025-05-27T12:03:00,Renal,Transplant Follow-up,New,GP,Urgent,PA E. Patel,Completed,18.0,M,56,Ryde,Pending
+V000731,P00230,2024-10-23,2024-10-23T11:00:00,2024-10-23T10:42:00,2024-10-23T11:29:00,Rheumatology,RA Clinic,Follow-up,GP,Routine,Dr B. Jones,Completed,29.0,F,63,Ku-ring-gai,Active
+V000732,P00290,2025-02-05,2025-02-05T11:45:00,2025-02-05T11:34:00,2025-02-05T11:52:00,Gastroenterology,Endoscopy Review,New,GP,Urgent,PA E. Patel,Completed,7.0,F,71,Ku-ring-gai,Active
+V000733,P00241,2025-10-04,2025-10-04T12:45:00,2025-10-04T12:17:00,2025-10-04T12:47:00,Respiratory,Sleep Study Follow-up,New,GP,Routine,NP D. Chen,Completed,2.0,F,40,Northern Beaches,Active
+V000734,P00207,2025-09-01,2025-09-01T10:30:00,,,Neurology,MS Clinic,Follow-up,GP,Routine,Dr C. Lee,Cancelled,,M,61,Ryde,Active
+V000735,P00060,2024-10-05,2024-10-05T12:45:00,2024-10-05T12:36:00,2024-10-05T12:40:00,Cardiology,Post-PCI Review,Follow-up,GP,Routine,Dr C. Lee,Completed,-5.0,M,38,Ryde,Active
+V000736,P00258,2024-04-20,2024-04-20T10:15:00,2024-04-20T10:19:00,2024-04-20T11:02:00,Cardiology,Heart Failure,Follow-up,ED,Routine,NP D. Chen,Completed,47.0,M,68,Northern Beaches,Active
+V000737,P00114,2025-10-18,2025-10-18T14:00:00,2025-10-18T14:00:00,2025-10-18T14:11:00,General Medicine,Senior Review,Follow-up,GP,Routine,NP D. Chen,Completed,11.0,F,41,Northern Beaches,Active
+V000738,P00337,2025-07-22,2025-07-22T10:45:00,2025-07-22T10:08:00,2025-07-22T10:54:00,Cardiology,Post-PCI Review,New,Inpatient,Urgent,NP D. Chen,Completed,9.0,F,53,Ryde,Active
+V000739,P00246,2024-02-18,2024-02-18T16:30:00,2024-02-18T16:45:00,2024-02-18T16:20:00,Endocrinology,Metabolic Clinic,Follow-up,GP,Routine,NP D. Chen,Completed,-10.0,M,90,Willoughby,Active
+V000740,P00245,2025-01-09,2025-01-09T11:00:00,2025-01-09T10:38:00,2025-01-09T11:19:00,General Medicine,Senior Review,New,ED,Routine,Dr A. Smith,Completed,19.0,M,48,Ku-ring-gai,Active
+V000741,P00113,2024-09-23,2024-09-23T13:00:00,2024-09-23T12:53:00,2024-09-23T13:25:00,Endocrinology,Thyroid,New,GP,Routine,PA E. Patel,Completed,25.0,M,57,Northern Beaches,Active
+V000742,P00285,2025-06-06,2025-06-06T15:30:00,,,Renal,Dialysis Review,Follow-up,Specialist,Routine,PA E. Patel,No-Show,,M,49,Ku-ring-gai,Active
+V000743,P00205,2025-02-15,2025-02-15T13:15:00,2025-02-15T13:11:00,2025-02-15T14:17:00,Neurology,Stroke Follow-up,Follow-up,GP,Routine,PA E. Patel,Completed,62.0,F,50,Willoughby,Active
+V000744,P00115,2025-01-18,2025-01-18T14:30:00,2025-01-18T14:37:00,2025-01-18T14:34:00,Gastroenterology,Endoscopy Review,Procedure Prep,GP,Routine,Dr A. Smith,Completed,4.0,F,58,Northern Beaches,Active
+V000745,P00247,2024-05-16,2024-05-16T14:30:00,2024-05-16T14:10:00,2024-05-16T14:55:00,Orthopaedics,Joint Clinic,Follow-up,GP,Routine,NP D. Chen,Completed,25.0,F,47,Willoughby,Pending
+V000746,P00150,2025-01-11,2025-01-11T11:45:00,2025-01-11T11:29:00,2025-01-11T11:25:00,Neurology,Stroke Follow-up,New,GP,Routine,Dr C. Lee,Completed,-20.0,F,70,Ku-ring-gai,Active
+V000747,P00192,2024-06-13,2024-06-13T11:15:00,2024-06-13T11:03:00,2024-06-13T11:29:00,Endocrinology,Diabetes,Follow-up,GP,Soon,PA E. Patel,Completed,14.0,M,72,Northern Beaches,Active
+V000748,P00053,2025-07-26,2025-07-26T15:00:00,2025-07-26T15:02:00,2025-07-26T15:37:00,Respiratory,Asthma,Procedure Prep,GP,Routine,PA E. Patel,Completed,37.0,F,35,Willoughby,Active
+V000749,P00353,2025-08-23,2025-08-23T13:30:00,,,Renal,Access Clinic,Follow-up,GP,Routine,Dr A. Smith,No-Show,,F,72,Hornsby,Active
+V000750,P00195,2024-12-12,2024-12-12T13:45:00,,,Renal,Access Clinic,Follow-up,GP,Routine,Dr C. Lee,Cancelled,,F,40,Ku-ring-gai,Active
+V000751,P00132,2025-08-22,2025-08-22T14:30:00,2025-08-22T14:09:00,2025-08-22T14:36:00,Rheumatology,RA Clinic,Follow-up,ED,Routine,NP D. Chen,Completed,6.0,M,85,Ryde,Active
+V000752,P00049,2024-04-26,2024-04-26T13:15:00,,,Gastroenterology,Endoscopy Review,New,ED,Routine,Dr A. Smith,No-Show,,F,57,Northern Beaches,Pending
+V000753,P00095,2025-04-07,2025-04-07T11:00:00,2025-04-07T10:55:00,2025-04-07T11:07:00,Cardiology,Heart Failure,Follow-up,Specialist,Routine,Dr C. Lee,Completed,7.0,F,55,Ku-ring-gai,Active
+V000754,P00037,2025-01-18,2025-01-18T15:45:00,,,Gastroenterology,Endoscopy Review,New,Inpatient,Routine,NP D. Chen,No-Show,,F,57,Willoughby,Active
+V000755,P00341,2025-07-23,2025-07-23T15:30:00,2025-07-23T15:27:00,2025-07-23T15:36:00,General Medicine,General Clinic,Follow-up,Specialist,Routine,Dr B. Jones,Completed,6.0,M,55,Northern Beaches,Active
+V000756,P00215,2025-03-03,2025-03-03T11:00:00,2025-03-03T10:35:00,2025-03-03T11:07:00,Cardiology,Post-PCI Review,Follow-up,GP,Routine,Dr B. Jones,Completed,7.0,F,68,Northern Beaches,Active
+V000757,P00365,2024-10-16,2024-10-16T09:30:00,2024-10-16T09:30:00,2024-10-16T09:25:00,Oncology,Chemo Review,Follow-up,GP,Routine,Dr B. Jones,Completed,-5.0,M,61,Hornsby,Active
+V000758,P00223,2025-03-22,2025-03-22T11:45:00,,,Neurology,MS Clinic,Follow-up,GP,Routine,Dr B. Jones,No-Show,,M,16,Northern Beaches,Active
+V000759,P00071,2025-04-03,2025-04-03T16:30:00,2025-04-03T16:35:00,2025-04-03T16:10:00,Renal,Transplant Follow-up,New,ED,Routine,Dr B. Jones,Completed,-20.0,F,41,Hornsby,Active
+V000760,P00021,2025-01-05,2025-01-05T11:00:00,,,Gastroenterology,IBD,Follow-up,ED,Routine,PA E. Patel,Cancelled,,F,61,Ryde,Active
+V000761,P00166,2024-01-06,2024-01-06T16:30:00,2024-01-06T16:26:00,2024-01-06T16:33:00,General Medicine,General Clinic,Follow-up,GP,Routine,PA E. Patel,Completed,3.0,F,74,Ku-ring-gai,Active
+V000762,P00210,2025-03-26,2025-03-26T14:00:00,2025-03-26T14:16:00,2025-03-26T14:10:00,Neurology,Stroke Follow-up,Follow-up,GP,Routine,NP D. Chen,Completed,10.0,F,56,Willoughby,Active
+V000763,P00186,2024-09-12,2024-09-12T11:45:00,2024-09-12T11:36:00,2024-09-12T12:11:00,General Medicine,Complex Care,New,Inpatient,Routine,Dr A. Smith,Completed,26.0,F,74,Ryde,Active
+V000764,P00072,2024-02-24,2024-02-24T14:00:00,2024-02-24T14:11:00,2024-02-24T14:13:00,Renal,Access Clinic,Follow-up,GP,Urgent,Dr B. Jones,Completed,13.0,F,66,Northern Beaches,Active
+V000765,P00250,2023-11-29,2023-11-29T08:45:00,,,Endocrinology,Diabetes,New,GP,Urgent,NP D. Chen,No-Show,,F,42,Willoughby,Active
+V000766,P00292,2024-11-23,2024-11-23T12:30:00,2024-11-23T12:01:00,2024-11-23T12:41:00,Rheumatology,RA Clinic,Follow-up,ED,Routine,NP D. Chen,Completed,11.0,M,56,Ku-ring-gai,Active
+V000767,P00155,2025-06-19,2025-06-19T13:30:00,2025-06-19T13:38:00,2025-06-19T13:32:00,Orthopaedics,Joint Clinic,Procedure Prep,GP,Routine,PA E. Patel,Completed,2.0,M,45,Ku-ring-gai,Active
+V000768,P00087,2023-12-08,2023-12-08T16:45:00,,,Rheumatology,RA Clinic,Follow-up,GP,Urgent,Dr C. Lee,No-Show,,M,55,Ryde,Active
+V000769,P00001,2024-05-30,2024-05-30T09:45:00,,,Orthopaedics,Joint Clinic,New,GP,Urgent,PA E. Patel,No-Show,,M,56,Ryde,Active
+V000770,P00386,2024-04-02,2024-04-02T11:00:00,2024-04-02T11:10:00,2024-04-02T10:40:00,Rheumatology,Lupus,Follow-up,Inpatient,Urgent,Dr C. Lee,Completed,-20.0,M,65,Ku-ring-gai,Active
+V000771,P00052,2024-12-30,2024-12-30T16:15:00,2024-12-30T16:04:00,2024-12-30T16:13:00,Respiratory,Asthma,Follow-up,Specialist,Soon,PA E. Patel,Completed,-2.0,F,70,Willoughby,Active
+V000772,P00351,2023-12-20,2023-12-20T09:15:00,2023-12-20T08:43:00,2023-12-20T09:46:00,Renal,Transplant Follow-up,New,GP,Soon,Dr C. Lee,Completed,31.0,F,77,Northern Beaches,Pending
+V000773,P00341,2024-05-09,2024-05-09T12:45:00,,,Rheumatology,Lupus,New,Specialist,Routine,Dr B. Jones,Cancelled,,M,43,Ryde,Active
+V000774,P00205,2024-09-28,2024-09-28T08:15:00,2024-09-28T08:45:00,2024-09-28T08:53:00,Cardiology,Heart Failure,Procedure Prep,GP,Routine,Dr B. Jones,Completed,38.0,F,56,Ryde,Active
+V000775,P00162,2023-12-17,2023-12-17T12:30:00,2023-12-17T12:22:00,2023-12-17T12:29:00,Renal,Dialysis Review,New,ED,Routine,NP D. Chen,Completed,-1.0,M,95,Ku-ring-gai,Reciprocal
+V000776,P00321,2024-05-21,2024-05-21T15:00:00,2024-05-21T14:40:00,2024-05-21T14:47:00,Neurology,Stroke Follow-up,New,GP,Routine,NP D. Chen,Completed,-13.0,F,63,Ku-ring-gai,Active
+V000777,P00310,2024-10-17,2024-10-17T12:00:00,2024-10-17T11:51:00,2024-10-17T12:23:00,Gastroenterology,Endoscopy Review,Procedure Prep,GP,Routine,Dr B. Jones,Completed,23.0,F,50,Ryde,Active
+V000778,P00363,2024-01-14,2024-01-14T10:00:00,,,Gastroenterology,Hepatitis,Follow-up,ED,Urgent,PA E. Patel,Cancelled,,F,60,Hornsby,Active
+V000779,P00152,2025-10-17,2025-10-17T16:00:00,2025-10-17T15:40:00,2025-10-17T16:29:00,Endocrinology,Metabolic Clinic,Procedure Prep,GP,Urgent,Dr B. Jones,Completed,29.0,M,60,Ku-ring-gai,Active
+V000780,P00093,2024-06-04,2024-06-04T09:15:00,2024-06-04T08:55:00,2024-06-04T09:06:00,Renal,Access Clinic,Follow-up,Inpatient,Urgent,Dr C. Lee,Completed,-9.0,F,72,Hornsby,Active
+V000781,P00036,2025-04-10,2025-04-10T11:45:00,2025-04-10T11:31:00,2025-04-10T12:05:00,Respiratory,COPD,New,ED,Urgent,NP D. Chen,Completed,20.0,F,50,Ku-ring-gai,Active
+V000782,P00018,2024-10-03,2024-10-03T14:15:00,2024-10-03T14:13:00,2024-10-03T14:08:00,Neurology,Stroke Follow-up,Follow-up,GP,Routine,Dr B. Jones,Completed,-7.0,M,54,Ku-ring-gai,Active
+V000783,P00318,2024-08-03,2024-08-03T09:00:00,2024-08-03T08:22:00,2024-08-03T09:37:00,Rheumatology,Lupus,Follow-up,Specialist,Routine,Dr C. Lee,Completed,37.0,M,66,Willoughby,Active
+V000784,P00281,2025-02-03,2025-02-03T09:00:00,2025-02-03T08:31:00,2025-02-03T08:50:00,Orthopaedics,Joint Clinic,Follow-up,GP,Routine,PA E. Patel,Completed,-10.0,F,25,Hornsby,Active
+V000785,P00088,2024-04-30,2024-04-30T16:30:00,2024-04-30T16:25:00,2024-04-30T17:20:00,Neurology,Stroke Follow-up,Follow-up,GP,Routine,Dr A. Smith,Completed,50.0,M,33,Willoughby,Active
+V000786,P00076,2025-02-19,2025-02-19T15:30:00,2025-02-19T15:50:00,2025-02-19T15:27:00,Cardiology,Heart Failure,Follow-up,GP,Routine,Dr C. Lee,Completed,-3.0,M,45,Ryde,Active
+V000787,P00358,2025-05-06,2025-05-06T12:45:00,2025-05-06T12:45:00,2025-05-06T12:25:00,Respiratory,COPD,New,GP,Routine,PA E. Patel,Completed,-20.0,F,67,Ku-ring-gai,Active
+V000788,P00007,2025-05-18,2025-05-18T15:30:00,2025-05-18T15:36:00,2025-05-18T15:19:00,Neurology,MS Clinic,New,Specialist,Routine,Dr B. Jones,Completed,-11.0,F,64,Northern Beaches,Active
+V000789,P00304,2024-11-13,2024-11-13T15:30:00,2024-11-13T15:14:00,2024-11-13T15:47:00,Endocrinology,Thyroid,Follow-up,GP,Routine,NP D. Chen,Completed,17.0,M,48,Ryde,Active
+V000790,P00088,2024-12-19,2024-12-19T12:30:00,2024-12-19T12:11:00,2024-12-19T12:28:00,Cardiology,Heart Failure,Follow-up,Inpatient,Routine,NP D. Chen,Completed,-2.0,F,30,Ku-ring-gai,Active
+V000791,P00283,2025-08-17,2025-08-17T12:00:00,2025-08-17T12:12:00,2025-08-17T11:52:00,Orthopaedics,Joint Clinic,Follow-up,GP,Routine,Dr A. Smith,Completed,-8.0,M,54,Ku-ring-gai,Active
+V000792,P00320,2024-02-03,2024-02-03T09:00:00,,,Orthopaedics,Fracture,Follow-up,GP,Routine,PA E. Patel,Cancelled,,F,64,Ryde,Pending
+V000793,P00062,2024-11-12,2024-11-12T09:45:00,,,Neurology,Epilepsy,Follow-up,GP,Routine,Dr C. Lee,Cancelled,,F,50,Northern Beaches,Active
+V000794,P00203,2025-01-19,2025-01-19T15:30:00,,,General Medicine,Complex Care,Follow-up,GP,Routine,Dr C. Lee,Cancelled,,F,57,Ku-ring-gai,Pending
+V000795,P00215,2024-05-09,2024-05-09T13:45:00,2024-05-09T13:41:00,2024-05-09T14:14:00,Gastroenterology,Endoscopy Review,Follow-up,GP,Routine,Dr C. Lee,Completed,29.0,M,23,Northern Beaches,Pending
+V000796,P00359,2024-05-03,2024-05-03T11:00:00,2024-05-03T10:48:00,2024-05-03T10:55:00,Oncology,New Cancer Consult,Follow-up,GP,Routine,Dr C. Lee,Completed,-5.0,M,46,Hornsby,Active
+V000797,P00376,2024-04-03,2024-04-03T10:30:00,2024-04-03T10:21:00,2024-04-03T10:40:00,General Medicine,General Clinic,Follow-up,GP,Routine,NP D. Chen,Completed,10.0,M,58,Willoughby,Active
+V000798,P00182,2024-01-16,2024-01-16T11:45:00,2024-01-16T11:30:00,2024-01-16T12:33:00,Gastroenterology,Endoscopy Review,New,GP,Routine,Dr C. Lee,Completed,48.0,F,57,Hornsby,Active
+V000799,P00338,2024-04-23,2024-04-23T16:15:00,2024-04-23T15:49:00,2024-04-23T16:14:00,General Medicine,General Clinic,Follow-up,GP,Routine,Dr B. Jones,Completed,-1.0,F,71,Willoughby,Active
+V000800,P00292,2024-10-03,2024-10-03T08:15:00,2024-10-03T08:01:00,2024-10-03T08:44:00,Endocrinology,Metabolic Clinic,New,GP,Soon,Dr B. Jones,Completed,29.0,F,51,Willoughby,Active
+V000801,P00075,2025-07-12,2025-07-12T15:30:00,2025-07-12T15:30:00,2025-07-12T16:03:00,Renal,Transplant Follow-up,Follow-up,GP,Urgent,NP D. Chen,Completed,33.0,F,67,Ku-ring-gai,Active
+V000802,P00066,2023-12-17,2023-12-17T15:45:00,2023-12-17T15:48:00,2023-12-17T16:19:00,Gastroenterology,IBD,Follow-up,Specialist,Routine,Dr C. Lee,Completed,34.0,M,53,Hornsby,Reciprocal
+V000803,P00017,2024-09-30,2024-09-30T08:30:00,2024-09-30T08:27:00,2024-09-30T08:36:00,Orthopaedics,Joint Clinic,New,GP,Routine,Dr B. Jones,Completed,6.0,F,65,Ku-ring-gai,Active
+V000804,P00289,2025-04-29,2025-04-29T14:30:00,2025-04-29T14:09:00,2025-04-29T14:33:00,Rheumatology,Lupus,Follow-up,GP,Urgent,Dr C. Lee,Completed,3.0,M,59,Northern Beaches,Active
+V000805,P00388,2024-03-30,2024-03-30T10:15:00,2024-03-30T10:21:00,2024-03-30T10:17:00,Neurology,Stroke Follow-up,New,Inpatient,Routine,PA E. Patel,Completed,2.0,M,25,Northern Beaches,Active
+V000806,P00077,2024-05-13,2024-05-13T14:45:00,2024-05-13T14:32:00,2024-05-13T14:40:00,Endocrinology,Thyroid,Follow-up,ED,Routine,Dr C. Lee,Completed,-5.0,F,95,Northern Beaches,Active
+V000807,P00003,2024-01-11,2024-01-11T12:45:00,2024-01-11T12:47:00,2024-01-11T13:09:00,Respiratory,COPD,Follow-up,Inpatient,Routine,PA E. Patel,Completed,24.0,M,58,Willoughby,Active
+V000808,P00184,2024-08-25,2024-08-25T13:15:00,2024-08-25T13:09:00,2024-08-25T13:00:00,Cardiology,Post-PCI Review,Follow-up,GP,Urgent,Dr B. Jones,Completed,-15.0,F,72,Ku-ring-gai,Active
+V000809,P00017,2024-08-28,2024-08-28T16:00:00,2024-08-28T15:34:00,2024-08-28T16:11:00,Cardiology,Heart Failure,Follow-up,GP,Urgent,Dr A. Smith,Completed,11.0,F,69,Northern Beaches,Active
+V000810,P00277,2024-06-09,2024-06-09T08:30:00,2024-06-09T08:34:00,2024-06-09T09:03:00,Oncology,Radiation Review,Follow-up,GP,Routine,Dr A. Smith,Completed,33.0,M,51,Willoughby,Active
+V000811,P00322,2024-06-27,2024-06-27T11:00:00,2024-06-27T11:00:00,2024-06-27T11:01:00,Renal,Access Clinic,New,GP,Routine,NP D. Chen,Completed,1.0,F,57,Ku-ring-gai,Active
+V000812,P00051,2024-06-01,2024-06-01T08:30:00,2024-06-01T08:49:00,2024-06-01T08:59:00,Renal,Access Clinic,Follow-up,GP,Soon,NP D. Chen,Completed,29.0,F,56,Hornsby,Active
+V000813,P00273,2025-04-21,2025-04-21T12:45:00,,,Oncology,New Cancer Consult,Follow-up,ED,Soon,NP D. Chen,No-Show,,M,79,Hornsby,Active
+V000814,P00106,2025-08-17,2025-08-17T16:45:00,2025-08-17T16:48:00,2025-08-17T16:39:00,Oncology,New Cancer Consult,New,GP,Soon,Dr C. Lee,Completed,-6.0,M,54,Ryde,Active
+V000815,P00094,2024-09-30,2024-09-30T09:15:00,2024-09-30T08:36:00,2024-09-30T08:59:00,Neurology,Epilepsy,Follow-up,GP,Routine,PA E. Patel,Completed,-16.0,F,43,Ku-ring-gai,Active
+V000816,P00121,2024-11-21,2024-11-21T14:30:00,2024-11-21T14:46:00,2024-11-21T14:40:00,Cardiology,Post-PCI Review,Follow-up,GP,Routine,NP D. Chen,Completed,10.0,F,64,Ku-ring-gai,Active
+V000817,P00199,2025-03-12,2025-03-12T14:30:00,2025-03-12T14:30:00,2025-03-12T14:31:00,Orthopaedics,Joint Clinic,Follow-up,Specialist,Soon,Dr B. Jones,Completed,1.0,M,44,Willoughby,Active
+V000818,P00353,2024-06-19,2024-06-19T11:30:00,2024-06-19T11:25:00,2024-06-19T11:24:00,Respiratory,COPD,Follow-up,Inpatient,Urgent,Dr B. Jones,Completed,-6.0,M,67,Hornsby,Active
+V000819,P00162,2025-05-03,2025-05-03T11:30:00,2025-05-03T11:13:00,2025-05-03T11:59:00,Rheumatology,RA Clinic,New,Inpatient,Urgent,PA E. Patel,Completed,29.0,F,35,Northern Beaches,Active
+V000820,P00074,2024-11-18,2024-11-18T11:45:00,,,General Medicine,General Clinic,Follow-up,GP,Routine,Dr A. Smith,No-Show,,M,81,Northern Beaches,Active
+V000821,P00063,2024-04-11,2024-04-11T09:15:00,2024-04-11T08:45:00,2024-04-11T09:41:00,Rheumatology,Gout/Metabolic,Follow-up,GP,Routine,PA E. Patel,Completed,26.0,F,62,Northern Beaches,Active
+V000822,P00010,2025-07-23,2025-07-23T12:00:00,2025-07-23T11:37:00,2025-07-23T12:27:00,Oncology,Chemo Review,New,GP,Routine,Dr A. Smith,Completed,27.0,M,63,Willoughby,Active
+V000823,P00209,2025-03-12,2025-03-12T13:00:00,,,Endocrinology,Diabetes,Follow-up,Specialist,Routine,Dr B. Jones,No-Show,,F,60,Ryde,Pending
+V000824,P00382,2024-09-13,2024-09-13T13:45:00,2024-09-13T13:32:00,2024-09-13T14:13:00,Rheumatology,Lupus,Follow-up,Inpatient,Urgent,Dr B. Jones,Completed,28.0,M,75,Ku-ring-gai,Active
+V000825,P00153,2025-04-25,2025-04-25T13:00:00,2025-04-25T13:12:00,2025-04-25T13:13:00,Renal,Transplant Follow-up,Follow-up,Specialist,Soon,Dr C. Lee,Completed,13.0,F,66,Hornsby,Active
+V000826,P00026,2025-01-21,2025-01-21T11:45:00,2025-01-21T11:41:00,2025-01-21T11:46:00,Oncology,Chemo Review,Follow-up,GP,Routine,Dr B. Jones,Completed,1.0,F,40,Ku-ring-gai,Active
+V000827,P00166,2024-07-10,2024-07-10T12:30:00,2024-07-10T12:29:00,2024-07-10T12:46:00,Rheumatology,RA Clinic,Follow-up,Inpatient,Routine,Dr B. Jones,Completed,16.0,M,82,Ryde,Active
+V000828,P00111,2024-12-08,2024-12-08T09:00:00,2024-12-08T09:23:00,2024-12-08T08:43:00,Cardiology,Arrhythmia,New,Specialist,Routine,PA E. Patel,Completed,-17.0,F,60,Hornsby,Active
+V000829,P00212,2024-12-14,2024-12-14T11:00:00,2024-12-14T10:38:00,2024-12-14T11:13:00,Cardiology,Post-PCI Review,Follow-up,GP,Routine,PA E. Patel,Completed,13.0,F,46,Willoughby,Active
+V000830,P00115,2024-05-21,2024-05-21T15:30:00,2024-05-21T15:25:00,2024-05-21T16:02:00,Respiratory,Asthma,New,GP,Soon,Dr B. Jones,Completed,32.0,F,35,Willoughby,Active
+V000831,P00369,2024-10-18,2024-10-18T10:45:00,2024-10-18T10:28:00,2024-10-18T11:08:00,Respiratory,Sleep Study Follow-up,New,ED,Routine,PA E. Patel,Completed,23.0,F,74,Willoughby,Active
+V000832,P00182,2025-06-07,2025-06-07T15:30:00,2025-06-07T15:22:00,2025-06-07T15:26:00,Gastroenterology,Hepatitis,Follow-up,GP,Routine,Dr C. Lee,Completed,-4.0,M,62,Willoughby,Active
+V000833,P00316,2025-08-19,2025-08-19T16:30:00,2025-08-19T16:02:00,2025-08-19T16:29:00,Cardiology,Post-PCI Review,New,GP,Routine,PA E. Patel,Completed,-1.0,F,57,Willoughby,Active
+V000834,P00094,2024-03-10,2024-03-10T11:15:00,2024-03-10T11:02:00,2024-03-10T11:33:00,Renal,Transplant Follow-up,Follow-up,GP,Routine,Dr B. Jones,Completed,18.0,F,86,Hornsby,Active
+V000835,P00073,2025-02-17,2025-02-17T11:45:00,2025-02-17T11:44:00,2025-02-17T11:43:00,Orthopaedics,Fracture,New,Specialist,Routine,Dr A. Smith,Completed,-2.0,M,74,Ryde,Active
+V000836,P00169,2025-01-14,2025-01-14T12:15:00,2025-01-14T12:15:00,2025-01-14T12:18:00,Gastroenterology,IBD,Follow-up,GP,Routine,Dr B. Jones,Completed,3.0,F,42,Willoughby,Active
+V000837,P00161,2024-12-24,2024-12-24T15:15:00,2024-12-24T15:06:00,2024-12-24T15:02:00,Rheumatology,Lupus,Procedure Prep,GP,Routine,Dr A. Smith,Completed,-13.0,F,39,Ku-ring-gai,Active
+V000838,P00189,2024-08-15,2024-08-15T14:45:00,,,Respiratory,Sleep Study Follow-up,Follow-up,Inpatient,Soon,Dr B. Jones,No-Show,,F,51,Ryde,Active
+V000839,P00399,2025-07-22,2025-07-22T15:00:00,2025-07-22T15:08:00,2025-07-22T15:00:00,Renal,Dialysis Review,New,GP,Urgent,Dr A. Smith,Completed,0.0,F,64,Hornsby,Active
+V000840,P00034,2024-10-25,2024-10-25T10:15:00,2024-10-25T10:12:00,2024-10-25T10:59:00,Neurology,Stroke Follow-up,New,GP,Soon,Dr C. Lee,Completed,44.0,M,48,Hornsby,Active
+V000841,P00059,2025-08-27,2025-08-27T09:30:00,2025-08-27T09:30:00,2025-08-27T09:37:00,Respiratory,Asthma,New,GP,Routine,NP D. Chen,Completed,7.0,F,49,Ku-ring-gai,Active
+V000842,P00041,2025-01-28,2025-01-28T08:45:00,2025-01-28T08:37:00,2025-01-28T08:57:00,Gastroenterology,Endoscopy Review,New,ED,Routine,Dr B. Jones,Completed,12.0,M,60,Northern Beaches,Active
+V000843,P00197,2024-07-26,2024-07-26T14:15:00,,,Endocrinology,Diabetes,Follow-up,Specialist,Routine,Dr B. Jones,Cancelled,,F,29,Hornsby,Active
+V000844,P00325,2023-12-24,2023-12-24T14:15:00,2023-12-24T14:16:00,2023-12-24T14:33:00,Orthopaedics,Spine Review,Follow-up,GP,Routine,Dr A. Smith,Completed,18.0,M,65,Ku-ring-gai,Active
+V000845,P00273,2025-03-30,2025-03-30T11:45:00,2025-03-30T11:28:00,2025-03-30T11:38:00,Endocrinology,Diabetes,Follow-up,ED,Routine,Dr B. Jones,Completed,-7.0,M,79,Willoughby,Active
+V000846,P00270,2024-01-16,2024-01-16T14:00:00,2024-01-16T13:55:00,2024-01-16T14:05:00,Cardiology,Heart Failure,Follow-up,GP,Routine,Dr B. Jones,Completed,5.0,M,50,Ku-ring-gai,Pending
+V000847,P00173,2024-10-08,2024-10-08T14:45:00,2024-10-08T14:48:00,2024-10-08T15:30:00,Cardiology,Arrhythmia,Follow-up,GP,Routine,PA E. Patel,Completed,45.0,M,56,Hornsby,Active
+V000848,P00292,2024-03-03,2024-03-03T09:30:00,2024-03-03T09:21:00,2024-03-03T09:37:00,Endocrinology,Thyroid,Follow-up,Inpatient,Routine,Dr C. Lee,Completed,7.0,M,26,Hornsby,Active
+V000849,P00109,2024-10-06,2024-10-06T13:15:00,2024-10-06T13:17:00,2024-10-06T13:33:00,Neurology,MS Clinic,Procedure Prep,GP,Routine,Dr B. Jones,Completed,18.0,M,37,Ryde,Active
+V000850,P00391,2024-06-18,2024-06-18T08:30:00,,,Cardiology,Arrhythmia,Follow-up,GP,Routine,NP D. Chen,Cancelled,,F,78,Ku-ring-gai,Pending
+V000851,P00136,2024-06-24,2024-06-24T09:15:00,,,Endocrinology,Metabolic Clinic,New,GP,Routine,NP D. Chen,No-Show,,F,25,Hornsby,Active
+V000852,P00336,2024-11-28,2024-11-28T12:00:00,2024-11-28T11:59:00,2024-11-28T12:25:00,Endocrinology,Diabetes,New,GP,Routine,Dr C. Lee,Completed,25.0,F,63,Northern Beaches,Active
+V000853,P00112,2025-10-21,2025-10-21T08:30:00,2025-10-21T08:23:00,2025-10-21T08:10:00,Respiratory,COPD,Follow-up,Inpatient,Soon,Dr A. Smith,Completed,-20.0,M,52,Ku-ring-gai,Pending
+V000854,P00180,2024-10-16,2024-10-16T16:45:00,2024-10-16T16:45:00,2024-10-16T17:22:00,Oncology,Radiation Review,Follow-up,GP,Routine,PA E. Patel,Completed,37.0,F,80,Ku-ring-gai,Active
+V000855,P00046,2024-06-25,2024-06-25T12:15:00,2024-06-25T11:48:00,2024-06-25T12:21:00,Rheumatology,RA Clinic,Procedure Prep,GP,Routine,Dr C. Lee,Completed,6.0,F,82,Willoughby,Active
+V000856,P00220,2024-12-02,2024-12-02T15:30:00,2024-12-02T15:16:00,2024-12-02T15:43:00,Cardiology,Post-PCI Review,Follow-up,Inpatient,Routine,NP D. Chen,Completed,13.0,M,62,Hornsby,Active
+V000857,P00251,2024-02-13,2024-02-13T11:15:00,2024-02-13T11:23:00,2024-02-13T11:31:00,Rheumatology,Gout/Metabolic,Follow-up,ED,Routine,NP D. Chen,Completed,16.0,F,66,Willoughby,Active
+V000858,P00191,2024-03-11,2024-03-11T12:15:00,2024-03-11T11:57:00,2024-03-11T12:32:00,Neurology,Epilepsy,New,ED,Routine,Dr A. Smith,Completed,17.0,F,74,Willoughby,Active
+V000859,P00310,2025-02-22,2025-02-22T10:00:00,2025-02-22T09:42:00,2025-02-22T09:54:00,Cardiology,Arrhythmia,Follow-up,GP,Routine,PA E. Patel,Completed,-6.0,M,63,Northern Beaches,Active
+V000860,P00067,2023-11-26,2023-11-26T13:15:00,2023-11-26T13:50:00,2023-11-26T13:12:00,Orthopaedics,Fracture,New,Specialist,Soon,Dr A. Smith,Completed,-3.0,F,67,Ryde,Active
+V000861,P00063,2025-02-13,2025-02-13T12:00:00,2025-02-13T12:05:00,2025-02-13T12:30:00,Respiratory,COPD,New,GP,Soon,Dr C. Lee,Completed,30.0,F,44,Hornsby,Active
+V000862,P00231,2024-05-02,2024-05-02T09:45:00,2024-05-02T09:23:00,2024-05-02T10:12:00,Respiratory,Asthma,Follow-up,Specialist,Soon,NP D. Chen,Completed,27.0,M,64,Hornsby,Active
+V000863,P00170,2024-05-16,2024-05-16T15:45:00,2024-05-16T15:46:00,2024-05-16T16:32:00,Renal,Dialysis Review,New,ED,Routine,NP D. Chen,Completed,47.0,M,75,Hornsby,Active
+V000864,P00191,2025-09-10,2025-09-10T14:30:00,2025-09-10T14:17:00,2025-09-10T14:56:00,Endocrinology,Thyroid,Follow-up,GP,Routine,Dr B. Jones,Completed,26.0,F,42,Ryde,Active
+V000865,P00034,2025-03-13,2025-03-13T15:15:00,2025-03-13T15:18:00,2025-03-13T15:37:00,Respiratory,Asthma,Follow-up,ED,Routine,Dr C. Lee,Completed,22.0,F,62,Northern Beaches,Active
+V000866,P00205,2024-10-06,2024-10-06T10:15:00,2024-10-06T09:52:00,2024-10-06T10:16:00,Oncology,Radiation Review,Follow-up,GP,Routine,Dr B. Jones,Completed,1.0,F,58,Ku-ring-gai,Active
+V000867,P00307,2025-04-16,2025-04-16T08:45:00,2025-04-16T08:12:00,2025-04-16T09:19:00,Cardiology,Heart Failure,New,Inpatient,Routine,PA E. Patel,Completed,34.0,F,43,Ryde,Active
+V000868,P00311,2025-02-13,2025-02-13T11:00:00,2025-02-13T11:03:00,2025-02-13T10:48:00,Neurology,MS Clinic,New,GP,Routine,Dr C. Lee,Completed,-12.0,M,61,Northern Beaches,Active
+V000869,P00384,2025-02-28,2025-02-28T15:15:00,2025-02-28T15:24:00,2025-02-28T15:44:00,Neurology,Epilepsy,Follow-up,Specialist,Routine,NP D. Chen,Completed,29.0,M,53,Ryde,Active
+V000870,P00324,2024-06-15,2024-06-15T16:45:00,2024-06-15T16:54:00,2024-06-15T17:10:00,Orthopaedics,Spine Review,Follow-up,GP,Soon,Dr C. Lee,Completed,25.0,F,76,Ryde,Active
+V000871,P00141,2025-03-09,2025-03-09T09:45:00,2025-03-09T09:24:00,2025-03-09T10:23:00,Endocrinology,Diabetes,Follow-up,GP,Urgent,Dr B. Jones,Completed,38.0,M,59,Hornsby,Active
+V000872,P00086,2025-09-26,2025-09-26T13:15:00,2025-09-26T13:11:00,2025-09-26T12:58:00,Cardiology,Heart Failure,Follow-up,GP,Routine,PA E. Patel,Completed,-17.0,F,90,Hornsby,Active
+V000873,P00113,2025-03-10,2025-03-10T09:00:00,2025-03-10T08:31:00,2025-03-10T08:49:00,Renal,Transplant Follow-up,Follow-up,Specialist,Routine,Dr C. Lee,Completed,-11.0,F,37,Willoughby,Active
+V000874,P00006,2024-12-04,2024-12-04T16:00:00,2024-12-04T15:55:00,2024-12-04T16:00:00,Respiratory,COPD,New,GP,Routine,Dr C. Lee,Completed,0.0,M,49,Hornsby,Active
+V000875,P00354,2025-05-09,2025-05-09T10:15:00,2025-05-09T10:23:00,2025-05-09T10:18:00,Oncology,New Cancer Consult,Follow-up,GP,Soon,Dr B. Jones,Completed,3.0,M,55,Hornsby,Active
+V000876,P00066,2024-03-31,2024-03-31T08:00:00,2024-03-31T07:51:00,2024-03-31T08:10:00,General Medicine,Complex Care,Follow-up,GP,Routine,Dr A. Smith,Completed,10.0,F,49,Willoughby,Active
+V000877,P00226,2025-08-25,2025-08-25T14:15:00,2025-08-25T14:09:00,2025-08-25T14:23:00,Orthopaedics,Joint Clinic,Follow-up,GP,Routine,Dr A. Smith,Completed,8.0,M,86,Hornsby,Active
+V000878,P00074,2024-05-14,2024-05-14T16:30:00,2024-05-14T16:48:00,2024-05-14T16:54:00,Rheumatology,Gout/Metabolic,New,ED,Routine,Dr B. Jones,Completed,24.0,M,50,Ryde,Active
+V000879,P00232,2025-01-09,2025-01-09T15:30:00,2025-01-09T15:22:00,2025-01-09T15:21:00,Oncology,Chemo Review,Follow-up,GP,Routine,Dr A. Smith,Completed,-9.0,M,80,Willoughby,Pending
+V000880,P00302,2025-06-09,2025-06-09T15:15:00,2025-06-09T15:28:00,2025-06-09T15:27:00,Cardiology,Post-PCI Review,New,GP,Routine,Dr A. Smith,Completed,12.0,F,45,Ku-ring-gai,Active
+V000881,P00368,2024-11-28,2024-11-28T15:30:00,,,Respiratory,COPD,Follow-up,Specialist,Routine,PA E. Patel,No-Show,,M,36,Ryde,Active
+V000882,P00199,2025-03-03,2025-03-03T16:30:00,2025-03-03T16:29:00,2025-03-03T16:38:00,Rheumatology,Lupus,New,GP,Routine,NP D. Chen,Completed,8.0,M,35,Hornsby,Active
+V000883,P00019,2025-05-25,2025-05-25T16:00:00,2025-05-25T15:37:00,2025-05-25T16:23:00,Cardiology,Arrhythmia,Follow-up,GP,Routine,PA E. Patel,Completed,23.0,F,32,Hornsby,Active
+V000884,P00357,2024-12-07,2024-12-07T16:15:00,2024-12-07T16:05:00,2024-12-07T16:39:00,Oncology,Chemo Review,Follow-up,GP,Soon,PA E. Patel,Completed,24.0,F,87,Hornsby,Active
+V000885,P00194,2024-11-13,2024-11-13T09:00:00,,,Oncology,Radiation Review,New,Specialist,Routine,Dr B. Jones,No-Show,,M,77,Ku-ring-gai,Active
+V000886,P00290,2024-08-23,2024-08-23T11:45:00,2024-08-23T11:46:00,2024-08-23T11:32:00,Gastroenterology,IBD,Follow-up,GP,Routine,Dr B. Jones,Completed,-13.0,M,34,Hornsby,Active
+V000887,P00303,2024-12-09,2024-12-09T11:45:00,2024-12-09T12:22:00,2024-12-09T11:25:00,Neurology,Stroke Follow-up,New,Specialist,Urgent,Dr C. Lee,Completed,-20.0,F,40,Northern Beaches,Active
+V000888,P00169,2025-01-04,2025-01-04T13:00:00,,,Renal,Transplant Follow-up,Follow-up,GP,Soon,Dr B. Jones,Cancelled,,M,54,Ryde,Active
+V000889,P00353,2025-04-05,2025-04-05T16:15:00,2025-04-05T16:15:00,2025-04-05T16:28:00,Cardiology,Heart Failure,Follow-up,GP,Routine,NP D. Chen,Completed,13.0,F,62,Willoughby,Active
+V000890,P00044,2025-04-25,2025-04-25T15:45:00,2025-04-25T15:57:00,2025-04-25T16:04:00,Orthopaedics,Fracture,New,Inpatient,Routine,Dr B. Jones,Completed,19.0,M,28,Willoughby,Pending
+V000891,P00260,2025-03-15,2025-03-15T12:30:00,2025-03-15T12:29:00,2025-03-15T12:18:00,Neurology,Stroke Follow-up,Follow-up,ED,Urgent,Dr C. Lee,Completed,-12.0,M,28,Hornsby,Active
+V000892,P00072,2025-07-15,2025-07-15T16:45:00,2025-07-15T16:30:00,2025-07-15T17:30:00,Rheumatology,Lupus,Follow-up,GP,Routine,NP D. Chen,Completed,45.0,F,48,Ku-ring-gai,Active
+V000893,P00082,2025-01-16,2025-01-16T12:30:00,,,Cardiology,Arrhythmia,Follow-up,GP,Urgent,Dr C. Lee,No-Show,,M,68,Willoughby,Active
+V000894,P00210,2023-12-04,2023-12-04T09:15:00,2023-12-04T09:14:00,2023-12-04T09:34:00,Orthopaedics,Joint Clinic,Follow-up,ED,Routine,Dr A. Smith,Completed,19.0,M,81,Hornsby,Active
+V000895,P00042,2024-10-02,2024-10-02T10:45:00,2024-10-02T10:55:00,2024-10-02T10:54:00,Respiratory,Sleep Study Follow-up,New,GP,Routine,Dr A. Smith,Completed,9.0,F,77,Hornsby,Active
+V000896,P00087,2025-06-28,2025-06-28T09:45:00,2025-06-28T09:50:00,2025-06-28T09:34:00,Endocrinology,Metabolic Clinic,New,Specialist,Routine,PA E. Patel,Completed,-11.0,M,60,Ku-ring-gai,Active
+V000897,P00342,2025-06-02,2025-06-02T10:45:00,2025-06-02T10:45:00,2025-06-02T10:53:00,Renal,Transplant Follow-up,Follow-up,GP,Urgent,NP D. Chen,Completed,8.0,M,66,Hornsby,Active
+V000898,P00123,2025-02-10,2025-02-10T10:30:00,2025-02-10T10:26:00,2025-02-10T10:54:00,Endocrinology,Thyroid,Follow-up,Inpatient,Soon,NP D. Chen,Completed,24.0,M,51,Hornsby,Active
+V000899,P00010,2025-01-23,2025-01-23T16:00:00,2025-01-23T15:49:00,2025-01-23T16:28:00,Orthopaedics,Spine Review,Procedure Prep,GP,Routine,PA E. Patel,Completed,28.0,F,81,Ku-ring-gai,Active
+V000900,P00184,2025-01-26,2025-01-26T12:30:00,,,Cardiology,Heart Failure,New,GP,Routine,Dr A. Smith,No-Show,,F,83,Northern Beaches,Active
+V000901,P00280,2024-03-07,2024-03-07T13:15:00,2024-03-07T13:06:00,2024-03-07T12:55:00,Cardiology,Post-PCI Review,Procedure Prep,Specialist,Routine,Dr A. Smith,Completed,-20.0,M,50,Northern Beaches,Active
+V000902,P00235,2025-04-21,2025-04-21T12:30:00,2025-04-21T11:40:00,2025-04-21T13:11:00,Orthopaedics,Spine Review,Follow-up,GP,Urgent,NP D. Chen,Completed,41.0,M,39,Willoughby,Active
+V000903,P00304,2025-05-17,2025-05-17T16:45:00,2025-05-17T16:41:00,2025-05-17T16:53:00,Respiratory,COPD,New,GP,Routine,Dr C. Lee,Completed,8.0,M,58,Willoughby,Active
+V000904,P00398,2025-05-06,2025-05-06T09:15:00,2025-05-06T09:18:00,2025-05-06T09:18:00,Neurology,Stroke Follow-up,Follow-up,GP,Routine,NP D. Chen,Completed,3.0,M,61,Ku-ring-gai,Active
+V000905,P00378,2025-08-20,2025-08-20T09:30:00,2025-08-20T09:28:00,2025-08-20T09:10:00,Neurology,Stroke Follow-up,Follow-up,Specialist,Routine,Dr B. Jones,Completed,-20.0,M,49,Hornsby,Active
+V000906,P00293,2025-03-16,2025-03-16T09:30:00,2025-03-16T09:45:00,2025-03-16T09:39:00,Orthopaedics,Joint Clinic,Follow-up,GP,Soon,Dr A. Smith,Completed,9.0,M,63,Northern Beaches,Active
+V000907,P00146,2024-01-09,2024-01-09T16:00:00,2024-01-09T15:55:00,2024-01-09T15:56:00,Respiratory,Sleep Study Follow-up,Follow-up,ED,Routine,Dr B. Jones,Completed,-4.0,F,69,Hornsby,Active
+V000908,P00217,2024-09-20,2024-09-20T12:45:00,2024-09-20T12:52:00,2024-09-20T13:23:00,Oncology,Radiation Review,New,Specialist,Routine,NP D. Chen,Completed,38.0,M,40,Willoughby,Pending
+V000909,P00180,2024-12-27,2024-12-27T12:00:00,2024-12-27T12:00:00,2024-12-27T11:56:00,Cardiology,Arrhythmia,Follow-up,ED,Routine,NP D. Chen,Completed,-4.0,F,52,Ku-ring-gai,Active
+V000910,P00087,2025-05-05,2025-05-05T08:30:00,2025-05-05T08:23:00,2025-05-05T08:14:00,Orthopaedics,Spine Review,New,GP,Routine,Dr A. Smith,Completed,-16.0,F,62,Ku-ring-gai,Active
+V000911,P00205,2025-11-05,2025-11-05T09:15:00,2025-11-05T09:17:00,2025-11-05T09:08:00,Endocrinology,Diabetes,New,GP,Routine,PA E. Patel,Completed,-7.0,M,81,Willoughby,Active
+V000912,P00236,2025-08-12,2025-08-12T12:30:00,2025-08-12T12:37:00,2025-08-12T13:01:00,Renal,Transplant Follow-up,New,Specialist,Routine,Dr B. Jones,Completed,31.0,M,45,Northern Beaches,Active
+V000913,P00334,2024-05-21,2024-05-21T13:30:00,2024-05-21T13:28:00,2024-05-21T14:08:00,Rheumatology,RA Clinic,Follow-up,Specialist,Soon,Dr B. Jones,Completed,38.0,M,71,Ku-ring-gai,Active
+V000914,P00303,2024-10-05,2024-10-05T13:15:00,2024-10-05T13:09:00,2024-10-05T12:55:00,Endocrinology,Metabolic Clinic,Follow-up,GP,Soon,Dr B. Jones,Completed,-20.0,M,55,Hornsby,Active
+V000915,P00088,2025-02-28,2025-02-28T08:30:00,,,Respiratory,Asthma,Follow-up,Specialist,Routine,Dr B. Jones,Cancelled,,M,53,Ryde,Active
+V000916,P00041,2024-07-28,2024-07-28T10:00:00,2024-07-28T09:50:00,2024-07-28T09:44:00,Rheumatology,Gout/Metabolic,New,GP,Routine,Dr C. Lee,Completed,-16.0,F,36,Willoughby,Active
+V000917,P00128,2025-03-07,2025-03-07T15:00:00,,,Renal,Dialysis Review,New,GP,Routine,Dr C. Lee,No-Show,,F,62,Ku-ring-gai,Active
+V000918,P00008,2024-02-08,2024-02-08T15:15:00,2024-02-08T14:55:00,2024-02-08T15:19:00,Gastroenterology,Endoscopy Review,Follow-up,ED,Routine,PA E. Patel,Completed,4.0,F,58,Ryde,Active
+V000919,P00221,2025-10-15,2025-10-15T11:15:00,2025-10-15T11:21:00,2025-10-15T10:57:00,Endocrinology,Thyroid,Follow-up,ED,Urgent,Dr B. Jones,Completed,-18.0,M,75,Northern Beaches,Active
+V000920,P00256,2024-09-11,2024-09-11T09:30:00,2024-09-11T09:34:00,2024-09-11T10:13:00,Oncology,Chemo Review,Follow-up,ED,Routine,Dr C. Lee,Completed,43.0,M,45,Northern Beaches,Active
+V000921,P00014,2024-07-11,2024-07-11T12:45:00,2024-07-11T12:29:00,2024-07-11T12:52:00,Respiratory,Asthma,Follow-up,ED,Routine,PA E. Patel,Completed,7.0,F,53,Ku-ring-gai,Active
+V000922,P00001,2025-08-01,2025-08-01T16:15:00,,,General Medicine,Senior Review,Follow-up,GP,Soon,Dr B. Jones,No-Show,,F,59,Hornsby,Active
+V000923,P00089,2024-08-29,2024-08-29T15:00:00,2024-08-29T15:06:00,2024-08-29T15:13:00,Endocrinology,Thyroid,Follow-up,GP,Routine,NP D. Chen,Completed,13.0,F,65,Hornsby,Reciprocal
+V000924,P00379,2024-10-06,2024-10-06T10:15:00,2024-10-06T10:12:00,2024-10-06T10:56:00,General Medicine,Senior Review,Follow-up,Inpatient,Soon,NP D. Chen,Completed,41.0,M,63,Northern Beaches,Active
+V000925,P00391,2023-11-15,2023-11-15T15:45:00,2023-11-15T15:42:00,2023-11-15T16:32:00,Gastroenterology,Hepatitis,Follow-up,Inpatient,Routine,Dr B. Jones,Completed,47.0,M,50,Ku-ring-gai,Active
+V000926,P00320,2023-12-03,2023-12-03T11:00:00,2023-12-03T10:34:00,2023-12-03T11:15:00,Orthopaedics,Fracture,Follow-up,GP,Urgent,Dr C. Lee,Completed,15.0,F,65,Ryde,Active
+V000927,P00297,2024-07-14,2024-07-14T09:00:00,2024-07-14T09:06:00,2024-07-14T09:12:00,Gastroenterology,Hepatitis,New,ED,Routine,Dr B. Jones,Completed,12.0,F,54,Willoughby,Active
+V000928,P00362,2025-09-01,2025-09-01T12:00:00,2025-09-01T12:10:00,2025-09-01T12:56:00,General Medicine,Senior Review,New,Specialist,Urgent,Dr B. Jones,Completed,56.0,M,61,Ku-ring-gai,Active
+V000929,P00097,2024-11-16,2024-11-16T16:45:00,2024-11-16T16:41:00,2024-11-16T16:53:00,Neurology,Epilepsy,New,GP,Urgent,Dr C. Lee,Completed,8.0,F,58,Ku-ring-gai,Active
+V000930,P00248,2025-10-20,2025-10-20T08:30:00,2025-10-20T08:43:00,2025-10-20T09:03:00,Rheumatology,Lupus,New,ED,Urgent,Dr C. Lee,Completed,33.0,F,59,Ryde,Active
+V000931,P00203,2024-02-11,2024-02-11T10:45:00,2024-02-11T10:46:00,2024-02-11T11:13:00,Renal,Dialysis Review,New,GP,Routine,PA E. Patel,Completed,28.0,M,43,Ku-ring-gai,Pending
+V000932,P00211,2024-07-25,2024-07-25T09:00:00,2024-07-25T09:13:00,2024-07-25T09:44:00,Rheumatology,Gout/Metabolic,Follow-up,GP,Routine,NP D. Chen,Completed,44.0,F,59,Ku-ring-gai,Active
+V000933,P00368,2024-10-04,2024-10-04T08:00:00,2024-10-04T07:41:00,2024-10-04T08:07:00,Oncology,Radiation Review,New,Inpatient,Soon,Dr B. Jones,Completed,7.0,M,71,Willoughby,Active
+V000934,P00343,2025-03-14,2025-03-14T09:45:00,2025-03-14T09:34:00,2025-03-14T09:36:00,Orthopaedics,Fracture,Follow-up,GP,Soon,Dr A. Smith,Completed,-9.0,F,65,Ryde,Active
+V000935,P00037,2025-09-25,2025-09-25T13:15:00,2025-09-25T13:16:00,2025-09-25T13:26:00,Endocrinology,Thyroid,New,Inpatient,Urgent,NP D. Chen,Completed,11.0,F,38,Northern Beaches,Active
+V000936,P00350,2025-02-04,2025-02-04T08:15:00,2025-02-04T07:52:00,2025-02-04T07:55:00,Respiratory,Sleep Study Follow-up,Procedure Prep,GP,Routine,PA E. Patel,Completed,-20.0,F,55,Ryde,Active
+V000937,P00287,2024-06-17,2024-06-17T10:30:00,2024-06-17T10:30:00,2024-06-17T10:26:00,Gastroenterology,Hepatitis,New,ED,Routine,NP D. Chen,Completed,-4.0,M,34,Northern Beaches,Active
+V000938,P00277,2024-06-28,2024-06-28T09:15:00,2024-06-28T09:28:00,2024-06-28T09:45:00,Cardiology,Heart Failure,New,GP,Routine,Dr B. Jones,Completed,30.0,F,51,Northern Beaches,Active
+V000939,P00015,2025-04-19,2025-04-19T11:30:00,,,Oncology,New Cancer Consult,New,GP,Routine,Dr C. Lee,No-Show,,F,56,Willoughby,Active
+V000940,P00276,2024-07-19,2024-07-19T14:30:00,,,Rheumatology,Lupus,Follow-up,GP,Soon,NP D. Chen,No-Show,,F,66,Northern Beaches,Active
+V000941,P00366,2024-05-29,2024-05-29T13:30:00,2024-05-29T13:38:00,2024-05-29T13:27:00,Renal,Transplant Follow-up,New,GP,Routine,Dr C. Lee,Completed,-3.0,F,70,Willoughby,Active
+V000942,P00184,2025-07-21,2025-07-21T13:15:00,2025-07-21T13:39:00,2025-07-21T13:45:00,Cardiology,Heart Failure,Follow-up,GP,Soon,NP D. Chen,Completed,30.0,M,37,Northern Beaches,Active
+V000943,P00182,2025-03-24,2025-03-24T15:30:00,2025-03-24T16:07:00,2025-03-24T16:17:00,Renal,Dialysis Review,Procedure Prep,GP,Routine,Dr C. Lee,Completed,47.0,F,78,Ku-ring-gai,Active
+V000944,P00077,2025-05-17,2025-05-17T13:45:00,2025-05-17T13:35:00,2025-05-17T13:50:00,Rheumatology,Gout/Metabolic,Follow-up,GP,Routine,PA E. Patel,Completed,5.0,F,81,Ryde,Active
+V000945,P00139,2025-03-02,2025-03-02T09:45:00,2025-03-02T09:41:00,2025-03-02T09:52:00,Cardiology,Arrhythmia,Follow-up,Specialist,Urgent,Dr B. Jones,Completed,7.0,F,67,Ryde,Active
+V000946,P00161,2024-01-13,2024-01-13T16:45:00,2024-01-13T16:22:00,2024-01-13T16:49:00,General Medicine,General Clinic,Follow-up,GP,Soon,Dr C. Lee,Completed,4.0,F,45,Hornsby,Active
+V000947,P00167,2024-08-01,2024-08-01T14:00:00,2024-08-01T14:02:00,2024-08-01T14:25:00,Respiratory,Sleep Study Follow-up,Follow-up,GP,Routine,Dr B. Jones,Completed,25.0,F,83,Hornsby,Active
+V000948,P00130,2024-12-30,2024-12-30T12:30:00,2024-12-30T12:10:00,2024-12-30T12:36:00,Neurology,Epilepsy,New,GP,Routine,Dr A. Smith,Completed,6.0,F,45,Hornsby,Active
+V000949,P00126,2024-05-27,2024-05-27T11:45:00,,,Orthopaedics,Spine Review,New,GP,Routine,NP D. Chen,Cancelled,,F,84,Hornsby,Active
+V000950,P00218,2024-10-22,2024-10-22T16:00:00,2024-10-22T15:59:00,2024-10-22T16:10:00,Renal,Dialysis Review,Follow-up,GP,Routine,Dr C. Lee,Completed,10.0,M,87,Willoughby,Active
+V000951,P00123,2024-12-09,2024-12-09T09:30:00,2024-12-09T09:49:00,2024-12-09T09:50:00,Respiratory,Sleep Study Follow-up,New,Specialist,Soon,Dr B. Jones,Completed,20.0,M,48,Willoughby,Active
+V000952,P00179,2025-03-31,2025-03-31T12:30:00,2025-03-31T12:18:00,2025-03-31T13:00:00,General Medicine,Senior Review,Procedure Prep,Inpatient,Routine,NP D. Chen,Completed,30.0,M,33,Northern Beaches,Active
+V000953,P00291,2025-11-06,2025-11-06T13:45:00,2025-11-06T13:15:00,2025-11-06T13:59:00,Respiratory,Asthma,New,Specialist,Routine,PA E. Patel,Completed,14.0,F,74,Hornsby,Pending
+V000954,P00336,2024-02-14,2024-02-14T12:30:00,2024-02-14T12:27:00,2024-02-14T12:30:00,Orthopaedics,Joint Clinic,Procedure Prep,GP,Routine,Dr A. Smith,Completed,0.0,F,46,Northern Beaches,Active
+V000955,P00012,2024-03-18,2024-03-18T12:30:00,2024-03-18T12:27:00,2024-03-18T12:55:00,Rheumatology,RA Clinic,New,ED,Routine,Dr A. Smith,Completed,25.0,F,63,Ku-ring-gai,Active
+V000956,P00269,2023-12-22,2023-12-22T10:30:00,2023-12-22T10:07:00,2023-12-22T10:10:00,Orthopaedics,Joint Clinic,Follow-up,GP,Routine,Dr C. Lee,Completed,-20.0,M,73,Northern Beaches,Active
+V000957,P00393,2023-11-30,2023-11-30T14:30:00,2023-11-30T14:22:00,2023-11-30T14:12:00,Respiratory,Sleep Study Follow-up,Follow-up,GP,Routine,Dr C. Lee,Completed,-18.0,M,54,Northern Beaches,Active
+V000958,P00083,2023-11-15,2023-11-15T12:30:00,2023-11-15T12:35:00,2023-11-15T12:44:00,Respiratory,COPD,New,Specialist,Routine,Dr A. Smith,Completed,14.0,F,35,Willoughby,Reciprocal
+V000959,P00085,2023-12-18,2023-12-18T14:30:00,2023-12-18T14:30:00,2023-12-18T14:29:00,Cardiology,Arrhythmia,Follow-up,GP,Routine,PA E. Patel,Completed,-1.0,M,52,Ryde,Active
+V000960,P00318,2024-01-23,2024-01-23T14:15:00,2024-01-23T14:03:00,2024-01-23T14:25:00,Gastroenterology,Hepatitis,New,ED,Routine,Dr B. Jones,Completed,10.0,F,62,Ryde,Active
+V000961,P00181,2024-12-21,2024-12-21T15:00:00,2024-12-21T14:50:00,2024-12-21T14:52:00,Neurology,Stroke Follow-up,New,Specialist,Routine,Dr A. Smith,Completed,-8.0,F,73,Ryde,Active
+V000962,P00037,2025-01-09,2025-01-09T08:30:00,2025-01-09T08:30:00,2025-01-09T08:19:00,Gastroenterology,IBD,Follow-up,GP,Routine,PA E. Patel,Completed,-11.0,M,75,Willoughby,Reciprocal
+V000963,P00266,2024-04-09,2024-04-09T11:45:00,,,Rheumatology,RA Clinic,New,GP,Routine,Dr B. Jones,No-Show,,M,89,Hornsby,Active
+V000964,P00071,2024-02-25,2024-02-25T16:45:00,,,General Medicine,Complex Care,Follow-up,GP,Urgent,Dr A. Smith,Cancelled,,M,49,Willoughby,Active
+V000965,P00117,2024-10-03,2024-10-03T09:00:00,2024-10-03T09:08:00,2024-10-03T09:05:00,Rheumatology,RA Clinic,Follow-up,GP,Soon,NP D. Chen,Completed,5.0,F,51,Northern Beaches,Active
+V000966,P00321,2025-03-22,2025-03-22T14:45:00,2025-03-22T14:57:00,2025-03-22T15:20:00,Gastroenterology,IBD,New,GP,Soon,Dr B. Jones,Completed,35.0,F,55,Ryde,Active
+V000967,P00328,2025-08-03,2025-08-03T11:45:00,2025-08-03T11:15:00,2025-08-03T11:48:00,Orthopaedics,Fracture,New,GP,Soon,Dr A. Smith,Completed,3.0,F,48,Ku-ring-gai,Active
+V000968,P00344,2025-01-17,2025-01-17T12:00:00,2025-01-17T11:41:00,2025-01-17T11:59:00,Cardiology,Heart Failure,Follow-up,Specialist,Routine,Dr A. Smith,Completed,-1.0,M,65,Northern Beaches,Active
+V000969,P00013,2023-12-19,2023-12-19T13:15:00,2023-12-19T13:42:00,2023-12-19T13:25:00,Endocrinology,Thyroid,Follow-up,GP,Soon,Dr C. Lee,Completed,10.0,M,66,Ku-ring-gai,Active
+V000970,P00119,2024-07-05,2024-07-05T15:45:00,2024-07-05T15:46:00,2024-07-05T16:05:00,Endocrinology,Metabolic Clinic,New,GP,Soon,PA E. Patel,Completed,20.0,F,58,Hornsby,Active
+V000971,P00385,2024-08-17,2024-08-17T09:45:00,2024-08-17T09:37:00,2024-08-17T09:56:00,Gastroenterology,Hepatitis,Follow-up,GP,Routine,Dr C. Lee,Completed,11.0,F,62,Ryde,Active
+V000972,P00133,2025-03-26,2025-03-26T15:15:00,2025-03-26T15:26:00,2025-03-26T15:18:00,Neurology,Stroke Follow-up,Follow-up,GP,Routine,Dr B. Jones,Completed,3.0,M,47,Hornsby,Active
+V000973,P00107,2025-09-08,2025-09-08T11:00:00,,,Orthopaedics,Fracture,New,GP,Routine,Dr B. Jones,Cancelled,,M,58,Willoughby,Active
+V000974,P00153,2025-05-02,2025-05-02T09:45:00,2025-05-02T09:18:00,2025-05-02T10:09:00,Orthopaedics,Joint Clinic,Follow-up,Specialist,Routine,Dr A. Smith,Completed,24.0,M,51,Hornsby,Active
+V000975,P00272,2025-07-13,2025-07-13T13:15:00,2025-07-13T13:14:00,2025-07-13T13:21:00,General Medicine,Senior Review,Follow-up,Specialist,Soon,PA E. Patel,Completed,6.0,F,39,Willoughby,Active
+V000976,P00326,2025-09-19,2025-09-19T16:15:00,2025-09-19T16:26:00,2025-09-19T16:24:00,Endocrinology,Thyroid,Follow-up,GP,Routine,PA E. Patel,Completed,9.0,M,43,Hornsby,Active
+V000977,P00319,2024-03-12,2024-03-12T09:15:00,,,General Medicine,General Clinic,Follow-up,GP,Routine,Dr C. Lee,No-Show,,M,62,Hornsby,Active
+V000978,P00332,2024-11-03,2024-11-03T12:00:00,2024-11-03T11:41:00,2024-11-03T12:03:00,Neurology,Epilepsy,Procedure Prep,Inpatient,Routine,Dr A. Smith,Completed,3.0,F,33,Ryde,Active
+V000979,P00069,2024-05-25,2024-05-25T16:30:00,2024-05-25T16:04:00,2024-05-25T16:55:00,Gastroenterology,IBD,Follow-up,GP,Soon,Dr C. Lee,Completed,25.0,F,79,Hornsby,Active
+V000980,P00343,2024-09-06,2024-09-06T13:45:00,2024-09-06T13:31:00,2024-09-06T14:00:00,Gastroenterology,Endoscopy Review,Follow-up,GP,Urgent,PA E. Patel,Completed,15.0,F,54,Ku-ring-gai,Active
+V000981,P00376,2024-04-27,2024-04-27T11:15:00,2024-04-27T11:15:00,2024-04-27T11:25:00,Oncology,Chemo Review,Follow-up,GP,Routine,Dr C. Lee,Completed,10.0,M,24,Ryde,Active
+V000982,P00368,2024-04-01,2024-04-01T10:30:00,2024-04-01T10:39:00,2024-04-01T10:43:00,Rheumatology,RA Clinic,Follow-up,GP,Routine,NP D. Chen,Completed,13.0,F,40,Ryde,Active
+V000983,P00357,2024-04-26,2024-04-26T12:00:00,2024-04-26T11:58:00,2024-04-26T12:10:00,Respiratory,Sleep Study Follow-up,Follow-up,Inpatient,Routine,PA E. Patel,Completed,10.0,M,58,Hornsby,Active
+V000984,P00055,2024-01-21,2024-01-21T10:45:00,2024-01-21T10:43:00,2024-01-21T11:00:00,Neurology,MS Clinic,Follow-up,GP,Routine,PA E. Patel,Completed,15.0,M,73,Willoughby,Active
+V000985,P00143,2025-07-12,2025-07-12T08:45:00,2025-07-12T08:41:00,2025-07-12T08:30:00,Neurology,MS Clinic,Follow-up,GP,Routine,Dr A. Smith,Completed,-15.0,M,53,Ku-ring-gai,Active
+V000986,P00358,2024-08-26,2024-08-26T08:45:00,2024-08-26T08:22:00,2024-08-26T08:57:00,Orthopaedics,Fracture,Follow-up,GP,Urgent,Dr C. Lee,Completed,12.0,M,43,Northern Beaches,Active
+V000987,P00309,2024-04-05,2024-04-05T14:15:00,2024-04-05T13:45:00,2024-04-05T13:55:00,Gastroenterology,IBD,New,ED,Routine,Dr A. Smith,Completed,-20.0,M,64,Ryde,Pending
+V000988,P00153,2025-04-21,2025-04-21T13:15:00,2025-04-21T13:08:00,2025-04-21T13:05:00,Renal,Dialysis Review,Follow-up,ED,Routine,PA E. Patel,Completed,-10.0,F,82,Ryde,Active
+V000989,P00081,2025-01-02,2025-01-02T08:45:00,,,General Medicine,Complex Care,Follow-up,Specialist,Routine,Dr B. Jones,Cancelled,,M,66,Ryde,Active
+V000990,P00078,2024-03-22,2024-03-22T13:45:00,2024-03-22T13:28:00,2024-03-22T13:47:00,Endocrinology,Thyroid,Follow-up,GP,Routine,Dr A. Smith,Completed,2.0,M,51,Willoughby,Active
+V000991,P00397,2025-07-21,2025-07-21T08:00:00,,,Oncology,New Cancer Consult,Follow-up,ED,Routine,Dr C. Lee,No-Show,,F,72,Ryde,Reciprocal
+V000992,P00385,2025-08-25,2025-08-25T16:45:00,2025-08-25T16:50:00,2025-08-25T16:48:00,Endocrinology,Diabetes,Follow-up,ED,Routine,PA E. Patel,Completed,3.0,M,78,Hornsby,Active
+V000993,P00347,2025-10-24,2025-10-24T11:45:00,2025-10-24T11:36:00,2025-10-24T12:27:00,Cardiology,Post-PCI Review,New,GP,Soon,Dr C. Lee,Completed,42.0,M,60,Ryde,Active
+V000994,P00023,2025-06-19,2025-06-19T11:45:00,2025-06-19T11:41:00,2025-06-19T12:18:00,Cardiology,Arrhythmia,Follow-up,GP,Urgent,Dr C. Lee,Completed,33.0,M,51,Hornsby,Active
+V000995,P00074,2023-12-02,2023-12-02T12:00:00,2023-12-02T11:41:00,2023-12-02T12:43:00,Renal,Dialysis Review,Follow-up,GP,Routine,Dr B. Jones,Completed,43.0,M,59,Northern Beaches,Active
+V000996,P00135,2025-01-02,2025-01-02T10:00:00,2025-01-02T09:49:00,2025-01-02T10:13:00,Neurology,MS Clinic,Follow-up,GP,Routine,Dr A. Smith,Completed,13.0,F,43,Hornsby,Reciprocal
+V000997,P00115,2024-10-05,2024-10-05T10:30:00,2024-10-05T10:39:00,2024-10-05T10:32:00,Respiratory,Sleep Study Follow-up,Follow-up,Specialist,Routine,PA E. Patel,Completed,2.0,F,56,Ku-ring-gai,Active
+V000998,P00138,2024-07-16,2024-07-16T14:45:00,2024-07-16T14:28:00,2024-07-16T14:55:00,Neurology,MS Clinic,New,GP,Routine,PA E. Patel,Completed,10.0,F,33,Ku-ring-gai,Active
+V000999,P00035,2025-05-17,2025-05-17T11:15:00,2025-05-17T11:26:00,2025-05-17T12:07:00,Neurology,Epilepsy,New,GP,Routine,Dr A. Smith,Completed,52.0,M,56,Ryde,Active
+V001000,P00387,2024-04-12,2024-04-12T14:45:00,2024-04-12T14:23:00,2024-04-12T14:48:00,Gastroenterology,Hepatitis,Follow-up,GP,Urgent,Dr C. Lee,Completed,3.0,M,32,Ryde,Active
