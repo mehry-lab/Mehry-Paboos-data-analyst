@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-db=pd.read.csv("outpatient_activity.csv")
+db=pd.read_csv("outpatient_activity.csv")
 daTime=["scheduled_time", "arrival_time", "seen_time"]
 for c in daTime
     db[c]=pd.to_datetime(db[c], errors="coerce")
