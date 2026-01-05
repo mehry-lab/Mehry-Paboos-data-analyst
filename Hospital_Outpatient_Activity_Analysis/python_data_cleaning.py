@@ -3,7 +3,7 @@ import numpy as np
 
 db=pd.read_csv("outpatient_activity.csv")
 daTime=["scheduled_time", "arrival_time", "seen_time"]
-for c in daTime
+for c in daTime:
     db[c]=pd.to_datetime(db[c], errors="coerce")
 
 db["wait_minutes_calc"]=(
